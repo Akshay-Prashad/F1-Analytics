@@ -1,0 +1,1959 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Your Name">
+
+<title>Analysis of Formula 1 Race Results: 2022-2025 Season Performance</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="F1project_files/libs/clipboard/clipboard.min.js"></script>
+<script src="F1project_files/libs/quarto-html/quarto.js"></script>
+<script src="F1project_files/libs/quarto-html/popper.min.js"></script>
+<script src="F1project_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="F1project_files/libs/quarto-html/anchor.min.js"></script>
+<link href="F1project_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="F1project_files/libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="F1project_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="F1project_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="F1project_files/libs/bootstrap/bootstrap-32162a2fca7cb0439643f2faaab1edf3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="F1project_files/libs/kePrint-0.0.1/kePrint.js"></script>
+
+<link href="F1project_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Analysis of Formula 1 Race Results: 2022-2025 Season Performance</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Your Name </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="part---1" class="level1">
+<h1>Part - 1</h1>
+<section id="introduction" class="level3">
+<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
+<p>Formula 1 represents the pinnacle of motorsport, where driver skill, team engineering, and strategic decisions converge to determine championship outcomes. The 2022-2025 season marked a significant regulatory change with new technical rules aimed at improving racing competition. This analysis examines race results data to understand performance patterns and competitive dynamics.</p>
+</section>
+<section id="research-objectives" class="level3">
+<h3 class="anchored" data-anchor-id="research-objectives">Research Objectives</h3>
+<p>This report presents a comprehensive analysis of Formula 1 race results from the 2022-2025 seasons. The dataset includes detailed information about race outcomes, driver performance, team standings, and circuit characteristics. The analysis aims to uncover patterns in driver consistency, team performance trends, and the impact of various race factors on final results.</p>
+<p>Data Source: The data utilized in this report was sourced from the open-source repository maintained by Dogan Yigit Yenigun (@toUpperCase78). The dataset, titled <a href="https://github.com/toUpperCase78/formula1-datasets">formula1-datasets</a> provides comprehensive records of F1 race results of multiple seasons.<br>
+Analysis Tools: R (tidyverse, dplyr, ggplot2, purrr, scales)</p>
+</section>
+<section id="dataset-description" class="level3">
+<h3 class="anchored" data-anchor-id="dataset-description">Dataset Description</h3>
+<p>The dataset contains detailed race results from the 2022-2025 F1 season with the following variables:</p>
+<p>Categorical Variables:</p>
+<ul>
+<li>Track: Race circuit location (e.g., Bahrain, Saudi Arabia)</li>
+<li>Driver: Driver name</li>
+<li>Team: Constructor/team name</li>
+<li>+1 Pt: Bonus point indicator for fastest lap (Yes/No)</li>
+</ul>
+<p>Numerical Variables:</p>
+<ul>
+<li>Position: Final finishing position (1-20 or NC for Not Classified)</li>
+<li>No: Driver racing number</li>
+<li>Starting Gr: Starting grid position from qualifying</li>
+<li>Laps: Number of laps completed</li>
+<li>Time/Retir: Time behind winner or retirement status (DNF)</li>
+<li>Points: Championship points awarded</li>
+<li>Fastest Lap: Fastest lap time achieved (MM:SS.S format)</li>
+<li>Year: Season year</li>
+</ul>
+<p>The Datasets from 2022 season have been combined from season 2022-2025 in python</p>
+<hr>
+</section>
+</section>
+<section id="part---1-1" class="level1">
+<h1>Part - 1</h1>
+</section>
+<section id="load-required-packages-for-analysis" class="level1">
+<h1>Load required packages for analysis</h1>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse) <span class="co"># Core data manipulation and visualization. </span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.1     ✔ stringr   1.5.2
+✔ ggplot2   4.0.0     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.1.0     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(purrr) <span class="co"># Functional programming tools.  </span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(knitr) <span class="co"># Dynamic report generation. </span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(kableExtra) <span class="co"># Used for beutification of the table.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'kableExtra' was built under R version 4.5.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'kableExtra'
+
+The following object is masked from 'package:dplyr':
+
+    group_rows</code></pre>
+</div>
+</div>
+<section id="data-import-and-initial-inspection" class="level2">
+<h2 class="anchored" data-anchor-id="data-import-and-initial-inspection">Data Import and Initial Inspection</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>f1_data <span class="ot">=</span> <span class="fu">read.csv</span>(<span class="st">"F1_Dataset.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Clean column names to remove any special characters or spaces</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>f1_data <span class="ot">=</span> f1_data <span class="sc">|&gt;</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename_with</span>(<span class="sc">~</span><span class="fu">str_replace_all</span>(., <span class="st">"/"</span>, <span class="st">"_"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename_with</span>(<span class="sc">~</span><span class="fu">str_replace_all</span>(., <span class="st">" "</span>, <span class="st">"_"</span>))</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">names</span>(f1_data))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] "Track"            "Position"         "No"               "Driver"          
+ [5] "Team"             "Starting.Grid"    "Laps"             "Time.Retired"    
+ [9] "Points"           "X.1.Pt"           "Fastest.Lap"      "year"            
+[13] "Set.Fastest.Lap"  "Fastest.Lap.Time"</code></pre>
+</div>
+</div>
+</section>
+<section id="data-overview-and-preprocessing" class="level2">
+<h2 class="anchored" data-anchor-id="data-overview-and-preprocessing">Data Overview and Preprocessing</h2>
+<p>The dataset contains race results from multiple Grand Prix events across four seasons. Initial data exploration revealed the need for several preprocessing steps including handling non-classified (NC) positions, converting time formats to numerical values, and creating derived variables for analysis.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Data Overview and Preprocessing</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="do">## Examine data structure</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(f1_data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 1,838
+Columns: 14
+$ Track            &lt;chr&gt; "Bahrain", "Bahrain", "Bahrain", "Bahrain", "Bahrain"…
+$ Position         &lt;chr&gt; "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "1…
+$ No               &lt;int&gt; 16, 55, 44, 63, 20, 77, 31, 22, 14, 24, 47, 18, 23, 3…
+$ Driver           &lt;chr&gt; "Charles Leclerc", "Carlos Sainz", "Lewis Hamilton", …
+$ Team             &lt;chr&gt; "Ferrari", "Ferrari", "Mercedes", "Mercedes", "Haas F…
+$ Starting.Grid    &lt;int&gt; 1, 3, 5, 9, 7, 6, 11, 16, 8, 15, 12, 19, 14, 18, 13, …
+$ Laps             &lt;int&gt; 57, 57, 57, 57, 57, 57, 57, 57, 57, 57, 57, 57, 57, 5…
+$ Time.Retired     &lt;chr&gt; "1:37:33.584", "+5.598", "+9.675", "+11.211", "+14.75…
+$ Points           &lt;int&gt; 26, 18, 15, 12, 10, 8, 6, 4, 2, 1, 0, 0, 0, 0, 0, 0, …
+$ X.1.Pt           &lt;chr&gt; "Yes", "No", "No", "No", "No", "No", "No", "No", "No"…
+$ Fastest.Lap      &lt;chr&gt; "1:34.570", "1:35.740", "1:36.228", "1:36.302", "1:36…
+$ year             &lt;int&gt; 2022, 2022, 2022, 2022, 2022, 2022, 2022, 2022, 2022,…
+$ Set.Fastest.Lap  &lt;chr&gt; "", "", "", "", "", "", "", "", "", "", "", "", "", "…
+$ Fastest.Lap.Time &lt;chr&gt; "", "", "", "", "", "", "", "", "", "", "", "", "", "…</code></pre>
+</div>
+</div>
+<p>The data structure shows a mix of categorical variables (Track, Driver, Team) and numerical variables (Position, Laps, Points). Missing values are minimal and primarily occur in the Time/Retired field for DNF (Did Not Finish) cases.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Check for missing values and special values</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>missing_summary <span class="ot">=</span> f1_data <span class="sc">|&gt;</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="fu">across</span>(<span class="fu">everything</span>(), <span class="sc">~</span><span class="fu">sum</span>(<span class="fu">is.na</span>(.) <span class="sc">|</span> . <span class="sc">==</span> <span class="st">""</span> <span class="sc">|</span> . <span class="sc">==</span> <span class="st">" "</span>))) <span class="sc">|&gt;</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(<span class="fu">everything</span>(), <span class="at">names_to =</span> <span class="st">"Variable"</span>, <span class="at">values_to =</span> <span class="st">"Missing_Count"</span>)</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>special_position_counts <span class="ot">&lt;-</span> f1_data <span class="sc">|&gt;</span></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(Position) <span class="sc">|&gt;</span></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Position <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"NC"</span>, <span class="st">"DQ"</span>, <span class="st">"DNS"</span>, <span class="st">"DSQ"</span>) <span class="sc">|</span> <span class="fu">is.na</span>(Position))</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a><span class="fu">list</span>(</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">missing_summary =</span> missing_summary,</span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">special_positions =</span> special_position_counts</span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span></span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">map</span>(<span class="sc">~</span>{</span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>    .x <span class="sc">|&gt;</span></span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a>      <span class="fu">kable</span>(<span class="at">align =</span> <span class="st">'c'</span>)</span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a>  })</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>$missing_summary
+
+
+|     Variable     | Missing_Count |
+|:----------------:|:-------------:|
+|      Track       |       0       |
+|     Position     |       0       |
+|        No        |       0       |
+|      Driver      |       0       |
+|       Team       |       0       |
+|  Starting.Grid   |       0       |
+|       Laps       |       0       |
+|   Time.Retired   |       0       |
+|      Points      |       0       |
+|      X.1.Pt      |     1398      |
+|   Fastest.Lap    |     1412      |
+|       year       |       0       |
+| Set.Fastest.Lap  |      440      |
+| Fastest.Lap.Time |      485      |
+
+$special_positions
+
+
+| Position |  n  |
+|:--------:|:---:|
+|    DQ    | 10  |
+|    NC    | 209 |</code></pre>
+</div>
+</div>
+<p>A preliminary data audit was conducted to identify missingness and non-standard entries. While primary identifiers remained complete, technical variables exhibited sparsity consistent with changing historical F1 regulations. Furthermore, non-numeric finishing positions—specifically Disqualifications (DQ) and Not Classified (NC)—were identified; these will be treated as categorical outliers to prevent skewing numerical rank averages.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert Position to numeric (handling NC, DQ, DNS, DSQ)</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>f1_data <span class="ot">&lt;-</span> f1_data <span class="sc">|&gt;</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Handle Position column</span></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">Position_Numeric =</span> <span class="fu">case_when</span>(</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>      Position <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"NC"</span>, <span class="st">"DQ"</span>, <span class="st">"DNS"</span>, <span class="st">"DSQ"</span>) <span class="sc">~</span> <span class="cn">NA_real_</span>,</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>      <span class="fu">is.na</span>(Position) <span class="sc">~</span> <span class="cn">NA_real_</span>,</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>      Position <span class="sc">==</span> <span class="st">""</span> <span class="sc">~</span> <span class="cn">NA_real_</span>,</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> <span class="fu">as.numeric</span>(Position)</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Clean Time.Retired column - handle DNF, DNS, DSQ, DQ</span></span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">Time_Seconds =</span> <span class="fu">case_when</span>(</span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(Time.Retired, <span class="st">"DNF|DNS|DSQ|DQ"</span>) <span class="sc">~</span> <span class="cn">NA_real_</span>,</span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>      <span class="fu">is.na</span>(Time.Retired) <span class="sc">~</span> <span class="cn">NA_real_</span>,</span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a>      Time.Retired <span class="sc">==</span> <span class="st">""</span> <span class="sc">~</span> <span class="cn">NA_real_</span>,</span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(Time.Retired, <span class="st">":"</span>) <span class="sc">~</span> {</span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a>        time_parts <span class="ot">&lt;-</span> <span class="fu">str_split</span>(Time.Retired, <span class="st">":"</span>)</span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a>        <span class="fu">map_dbl</span>(time_parts, <span class="sc">~</span>{</span>
+<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a>          <span class="cf">if</span>(<span class="fu">length</span>(.x) <span class="sc">&gt;=</span> <span class="dv">2</span>) {</span>
+<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a>            <span class="fu">as.numeric</span>(.x[<span class="dv">1</span>]) <span class="sc">*</span> <span class="dv">60</span> <span class="sc">+</span> <span class="fu">as.numeric</span>(.x[<span class="dv">2</span>])</span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a>          } <span class="cf">else</span> {</span>
+<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a>            <span class="cn">NA_real_</span></span>
+<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a>          }</span>
+<span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a>        })</span>
+<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a>      },</span>
+<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> <span class="fu">suppressWarnings</span>(<span class="fu">as.numeric</span>(Time.Retired))</span>
+<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Convert fastest lap to seconds</span></span>
+<span id="cb13-31"><a href="#cb13-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">Fastest_Lap_Seconds =</span> <span class="fu">case_when</span>(</span>
+<span id="cb13-32"><a href="#cb13-32" aria-hidden="true" tabindex="-1"></a>      <span class="fu">is.na</span>(Fastest.Lap.Time) <span class="sc">~</span> <span class="cn">NA_real_</span>,</span>
+<span id="cb13-33"><a href="#cb13-33" aria-hidden="true" tabindex="-1"></a>      Fastest.Lap.Time <span class="sc">==</span> <span class="st">""</span> <span class="sc">~</span> <span class="cn">NA_real_</span>,</span>
+<span id="cb13-34"><a href="#cb13-34" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> {</span>
+<span id="cb13-35"><a href="#cb13-35" aria-hidden="true" tabindex="-1"></a>        time_parts <span class="ot">&lt;-</span> <span class="fu">str_split</span>(Fastest.Lap.Time, <span class="st">":"</span>)</span>
+<span id="cb13-36"><a href="#cb13-36" aria-hidden="true" tabindex="-1"></a>        <span class="fu">map_dbl</span>(time_parts, <span class="sc">~</span>{</span>
+<span id="cb13-37"><a href="#cb13-37" aria-hidden="true" tabindex="-1"></a>          <span class="cf">if</span>(<span class="fu">length</span>(.x) <span class="sc">&gt;=</span> <span class="dv">2</span>) {</span>
+<span id="cb13-38"><a href="#cb13-38" aria-hidden="true" tabindex="-1"></a>            <span class="fu">as.numeric</span>(.x[<span class="dv">1</span>]) <span class="sc">*</span> <span class="dv">60</span> <span class="sc">+</span> <span class="fu">as.numeric</span>(.x[<span class="dv">2</span>])</span>
+<span id="cb13-39"><a href="#cb13-39" aria-hidden="true" tabindex="-1"></a>          } <span class="cf">else</span> {</span>
+<span id="cb13-40"><a href="#cb13-40" aria-hidden="true" tabindex="-1"></a>            <span class="cn">NA_real_</span></span>
+<span id="cb13-41"><a href="#cb13-41" aria-hidden="true" tabindex="-1"></a>          }</span>
+<span id="cb13-42"><a href="#cb13-42" aria-hidden="true" tabindex="-1"></a>        })</span>
+<span id="cb13-43"><a href="#cb13-43" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb13-44"><a href="#cb13-44" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb13-45"><a href="#cb13-45" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb13-46"><a href="#cb13-46" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Create detailed finish status</span></span>
+<span id="cb13-47"><a href="#cb13-47" aria-hidden="true" tabindex="-1"></a>    <span class="at">Finish_Status =</span> <span class="fu">case_when</span>(</span>
+<span id="cb13-48"><a href="#cb13-48" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(Time.Retired, <span class="st">"DNF"</span>) <span class="sc">~</span> <span class="st">"DNF"</span>,</span>
+<span id="cb13-49"><a href="#cb13-49" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(Time.Retired, <span class="st">"DNS"</span>) <span class="sc">~</span> <span class="st">"DNS"</span>,</span>
+<span id="cb13-50"><a href="#cb13-50" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(Time.Retired, <span class="st">"DSQ|DQ"</span>) <span class="sc">~</span> <span class="st">"Disqualified"</span>,</span>
+<span id="cb13-51"><a href="#cb13-51" aria-hidden="true" tabindex="-1"></a>      Position <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"NC"</span>, <span class="st">"DQ"</span>, <span class="st">"DSQ"</span>) <span class="sc">~</span> <span class="st">"Not Classified"</span>,</span>
+<span id="cb13-52"><a href="#cb13-52" aria-hidden="true" tabindex="-1"></a>      Position <span class="sc">==</span> <span class="st">"DNS"</span> <span class="sc">~</span> <span class="st">"DNS"</span>,</span>
+<span id="cb13-53"><a href="#cb13-53" aria-hidden="true" tabindex="-1"></a>      <span class="fu">is.na</span>(Position_Numeric) <span class="sc">~</span> <span class="st">"Other"</span>,</span>
+<span id="cb13-54"><a href="#cb13-54" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> <span class="st">"Finished"</span></span>
+<span id="cb13-55"><a href="#cb13-55" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb13-56"><a href="#cb13-56" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb13-57"><a href="#cb13-57" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Handle Laps column</span></span>
+<span id="cb13-58"><a href="#cb13-58" aria-hidden="true" tabindex="-1"></a>    <span class="at">Laps_Completed =</span> <span class="fu">case_when</span>(</span>
+<span id="cb13-59"><a href="#cb13-59" aria-hidden="true" tabindex="-1"></a>      <span class="fu">is.na</span>(Laps) <span class="sc">~</span> <span class="dv">0</span>,</span>
+<span id="cb13-60"><a href="#cb13-60" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> <span class="fu">as.numeric</span>(Laps)</span>
+<span id="cb13-61"><a href="#cb13-61" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb13-62"><a href="#cb13-62" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb13-63"><a href="#cb13-63" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Convert to factors</span></span>
+<span id="cb13-64"><a href="#cb13-64" aria-hidden="true" tabindex="-1"></a>    <span class="at">Track =</span> <span class="fu">as.factor</span>(Track),</span>
+<span id="cb13-65"><a href="#cb13-65" aria-hidden="true" tabindex="-1"></a>    <span class="at">Driver =</span> <span class="fu">as.factor</span>(Driver),</span>
+<span id="cb13-66"><a href="#cb13-66" aria-hidden="true" tabindex="-1"></a>    <span class="at">Team =</span> <span class="fu">as.factor</span>(Team),</span>
+<span id="cb13-67"><a href="#cb13-67" aria-hidden="true" tabindex="-1"></a>    <span class="at">Plus1_Pt =</span> <span class="fu">as.factor</span>(<span class="fu">case_when</span>(</span>
+<span id="cb13-68"><a href="#cb13-68" aria-hidden="true" tabindex="-1"></a>      <span class="fu">is.na</span>(X.<span class="fl">1.</span>Pt) <span class="sc">~</span> <span class="st">"No"</span>,</span>
+<span id="cb13-69"><a href="#cb13-69" aria-hidden="true" tabindex="-1"></a>      X.<span class="fl">1.</span>Pt <span class="sc">==</span> <span class="st">""</span> <span class="sc">~</span> <span class="st">"No"</span>,</span>
+<span id="cb13-70"><a href="#cb13-70" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> <span class="fu">as.character</span>(X.<span class="fl">1.</span>Pt)</span>
+<span id="cb13-71"><a href="#cb13-71" aria-hidden="true" tabindex="-1"></a>    )),</span>
+<span id="cb13-72"><a href="#cb13-72" aria-hidden="true" tabindex="-1"></a>    <span class="at">year =</span> <span class="fu">as.factor</span>(year)</span>
+<span id="cb13-73"><a href="#cb13-73" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: There were 2 warnings in `mutate()`.
+The first warning was:
+ℹ In argument: `Position_Numeric = case_when(...)`.
+Caused by warning:
+! NAs introduced by coercion
+ℹ Run `dplyr::last_dplyr_warnings()` to see the 1 remaining warning.</code></pre>
+</div>
+</div>
+<p>This code performs the essential data transformation and feature engineering phase of the analysis, converting raw character strings into usable mathematical formats. The primary motivation is to standardize inconsistent entries—such as converting time strings (MM:SS) into a single numeric value (total seconds)—to allow for statistical calculations like average lap times or race durations.</p>
+<p>By utilizing the mutate() and case_when() functions, the script systematically addresses the following:</p>
+<ul>
+<li><p>Numeric Conversion: It isolates standard finishing positions from non-numeric outcomes (NC, DQ, DNS) to prevent errors during mathematical modeling.</p></li>
+<li><p>Time Standardization: It parses various time formats into a uniform <code>Time_Seconds</code> metric, enabling quantitative comparison across different races and eras.</p></li>
+<li><p>Categorical Classification: It creates a new <code>Finish_Status</code> variable, which provides a clean way to group drivers who finished versus those who retired due to technical issues or disqualifications.</p></li>
+<li><p>Data Type Optimization: By converting columns like <code>Team</code>, <code>Driver</code>, and <code>Track</code> into factors, the code prepares the dataset for efficient grouping and more advanced machine learning or regression tasks</p></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Summary of finish statuses</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>f1_data <span class="sc">|&gt;</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(Finish_Status) <span class="sc">|&gt;</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(n)) <span class="sc">|&gt;</span></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(<span class="at">caption =</span> <span class="st">"Distribution of Race Finish Statuses"</span>,</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>        <span class="at">align =</span> <span class="st">'c'</span>,</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>        <span class="at">col.names =</span> <span class="fu">c</span>(<span class="st">"Finish Status"</span>, <span class="st">"Count"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable_styling</span>(<span class="at">bootstrap_options =</span> <span class="fu">c</span>(<span class="st">"striped"</span>, <span class="st">"hover"</span>, <span class="st">"condensed"</span>),</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>                <span class="at">full_width =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>                <span class="at">position =</span> <span class="st">"center"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">row_spec</span>(<span class="dv">0</span>, <span class="at">bold =</span> <span class="cn">TRUE</span>, <span class="at">color =</span> <span class="st">"white"</span>, <span class="at">background =</span> <span class="st">"#2c3e50"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<table class="table table-striped table-hover table-condensed caption-top table-sm small" data-quarto-postprocess="true">
+<caption>Distribution of Race Finish Statuses</caption>
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(44, 62, 80, 255) !important;">Finish Status</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(44, 62, 80, 255) !important;">Count</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Finished</td>
+<td style="text-align: center;">1584</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">DNF</td>
+<td style="text-align: center;">232</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">DNS</td>
+<td style="text-align: center;">12</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Disqualified</td>
+<td style="text-align: center;">7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Not Classified</td>
+<td style="text-align: center;">3</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</div>
+<p>Following the data transformation phase, a final census of the dataset was conducted to verify the success of the feature engineering. The resulting Distribution of Race Finish Statuses table shows a highly clean categorical breakdown: out of the total entries, 1,584 were successfully identified as standard race completions. The logic effectively isolated non-finishing events, specifically identifying 232 Did Not Finish (DNF) cases and 12 Did Not Start (DNS) entries. By consolidating various historical labels (like DQ and DSQ) into a single ‘Disqualified’ category, the dataset now supports clean comparative analysis between drivers who completed the full race distance and those who were sidelined by mechanical or regulatory issues.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Summary statistics for numerical variables</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>f1_data <span class="sc">|&gt;</span></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(Position_Numeric, Starting.Grid, Laps_Completed, Points, Fastest_Lap_Seconds) <span class="sc">|&gt;</span></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summary</span>() <span class="sc">|&gt;</span></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(<span class="at">caption =</span> <span class="st">"Summary Statistics for Numerical Variables"</span>,</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>        <span class="at">align =</span> <span class="st">'l'</span>) <span class="sc">|&gt;</span></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable_styling</span>(<span class="at">bootstrap_options =</span> <span class="fu">c</span>(<span class="st">"striped"</span>, <span class="st">"hover"</span>),</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>                <span class="at">full_width =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<table class="table table-striped table-hover caption-top table-sm small" data-quarto-postprocess="true">
+<caption>Summary Statistics for Numerical Variables</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th"></th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Position_Numeric</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Starting.Grid</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Laps_Completed</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Points</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Fastest_Lap_Seconds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Min. : 1.000</td>
+<td style="text-align: left;">Min. : 1.00</td>
+<td style="text-align: left;">Min. : 0.00</td>
+<td style="text-align: left;">Min. : 0.000</td>
+<td style="text-align: left;">Min. : 67.01</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">1st Qu.: 5.000</td>
+<td style="text-align: left;">1st Qu.: 5.25</td>
+<td style="text-align: left;">1st Qu.:51.00</td>
+<td style="text-align: left;">1st Qu.: 0.000</td>
+<td style="text-align: left;">1st Qu.: 79.69</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Median : 9.000</td>
+<td style="text-align: left;">Median :10.50</td>
+<td style="text-align: left;">Median :57.00</td>
+<td style="text-align: left;">Median : 1.000</td>
+<td style="text-align: left;">Median : 87.77</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Mean : 9.374</td>
+<td style="text-align: left;">Mean :10.52</td>
+<td style="text-align: left;">Mean :54.81</td>
+<td style="text-align: left;">Mean : 5.088</td>
+<td style="text-align: left;">Mean : 88.08</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">3rd Qu.:14.000</td>
+<td style="text-align: left;">3rd Qu.:15.00</td>
+<td style="text-align: left;">3rd Qu.:69.00</td>
+<td style="text-align: left;">3rd Qu.: 9.750</td>
+<td style="text-align: left;">3rd Qu.: 96.04</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Max. :20.000</td>
+<td style="text-align: left;">Max. :71.00</td>
+<td style="text-align: left;">Max. :78.00</td>
+<td style="text-align: left;">Max. :26.000</td>
+<td style="text-align: left;">Max. :297.40</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">NA's :219</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA's :485</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</div>
+<p>The summary statistics reveal critical insights into race dynamics and historical variations:</p>
+<ul>
+<li><p><strong>Field Performance</strong>: The average finishing position is <strong>9.37</strong>, with a median of <strong>9.0</strong>, indicating a balanced distribution of race rankings.</p></li>
+<li><p><strong>Starting Dynamics</strong>: While most drivers start near 10th, the maximum <code>Starting.Grid</code> value of <strong>71.0</strong> highlights significant outliers from historical races with massive entry lists.</p></li>
+<li><p><strong>Race Intensity</strong>: Drivers average <strong>54.81 laps</strong> per race, though the wide range in <code>Fastest_Lap_Seconds</code> (<strong>67.01s</strong> to <strong>297.40s</strong>) reflects the vast differences in track lengths across different eras.</p></li>
+<li><p><strong>Point Distribution</strong>: A mean of <strong>5.08 points</strong> compared to a 3rd quartile of <strong>9.75</strong> suggests that scoring high points remains highly concentrated among top-tier performers.</p></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="do">## 1.1 Top Performing Drivers by Total Points</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>top_drivers <span class="ot">&lt;-</span> f1_data <span class="sc">|&gt;</span></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Driver) <span class="sc">|&gt;</span></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">Total_Points =</span> <span class="fu">sum</span>(Points, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">Races =</span> <span class="fu">n</span>(),</span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">Races_Finished =</span> <span class="fu">sum</span>(Finish_Status <span class="sc">==</span> <span class="st">"Finished"</span>),</span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">Avg_Position =</span> <span class="fu">mean</span>(Position_Numeric, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">Podiums =</span> <span class="fu">sum</span>(Position_Numeric <span class="sc">&lt;=</span> <span class="dv">3</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">Wins =</span> <span class="fu">sum</span>(Position_Numeric <span class="sc">==</span> <span class="dv">1</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">DNFs =</span> <span class="fu">sum</span>(Finish_Status <span class="sc">==</span> <span class="st">"DNF"</span>),</span>
+<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">Finish_Rate =</span> (Races_Finished <span class="sc">/</span> Races) <span class="sc">*</span> <span class="dv">100</span></span>
+<span id="cb17-14"><a href="#cb17-14" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb17-15"><a href="#cb17-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(Total_Points)) <span class="sc">|&gt;</span></span>
+<span id="cb17-16"><a href="#cb17-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice_head</span>(<span class="at">n =</span> <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>This code performs <strong>driver-level performance aggregation</strong> to identify and rank the top 15 competitors in the dataset. By grouping the data by <code>Driver</code>, it calculates key success metrics including total career points, podium finishes, and total wins. It also evaluates <strong>reliability</strong> by calculating the <code>Finish_Rate</code> (percentage of races completed) and the total number of DNFs for each driver. The resulting <code>top_drivers</code> dataframe is sorted by <code>Total_Points</code> to provide a snapshot of the most successful athletes based on cumulative scoring.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>top_drivers <span class="sc">|&gt;</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(<span class="at">caption =</span> <span class="st">"Top 15 Drivers by Total Points (2022-2025)"</span>, </span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>        <span class="at">digits =</span> <span class="dv">2</span>,</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>        <span class="at">align =</span> <span class="st">'c'</span>,</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>        <span class="at">col.names =</span> <span class="fu">c</span>(<span class="st">"Driver"</span>, <span class="st">"Total Points"</span>, <span class="st">"Races"</span>, <span class="st">"Finished"</span>, <span class="st">"Avg Pos"</span>, <span class="st">"Podiums"</span>, <span class="st">"Wins"</span>, <span class="st">"DNFs"</span>, <span class="st">"Finish %"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable_styling</span>(<span class="at">bootstrap_options =</span> <span class="fu">c</span>(<span class="st">"striped"</span>, <span class="st">"hover"</span>, <span class="st">"condensed"</span>),</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>                <span class="at">full_width =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>                <span class="at">position =</span> <span class="st">"center"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">row_spec</span>(<span class="dv">0</span>, <span class="at">bold =</span> <span class="cn">TRUE</span>, <span class="at">color =</span> <span class="st">"white"</span>, <span class="at">background =</span> <span class="st">"#2c3e50"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">row_spec</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>, <span class="at">bold =</span> <span class="cn">TRUE</span>, <span class="at">color =</span> <span class="st">"white"</span>, <span class="at">background =</span> <span class="st">"#3498db"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">column_spec</span>(<span class="dv">2</span>, <span class="at">bold =</span> <span class="cn">TRUE</span>, <span class="at">color =</span> <span class="st">"#e74c3c"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<table class="table table-striped table-hover table-condensed caption-top table-sm small" data-quarto-postprocess="true">
+<caption>Top 15 Drivers by Total Points (2022-2025)</caption>
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(44, 62, 80, 255) !important;">Driver</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(44, 62, 80, 255) !important;">Total Points</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(44, 62, 80, 255) !important;">Races</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(44, 62, 80, 255) !important;">Finished</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(44, 62, 80, 255) !important;">Avg Pos</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(44, 62, 80, 255) !important;">Podiums</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(44, 62, 80, 255) !important;">Wins</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(44, 62, 80, 255) !important;">DNFs</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(44, 62, 80, 255) !important;">Finish %</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important;">Max Verstappen</td>
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important; font-weight: bold; color: rgba(231, 76, 60, 255) !important;">1751</td>
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important;">92</td>
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important;">88</td>
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important;">2.53</td>
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important;">67</td>
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important;">51</td>
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important;">4</td>
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important;">95.65</td>
+</tr>
+<tr class="even">
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important;">Lando Norris</td>
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important; font-weight: bold; color: rgba(231, 76, 60, 255) !important;">1038</td>
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important;">92</td>
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important;">86</td>
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important;">5.66</td>
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important;">39</td>
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important;">11</td>
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important;">5</td>
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important;">93.48</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important;">Charles Leclerc</td>
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important; font-weight: bold; color: rgba(231, 76, 60, 255) !important;">1028</td>
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important;">92</td>
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important;">80</td>
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important;">4.28</td>
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important;">37</td>
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important;">6</td>
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important;">9</td>
+<td style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(52, 152, 219, 255) !important;">86.96</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">George Russell</td>
+<td style="text-align: center; font-weight: bold; color: rgba(231, 76, 60, 255) !important;">934</td>
+<td style="text-align: center;">92</td>
+<td style="text-align: center;">84</td>
+<td style="text-align: center;">5.23</td>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">91.30</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Lewis Hamilton</td>
+<td style="text-align: center; font-weight: bold; color: rgba(231, 76, 60, 255) !important;">792</td>
+<td style="text-align: center;">92</td>
+<td style="text-align: center;">83</td>
+<td style="text-align: center;">5.80</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">90.22</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Oscar Piastri</td>
+<td style="text-align: center; font-weight: bold; color: rgba(231, 76, 60, 255) !important;">728</td>
+<td style="text-align: center;">70</td>
+<td style="text-align: center;">65</td>
+<td style="text-align: center;">5.65</td>
+<td style="text-align: center;">26</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">92.86</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Carlos Sainz</td>
+<td style="text-align: center; font-weight: bold; color: rgba(231, 76, 60, 255) !important;">722</td>
+<td style="text-align: center;">91</td>
+<td style="text-align: center;">74</td>
+<td style="text-align: center;">6.44</td>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">15</td>
+<td style="text-align: center;">81.32</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Sergio Perez</td>
+<td style="text-align: center; font-weight: bold; color: rgba(231, 76, 60, 255) !important;">689</td>
+<td style="text-align: center;">68</td>
+<td style="text-align: center;">58</td>
+<td style="text-align: center;">5.45</td>
+<td style="text-align: center;">24</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">85.29</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Fernando Alonso</td>
+<td style="text-align: center; font-weight: bold; color: rgba(231, 76, 60, 255) !important;">400</td>
+<td style="text-align: center;">92</td>
+<td style="text-align: center;">78</td>
+<td style="text-align: center;">8.61</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">84.78</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Esteban Ocon</td>
+<td style="text-align: center; font-weight: bold; color: rgba(231, 76, 60, 255) !important;">202</td>
+<td style="text-align: center;">91</td>
+<td style="text-align: center;">79</td>
+<td style="text-align: center;">10.89</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">86.81</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Lance Stroll</td>
+<td style="text-align: center; font-weight: bold; color: rgba(231, 76, 60, 255) !important;">139</td>
+<td style="text-align: center;">91</td>
+<td style="text-align: center;">77</td>
+<td style="text-align: center;">11.84</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">84.62</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Pierre Gasly</td>
+<td style="text-align: center; font-weight: bold; color: rgba(231, 76, 60, 255) !important;">137</td>
+<td style="text-align: center;">92</td>
+<td style="text-align: center;">79</td>
+<td style="text-align: center;">11.78</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">85.87</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Kimi Antonelli</td>
+<td style="text-align: center; font-weight: bold; color: rgba(231, 76, 60, 255) !important;">135</td>
+<td style="text-align: center;">24</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">8.20</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">83.33</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Alexander Albon</td>
+<td style="text-align: center; font-weight: bold; color: rgba(231, 76, 60, 255) !important;">111</td>
+<td style="text-align: center;">91</td>
+<td style="text-align: center;">71</td>
+<td style="text-align: center;">11.47</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">19</td>
+<td style="text-align: center;">78.02</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Nico Hulkenberg</td>
+<td style="text-align: center; font-weight: bold; color: rgba(231, 76, 60, 255) !important;">93</td>
+<td style="text-align: center;">72</td>
+<td style="text-align: center;">63</td>
+<td style="text-align: center;">12.20</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">87.50</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</div>
+<p>The Results shows the following thing</p>
+<ul>
+<li><p><strong>Data Integrity Audit</strong>: Initial diagnostics revealed that while core identifiers like <strong>Driver</strong> and <strong>Team</strong> were 100% complete, technical variables such as <strong>Fastest.Lap</strong> (1,412 missing) and <strong>X.1.Pt</strong> (1,398 missing) had significant gaps due to historical reporting differences.</p></li>
+<li><p><strong>Finish Status Distribution</strong>: After cleaning, the dataset successfully categorized race outcomes. Out of the recorded entries, <strong>1,584</strong> were standard finishes, while the logic isolated specific non-finishing events: <strong>232 Did Not Finish (DNF)</strong>, <strong>12 Did Not Start (DNS)</strong>, <strong>7 Disqualifications</strong>, and <strong>3 Not Classified (NC)</strong>.</p></li>
+<li><p><strong>Numerical Summary</strong>: Descriptive statistics provide a performance baseline, showing an average finishing position of <strong>9.37</strong> and a mean point haul of <strong>5.08</strong>. The wide range in <strong>Fastest_Lap_Seconds</strong> (67.01s to 297.40s) highlights the inclusion of diverse track layouts and eras.</p></li>
+<li><p><strong>Driver Performance Ranking</strong>: The final aggregation identifies <strong>Max Verstappen</strong> as the dominant leader with <strong>1,751 total points</strong>, <strong>51 wins</strong>, and a remarkable <strong>95.65% finish rate</strong>. Other top-tier performers like <strong>Lando Norris</strong> and <strong>Charles Leclerc</strong> also show high reliability, with finish rates exceeding 86%, while veterans like <strong>Fernando Alonso</strong> maintain a competitive presence despite higher career DNF counts.</p></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualization: Top 15 Drivers Points Distribution</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(top_drivers, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(Driver, Total_Points), <span class="at">y =</span> Total_Points, <span class="at">fill =</span> Total_Points)) <span class="sc">+</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>() <span class="sc">+</span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_gradient</span>(<span class="at">low =</span> <span class="st">"lightblue"</span>, <span class="at">high =</span> <span class="st">"darkblue"</span>) <span class="sc">+</span></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Top 15 Drivers by Total Championship Points"</span>,</span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"F1 Seasons 2022-2025"</span>,</span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Driver"</span>,</span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Total Points"</span></span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">"none"</span>,</span>
+<span id="cb19-15"><a href="#cb19-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">size =</span> <span class="dv">14</span>),</span>
+<span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">10</span>)</span>
+<span id="cb19-17"><a href="#cb19-17" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="F1project_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="do">## 1.2 Driver Consistency Analysis</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>driver_consistency <span class="ot">&lt;-</span> f1_data <span class="sc">|&gt;</span></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(Position_Numeric)) <span class="sc">|&gt;</span></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Driver) <span class="sc">|&gt;</span></span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">Races =</span> <span class="fu">n</span>(),</span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">Mean_Position =</span> <span class="fu">mean</span>(Position_Numeric),</span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">SD_Position =</span> <span class="fu">sd</span>(Position_Numeric),</span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">Coefficient_Variation =</span> SD_Position <span class="sc">/</span> Mean_Position,</span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">Median_Position =</span> <span class="fu">median</span>(Position_Numeric)</span>
+<span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb20-13"><a href="#cb20-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Races <span class="sc">&gt;=</span> <span class="dv">10</span>) <span class="sc">|&gt;</span></span>
+<span id="cb20-14"><a href="#cb20-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(Mean_Position)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>This analysis evaluates <strong>driver reliability and performance stability</strong> by calculating statistical measures of variability for race finishing positions. The code first excludes non-numeric results like DNFs or disqualifications to ensure the metrics reflect actual cross-the-line performance. For each driver with at least 10 race entries, it calculates the <strong>Mean and Median</strong> to determine their average competitive level, alongside the <strong>Standard Deviation (SD)</strong> to quantify how much their results fluctuate from race to race. The key metric derived is the <strong>Coefficient of Variation (CV)</strong>, which represents the ratio of the standard deviation to the mean (CV=μσ​); a lower CV identifies a highly consistent driver whose performance is predictable, whereas a higher CV indicates more volatile race outcomes.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Enhanced Driver Consistency Visualization</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggrepel) <span class="co"># To prevent overlapping of names</span></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>driver_consistency <span class="sc">|&gt;</span></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Races <span class="sc">&gt;=</span> <span class="dv">20</span>) <span class="sc">|&gt;</span></span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> Mean_Position, <span class="at">y =</span> SD_Position)) <span class="sc">+</span></span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Use reversed X-axis so "Better" is on the right</span></span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_reverse</span>() <span class="sc">+</span></span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Add quadrant lines based on medians</span></span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> <span class="fu">median</span>(driver_consistency<span class="sc">$</span>Mean_Position), </span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a>             <span class="at">linetype =</span> <span class="st">"dashed"</span>, <span class="at">color =</span> <span class="st">"gray"</span>, <span class="at">alpha =</span> <span class="fl">0.6</span>) <span class="sc">+</span></span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="fu">median</span>(driver_consistency<span class="sc">$</span>SD_Position), </span>
+<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a>             <span class="at">linetype =</span> <span class="st">"dashed"</span>, <span class="at">color =</span> <span class="st">"gray"</span>, <span class="at">alpha =</span> <span class="fl">0.6</span>) <span class="sc">+</span></span>
+<span id="cb21-14"><a href="#cb21-14" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Points sized by race count and colored by CV</span></span>
+<span id="cb21-15"><a href="#cb21-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">size =</span> Races, <span class="at">color =</span> Coefficient_Variation), <span class="at">alpha =</span> <span class="fl">0.7</span>) <span class="sc">+</span></span>
+<span id="cb21-16"><a href="#cb21-16" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Professional labeling with ggrepel</span></span>
+<span id="cb21-17"><a href="#cb21-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text_repel</span>(<span class="fu">aes</span>(<span class="at">label =</span> Driver), <span class="at">size =</span> <span class="dv">3</span>, <span class="at">fontface =</span> <span class="st">"bold"</span>) <span class="sc">+</span></span>
+<span id="cb21-18"><a href="#cb21-18" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Color palette (Green = Consistent/Good, Red = Volatile)</span></span>
+<span id="cb21-19"><a href="#cb21-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_gradient</span>(<span class="at">low =</span> <span class="st">"#27ae60"</span>, <span class="at">high =</span> <span class="st">"#e74c3c"</span>) <span class="sc">+</span></span>
+<span id="cb21-20"><a href="#cb21-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb21-21"><a href="#cb21-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Driver Consistency: Skill vs. Volatility"</span>,</span>
+<span id="cb21-22"><a href="#cb21-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Comparing Average Finish (Mean) to Performance Spread (SD)"</span>,</span>
+<span id="cb21-23"><a href="#cb21-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Average Finishing Position (Lower/1st is Right)"</span>,</span>
+<span id="cb21-24"><a href="#cb21-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Performance Volatility (Standard Deviation)"</span>,</span>
+<span id="cb21-25"><a href="#cb21-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">size =</span> <span class="st">"Career Races"</span>,</span>
+<span id="cb21-26"><a href="#cb21-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"Consistency (CV)"</span></span>
+<span id="cb21-27"><a href="#cb21-27" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb21-28"><a href="#cb21-28" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Annotation for the "Elite Zone"</span></span>
+<span id="cb21-29"><a href="#cb21-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="st">"text"</span>, <span class="at">x =</span> <span class="dv">3</span>, <span class="at">y =</span> <span class="dv">2</span>, <span class="at">label =</span> <span class="st">"Elite: High Performance &amp;</span><span class="sc">\n</span><span class="st">High Consistency"</span>, </span>
+<span id="cb21-30"><a href="#cb21-30" aria-hidden="true" tabindex="-1"></a>           <span class="at">color =</span> <span class="st">"#27ae60"</span>, <span class="at">fontface =</span> <span class="st">"italic"</span>, <span class="at">size =</span> <span class="fl">3.5</span>) <span class="sc">+</span></span>
+<span id="cb21-31"><a href="#cb21-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb21-32"><a href="#cb21-32" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb21-33"><a href="#cb21-33" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">size =</span> <span class="dv">14</span>),</span>
+<span id="cb21-34"><a href="#cb21-34" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.minor =</span> <span class="fu">element_blank</span>()</span>
+<span id="cb21-35"><a href="#cb21-35" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="F1project_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The comprehensive data quality audit and subsequent performance analysis reveal a robust dataset with high integrity in core variables, supported by a clear distinction between standard and non-standard race outcomes. Initial diagnostics confirmed zero missing values for primary identifiers like Driver, Team, and Laps, although technical sparsity was noted in historical fields such as Fastest Lap (1,412 missing). After systematic cleaning, the dataset successfully categorized 1,584 standard finishes and isolated significant attrition events, including 232 DNFs and 12 DNS entries. Exploratory statistics established a competitive baseline with a mean finishing position of 9.37 and an average point haul of 5.09. The ultimate performance synthesis, as visualized in the Skill vs.&nbsp;Volatility matrix, identifies Max Verstappen as the statistical outlier in excellence, maintaining a dominant 2.53 average position and a 95.65% finish rate. This analysis effectively segregates the field into distinct performance tiers: an “Elite” cluster characterized by high points and low volatility (e.g., Verstappen, Leclerc, and Russell), and a more “Volatile” tier where competitive average positions are offset by higher standard deviations and lower career finishing rates.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="do">## 1.3 Fastest Lap Analysis</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>fastest_lap_leaders <span class="ot">&lt;-</span> f1_data <span class="sc">|&gt;</span></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Plus1_Pt <span class="sc">==</span> <span class="st">"Yes"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(Driver, <span class="at">name =</span> <span class="st">"Fastest_Laps"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(Fastest_Laps)) <span class="sc">|&gt;</span></span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice_head</span>(<span class="at">n =</span> <span class="dv">10</span>)</span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>fastest_lap_leaders <span class="sc">|&gt;</span></span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(<span class="at">caption =</span> <span class="st">"Top 10 Drivers by Fastest Lap Bonuses"</span>,</span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a>        <span class="at">align =</span> <span class="st">'c'</span>,</span>
+<span id="cb22-12"><a href="#cb22-12" aria-hidden="true" tabindex="-1"></a>        <span class="at">col.names =</span> <span class="fu">c</span>(<span class="st">"Driver"</span>, <span class="st">"Fastest Laps"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb22-13"><a href="#cb22-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable_styling</span>(<span class="at">bootstrap_options =</span> <span class="fu">c</span>(<span class="st">"striped"</span>, <span class="st">"hover"</span>, <span class="st">"condensed"</span>),</span>
+<span id="cb22-14"><a href="#cb22-14" aria-hidden="true" tabindex="-1"></a>                <span class="at">full_width =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb22-15"><a href="#cb22-15" aria-hidden="true" tabindex="-1"></a>                <span class="at">position =</span> <span class="st">"center"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb22-16"><a href="#cb22-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">row_spec</span>(<span class="dv">0</span>, <span class="at">bold =</span> <span class="cn">TRUE</span>, <span class="at">color =</span> <span class="st">"white"</span>, <span class="at">background =</span> <span class="st">"#9b59b6"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb22-17"><a href="#cb22-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">column_spec</span>(<span class="dv">2</span>, <span class="at">bold =</span> <span class="cn">TRUE</span>, <span class="at">color =</span> <span class="st">"#e74c3c"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<table class="table table-striped table-hover table-condensed caption-top table-sm small" data-quarto-postprocess="true">
+<caption>Top 10 Drivers by Fastest Lap Bonuses</caption>
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(155, 89, 182, 255) !important;">Driver</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(155, 89, 182, 255) !important;">Fastest Laps</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Max Verstappen</td>
+<td style="text-align: center; font-weight: bold; color: rgba(231, 76, 60, 255) !important;">5</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Charles Leclerc</td>
+<td style="text-align: center; font-weight: bold; color: rgba(231, 76, 60, 255) !important;">3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">George Russell</td>
+<td style="text-align: center; font-weight: bold; color: rgba(231, 76, 60, 255) !important;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Sergio Perez</td>
+<td style="text-align: center; font-weight: bold; color: rgba(231, 76, 60, 255) !important;">3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Carlos Sainz</td>
+<td style="text-align: center; font-weight: bold; color: rgba(231, 76, 60, 255) !important;">2</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Lando Norris</td>
+<td style="text-align: center; font-weight: bold; color: rgba(231, 76, 60, 255) !important;">2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Lewis Hamilton</td>
+<td style="text-align: center; font-weight: bold; color: rgba(231, 76, 60, 255) !important;">2</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</div>
+<p>The comprehensive data quality audit and driver performance analysis reveal a robust dataset with high integrity in core identifiers, while highlighting historical reporting gaps in technical variables. The initial diagnostics confirmed zero missing values for primary fields such as Driver, Team, and Laps, though technical sparsity was noted in older records, specifically with Fastest Lap data (1,412 missing). Following systematic cleaning and categorization, the study successfully isolated 1,584 standard finishes from a variety of attrition events, including 232 DNFs, 12 DNS, and several disqualifications. Exploratory statistics established a competitive baseline with a mean finishing position of 9.37 and an average point haul of 5.08. The resulting Skill vs.&nbsp;Volatility matrix identifies Max Verstappen as the statistical leader in both excellence and reliability, maintaining a dominant 2.53 average position and a 95.65% finish rate. This tiered performance synthesis effectively distinguishes between “Elite” consistent performers (e.g., Verstappen, Leclerc, and Russell) and more “Volatile” competitors whose race outcomes fluctuate significantly due to mechanical or incident-related factors</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># SECTION 2: TEAM PERFORMANCE ANALYSIS</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a><span class="do">## 2.1 Constructor Championship Standings</span></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>team_performance <span class="ot">=</span> f1_data <span class="sc">|&gt;</span></span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Team, year) <span class="sc">|&gt;</span></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">Total_Points =</span> <span class="fu">sum</span>(Points, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">Races =</span> <span class="fu">n</span>(),</span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">Avg_Points_Per_Race =</span> Total_Points <span class="sc">/</span> Races,</span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">Podiums =</span> <span class="fu">sum</span>(Position_Numeric <span class="sc">&lt;=</span> <span class="dv">3</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">DNFs =</span> <span class="fu">sum</span>(Finish_Status <span class="sc">==</span> <span class="st">"DNF"</span>),</span>
+<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb23-14"><a href="#cb23-14" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>This code performs a Constructor-level performance aggregation to evaluate how effectively each Formula 1 team competes for the World Constructors’ Championship over time.</p>
+<p>By grouping the data by both Team and year, it calculates several critical season-long metrics:</p>
+<ul>
+<li><p><strong>Championship Scoring</strong>: It sums the Points to get Total_Points, which is the primary metric for the standings.</p></li>
+<li><p><strong>Efficiency</strong>: It creates Avg_Points_Per_Race to show which teams maximize their scoring potential regardless of the number of races held in a given year.</p></li>
+<li><p><strong>Success &amp; Reliability</strong>: It counts Podiums to measure peak performance and DNFs to assess the mechanical reliability or driver error rates of the cars.</p></li>
+<li><p><strong>Output Cleanup</strong>: The .groups = “drop” argument ensures the resulting dataframe is “ungrouped,” making it easier to use for subsequent visualizations without unexpected behavior.</p></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>team_total <span class="ot">=</span> f1_data <span class="sc">|&gt;</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Team) <span class="sc">|&gt;</span></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">Total_Points =</span> <span class="fu">sum</span>(Points, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">Races =</span> <span class="fu">n</span>(),</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">Avg_Points =</span> <span class="fu">mean</span>(Points, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">Win_Rate =</span> <span class="fu">sum</span>(Position_Numeric <span class="sc">==</span> <span class="dv">1</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>) <span class="sc">/</span> <span class="fu">sum</span>(<span class="sc">!</span><span class="fu">is.na</span>(Position_Numeric)) <span class="sc">*</span> <span class="dv">100</span>,</span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">DNF_Count =</span> <span class="fu">sum</span>(Finish_Status <span class="sc">==</span> <span class="st">"DNF"</span>)</span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(Total_Points))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>This code performs a <strong>historical aggregation of team performance</strong>, shifting the analysis from individual driver results to the cumulative success and engineering reliability of the constructors. By grouping the entire dataset by <code>Team</code>, the script calculates long-term dominance through <strong>Total Points</strong> and evaluates operational efficiency using <strong>Average Points</strong> per entry. Additionally, it derives a <strong>Win Rate</strong> percentage to identify which teams have the highest “strike rate” and tracks the <strong>DNF Count</strong> to serve as a proxy for mechanical reliability and chassis safety. Sorting the results by total points effectively creates a “Historical Hall of Fame” for the most successful constructors in the dataset.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>team_total <span class="sc">|&gt;</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice_head</span>(<span class="at">n =</span> <span class="dv">10</span>) <span class="sc">|&gt;</span></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(<span class="at">caption =</span> <span class="st">"Top 10 Teams by Total Points (2022-2025)"</span>, </span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>        <span class="at">digits =</span> <span class="dv">2</span>,</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>        <span class="at">align =</span> <span class="st">'c'</span>,</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>        <span class="at">col.names =</span> <span class="fu">c</span>(<span class="st">"Team"</span>, <span class="st">"Total Points"</span>, <span class="st">"Races"</span>, <span class="st">"Avg Points"</span>, <span class="st">"Win Rate (%)"</span>, <span class="st">"DNFs"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable_styling</span>(<span class="at">bootstrap_options =</span> <span class="fu">c</span>(<span class="st">"striped"</span>, <span class="st">"hover"</span>, <span class="st">"condensed"</span>),</span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>                <span class="at">full_width =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>                <span class="at">position =</span> <span class="st">"center"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">row_spec</span>(<span class="dv">0</span>, <span class="at">bold =</span> <span class="cn">TRUE</span>, <span class="at">color =</span> <span class="st">"white"</span>, <span class="at">background =</span> <span class="st">"#e74c3c"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">row_spec</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>, <span class="at">bold =</span> <span class="cn">TRUE</span>, <span class="at">background =</span> <span class="st">"#ecf0f1"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">column_spec</span>(<span class="dv">1</span>, <span class="at">bold =</span> <span class="cn">TRUE</span>) <span class="sc">|&gt;</span></span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">column_spec</span>(<span class="dv">2</span>, <span class="at">color =</span> <span class="st">"white"</span>, <span class="at">background =</span> <span class="fu">spec_color</span>(team_total<span class="sc">$</span>Total_Points[<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>], </span>
+<span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a>                                                           <span class="at">end =</span> <span class="fl">0.7</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<table class="table table-striped table-hover table-condensed caption-top table-sm small" data-quarto-postprocess="true">
+<caption>Top 10 Teams by Total Points (2022-2025)</caption>
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(231, 76, 60, 255) !important;">Team</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(231, 76, 60, 255) !important;">Total Points</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(231, 76, 60, 255) !important;">Races</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(231, 76, 60, 255) !important;">Avg Points</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(231, 76, 60, 255) !important;">Win Rate (%)</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(231, 76, 60, 255) !important;">DNFs</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center; font-weight: bold; background-color: rgba(236, 240, 241, 255) !important; font-weight: bold;">Ferrari</td>
+<td style="text-align: center; font-weight: bold; background-color: rgba(236, 240, 241, 255) !important; color: white !important; background-color: rgba(67, 191, 113, 255) !important;">1837</td>
+<td style="text-align: center; font-weight: bold; background-color: rgba(236, 240, 241, 255) !important;">184</td>
+<td style="text-align: center; font-weight: bold; background-color: rgba(236, 240, 241, 255) !important;">9.98</td>
+<td style="text-align: center; font-weight: bold; background-color: rgba(236, 240, 241, 255) !important;">6.29</td>
+<td style="text-align: center; font-weight: bold; background-color: rgba(236, 240, 241, 255) !important;">22</td>
+</tr>
+<tr class="even">
+<td style="text-align: center; font-weight: bold; background-color: rgba(236, 240, 241, 255) !important; font-weight: bold;">McLaren Mercedes</td>
+<td style="text-align: center; font-weight: bold; background-color: rgba(236, 240, 241, 255) !important; color: white !important; background-color: rgba(59, 187, 117, 255) !important;">1790</td>
+<td style="text-align: center; font-weight: bold; background-color: rgba(236, 240, 241, 255) !important;">183</td>
+<td style="text-align: center; font-weight: bold; background-color: rgba(236, 240, 241, 255) !important;">9.78</td>
+<td style="text-align: center; font-weight: bold; background-color: rgba(236, 240, 241, 255) !important;">11.70</td>
+<td style="text-align: center; font-weight: bold; background-color: rgba(236, 240, 241, 255) !important;">12</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center; font-weight: bold; background-color: rgba(236, 240, 241, 255) !important; font-weight: bold;">Red Bull Racing Honda RBPT</td>
+<td style="text-align: center; font-weight: bold; background-color: rgba(236, 240, 241, 255) !important; color: white !important; background-color: rgba(50, 182, 122, 255) !important;">1737</td>
+<td style="text-align: center; font-weight: bold; background-color: rgba(236, 240, 241, 255) !important;">140</td>
+<td style="text-align: center; font-weight: bold; background-color: rgba(236, 240, 241, 255) !important;">12.41</td>
+<td style="text-align: center; font-weight: bold; background-color: rgba(236, 240, 241, 255) !important;">29.23</td>
+<td style="text-align: center; font-weight: bold; background-color: rgba(236, 240, 241, 255) !important;">11</td>
+</tr>
+<tr class="even">
+<td style="text-align: center; font-weight: bold;">Mercedes</td>
+<td style="text-align: center; color: white !important; background-color: rgba(49, 181, 123, 255) !important;">1726</td>
+<td style="text-align: center;">184</td>
+<td style="text-align: center;">9.38</td>
+<td style="text-align: center;">4.14</td>
+<td style="text-align: center;">16</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center; font-weight: bold;">Red Bull Racing RBPT</td>
+<td style="text-align: center; color: white !important; background-color: rgba(58, 83, 139, 255) !important;">724</td>
+<td style="text-align: center;">44</td>
+<td style="text-align: center;">16.45</td>
+<td style="text-align: center;">41.46</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr class="even">
+<td style="text-align: center; font-weight: bold;">Aston Martin Aramco Mercedes</td>
+<td style="text-align: center; color: white !important; background-color: rgba(69, 56, 130, 255) !important;">495</td>
+<td style="text-align: center;">183</td>
+<td style="text-align: center;">2.70</td>
+<td style="text-align: center;">0.00</td>
+<td style="text-align: center;">23</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center; font-weight: bold;">Alpine Renault</td>
+<td style="text-align: center; color: white !important; background-color: rgba(72, 40, 120, 255) !important;">363</td>
+<td style="text-align: center;">184</td>
+<td style="text-align: center;">1.97</td>
+<td style="text-align: center;">0.00</td>
+<td style="text-align: center;">27</td>
+</tr>
+<tr class="even">
+<td style="text-align: center; font-weight: bold;">Williams Mercedes</td>
+<td style="text-align: center; color: white !important; background-color: rgba(71, 14, 97, 255) !important;">175</td>
+<td style="text-align: center;">183</td>
+<td style="text-align: center;">0.96</td>
+<td style="text-align: center;">0.00</td>
+<td style="text-align: center;">40</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center; font-weight: bold;">Haas Ferrari</td>
+<td style="text-align: center; color: white !important; background-color: rgba(71, 12, 95, 255) !important;">166</td>
+<td style="text-align: center;">184</td>
+<td style="text-align: center;">0.90</td>
+<td style="text-align: center;">0.00</td>
+<td style="text-align: center;">22</td>
+</tr>
+<tr class="even">
+<td style="text-align: center; font-weight: bold;">Racing Bulls Honda RBPT</td>
+<td style="text-align: center; color: white !important; background-color: rgba(68, 1, 84, 255) !important;">88</td>
+<td style="text-align: center;">48</td>
+<td style="text-align: center;">1.83</td>
+<td style="text-align: center;">0.00</td>
+<td style="text-align: center;">7</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</div>
+<section id="historical-constructor-performance-and-reliability" class="level3">
+<h3 class="anchored" data-anchor-id="historical-constructor-performance-and-reliability"><strong>Historical Constructor Performance and Reliability</strong></h3>
+<p>The aggregation of team-level data establishes a definitive ranking of constructor legacy, distinguishing between long-term tenure and peak operational efficiency. By calculating <strong>Total Points</strong> alongside <strong>Average Points per Race</strong>, the analysis identifies elite organizations that consistently maximize their scoring potential across changing technical regulations. A critical component of this report is the evaluation of <strong>Engineering Reliability</strong> through <strong>DNF (Did Not Finish)</strong> counts; teams with a low DNF-to-race ratio demonstrate superior manufacturing standards and race management. Furthermore, the derived <strong>Win Rate</strong> serves as a primary KPI for “strike-rate” dominance, highlighting which constructors possess the most effective technical packages for converting starting positions into race victories. This historical baseline not only honors past achievements but also provides a predictive framework for assessing current team trajectories in the World Constructors’ Championship.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="do">## 2.2 Team Reliability Analysis</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>team_reliability <span class="ot">&lt;-</span> f1_data <span class="sc">|&gt;</span></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Team) <span class="sc">|&gt;</span></span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">Total_Races =</span> <span class="fu">n</span>(),</span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">Finished_Races =</span> <span class="fu">sum</span>(Finish_Status <span class="sc">==</span> <span class="st">"Finished"</span>),</span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">DNFs =</span> <span class="fu">sum</span>(Finish_Status <span class="sc">==</span> <span class="st">"DNF"</span>),</span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">DNS =</span> <span class="fu">sum</span>(Finish_Status <span class="sc">==</span> <span class="st">"DNS"</span>),</span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">Disqualified =</span> <span class="fu">sum</span>(Finish_Status <span class="sc">==</span> <span class="st">"Disqualified"</span>),</span>
+<span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">DNF_Rate =</span> DNFs <span class="sc">/</span> Total_Races <span class="sc">*</span> <span class="dv">100</span>,</span>
+<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">Finish_Rate =</span> Finished_Races <span class="sc">/</span> Total_Races <span class="sc">*</span> <span class="dv">100</span>,</span>
+<span id="cb26-13"><a href="#cb26-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">Avg_Laps_Completed =</span> <span class="fu">mean</span>(Laps_Completed, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb26-14"><a href="#cb26-14" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb26-15"><a href="#cb26-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(DNF_Rate)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>To assess the technical integrity of the field, a <strong>Team Reliability Analysis</strong> was conducted, evaluating the frequency and nature of race retirements across all entries. By isolating <strong>DNFs</strong>, <strong>DNS</strong>, and <strong>Disqualifications</strong>, the analysis establishes a ‘Reliability Index’ that benchmarks engineering excellence independently of raw pace. The resulting <strong>Finish Rate</strong> serves as a vital indicator of organizational efficiency, while the <strong>Average Laps Completed</strong> provides insight into the typical ‘failure point’ for less reliable machinery. Teams appearing at the top of this ranking—characterized by sub-10% DNF rates—represent the gold standard of modern Formula 1 engineering, where technological advancement has drastically reduced mechanical volatility compared to historical eras.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>team_reliability <span class="sc">|&gt;</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice_head</span>(<span class="at">n =</span> <span class="dv">10</span>) <span class="sc">|&gt;</span></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(<span class="at">caption =</span> <span class="st">"Top 10 Most Reliable Teams (Lowest DNF Rate)"</span>, </span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>        <span class="at">digits =</span> <span class="dv">2</span>,</span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>        <span class="at">align =</span> <span class="st">'c'</span>,</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>        <span class="at">col.names =</span> <span class="fu">c</span>(<span class="st">"Team"</span>, <span class="st">"Races"</span>, <span class="st">"Finished"</span>, <span class="st">"DNFs"</span>, <span class="st">"DNS"</span>, <span class="st">"DSQ"</span>, <span class="st">"DNF %"</span>, <span class="st">"Finish %"</span>, <span class="st">"Avg Laps"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable_styling</span>(<span class="at">bootstrap_options =</span> <span class="fu">c</span>(<span class="st">"striped"</span>, <span class="st">"hover"</span>, <span class="st">"condensed"</span>),</span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>                <span class="at">full_width =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a>                <span class="at">position =</span> <span class="st">"center"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb27-10"><a href="#cb27-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">row_spec</span>(<span class="dv">0</span>, <span class="at">bold =</span> <span class="cn">TRUE</span>, <span class="at">color =</span> <span class="st">"white"</span>, <span class="at">background =</span> <span class="st">"#16a085"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb27-11"><a href="#cb27-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">column_spec</span>(<span class="dv">1</span>, <span class="at">bold =</span> <span class="cn">TRUE</span>) <span class="sc">|&gt;</span></span>
+<span id="cb27-12"><a href="#cb27-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">column_spec</span>(<span class="dv">7</span>, <span class="at">color =</span> <span class="st">"white"</span>, <span class="at">background =</span> <span class="fu">spec_color</span>(team_reliability<span class="sc">$</span>DNF_Rate[<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>], </span>
+<span id="cb27-13"><a href="#cb27-13" aria-hidden="true" tabindex="-1"></a><span class="at">end =</span> <span class="fl">0.7</span>, <span class="at">direction =</span> <span class="sc">-</span><span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<table class="table table-striped table-hover table-condensed caption-top table-sm small" data-quarto-postprocess="true">
+<caption>Top 10 Most Reliable Teams (Lowest DNF Rate)</caption>
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(22, 160, 133, 255) !important;">Team</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(22, 160, 133, 255) !important;">Races</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(22, 160, 133, 255) !important;">Finished</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(22, 160, 133, 255) !important;">DNFs</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(22, 160, 133, 255) !important;">DNS</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(22, 160, 133, 255) !important;">DSQ</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(22, 160, 133, 255) !important;">DNF %</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(22, 160, 133, 255) !important;">Finish %</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(22, 160, 133, 255) !important;">Avg Laps</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center; font-weight: bold;">McLaren</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center; color: white !important; background-color: rgba(67, 191, 113, 255) !important;">0.00</td>
+<td style="text-align: center;">100.00</td>
+<td style="text-align: center;">71.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: center; font-weight: bold;">McLaren Mercedes</td>
+<td style="text-align: center;">183</td>
+<td style="text-align: center;">169</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center; color: white !important; background-color: rgba(49, 104, 142, 255) !important;">6.56</td>
+<td style="text-align: center;">92.35</td>
+<td style="text-align: center;">57.05</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center; font-weight: bold;">Red Bull Racing Honda RBPT</td>
+<td style="text-align: center;">140</td>
+<td style="text-align: center;">129</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center; color: white !important; background-color: rgba(57, 85, 140, 255) !important;">7.86</td>
+<td style="text-align: center;">92.14</td>
+<td style="text-align: center;">56.74</td>
+</tr>
+<tr class="even">
+<td style="text-align: center; font-weight: bold;">Mercedes</td>
+<td style="text-align: center;">184</td>
+<td style="text-align: center;">166</td>
+<td style="text-align: center;">16</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center; color: white !important; background-color: rgba(63, 72, 137, 255) !important;">8.70</td>
+<td style="text-align: center;">90.22</td>
+<td style="text-align: center;">57.21</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center; font-weight: bold;">AlphaTauri Honda RBPT</td>
+<td style="text-align: center;">44</td>
+<td style="text-align: center;">39</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center; color: white !important; background-color: rgba(65, 66, 135, 255) !important;">9.09</td>
+<td style="text-align: center;">88.64</td>
+<td style="text-align: center;">56.20</td>
+</tr>
+<tr class="even">
+<td style="text-align: center; font-weight: bold;">Red Bull Racing RBPT</td>
+<td style="text-align: center;">44</td>
+<td style="text-align: center;">39</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center; color: white !important; background-color: rgba(72, 26, 108, 255) !important;">11.36</td>
+<td style="text-align: center;">88.64</td>
+<td style="text-align: center;">55.77</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center; font-weight: bold;">Kick Sauber Ferrari</td>
+<td style="text-align: center;">96</td>
+<td style="text-align: center;">83</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center; color: white !important; background-color: rgba(72, 24, 106, 255) !important;">11.46</td>
+<td style="text-align: center;">86.46</td>
+<td style="text-align: center;">53.15</td>
+</tr>
+<tr class="even">
+<td style="text-align: center; font-weight: bold;">Ferrari</td>
+<td style="text-align: center;">184</td>
+<td style="text-align: center;">157</td>
+<td style="text-align: center;">22</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center; color: white !important; background-color: rgba(71, 13, 96, 255) !important;">11.96</td>
+<td style="text-align: center;">85.33</td>
+<td style="text-align: center;">54.49</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center; font-weight: bold;">Haas Ferrari</td>
+<td style="text-align: center;">184</td>
+<td style="text-align: center;">160</td>
+<td style="text-align: center;">22</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center; color: white !important; background-color: rgba(71, 13, 96, 255) !important;">11.96</td>
+<td style="text-align: center;">86.96</td>
+<td style="text-align: center;">54.84</td>
+</tr>
+<tr class="even">
+<td style="text-align: center; font-weight: bold;">Aston Martin Aramco Mercedes</td>
+<td style="text-align: center;">183</td>
+<td style="text-align: center;">158</td>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center; color: white !important; background-color: rgba(68, 1, 84, 255) !important;">12.57</td>
+<td style="text-align: center;">86.34</td>
+<td style="text-align: center;">55.29</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</div>
+<p>Top 10 Most Reliable Teams (Lowest DNF Rate)”, summarizing Formula 1 team reliability based on race outcomes. It lists teams alongside statistics such as races competed, races finished, DNFs, DNS, DSQs, DNF percentage, finish percentage, and average laps completed. McLaren Mercedes, Red Bull Racing Honda RBPT, and Mercedes stand out with low DNF rates and high finish percentages, indicating strong reliability over a large number of races. Teams like Ferrari, Haas Ferrari, and Aston Martin Aramco Mercedes appear lower in the ranking due to comparatively higher DNF rates. A color gradient in the DNF% column highlights reliability visually, with greener shades indicating lower DNF rates.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualization: Team DNF Rates</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>team_reliability <span class="sc">|&gt;</span></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Total_Races <span class="sc">&gt;=</span> <span class="dv">20</span>) <span class="sc">|&gt;</span></span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(Team, DNF_Rate), <span class="at">y =</span> DNF_Rate, <span class="at">fill =</span> DNF_Rate)) <span class="sc">+</span></span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>() <span class="sc">+</span></span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_gradient</span>(<span class="at">low =</span> <span class="st">"green"</span>, <span class="at">high =</span> <span class="st">"red"</span>) <span class="sc">+</span></span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Team Reliability Comparison"</span>,</span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"DNF Rate by Team (Minimum 20 Races)"</span>,</span>
+<span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Team"</span>,</span>
+<span id="cb28-12"><a href="#cb28-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"DNF Rate (%)"</span></span>
+<span id="cb28-13"><a href="#cb28-13" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb28-14"><a href="#cb28-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb28-15"><a href="#cb28-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb28-16"><a href="#cb28-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">"none"</span>,</span>
+<span id="cb28-17"><a href="#cb28-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">size =</span> <span class="dv">14</span>)</span>
+<span id="cb28-18"><a href="#cb28-18" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="F1project_files/figure-html/unnamed-chunk-19-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Team Reliability Comparison, illustrates the DNF (Did Not Finish) rates of Formula 1 teams that have competed in at least 20 races. The x-axis represents the DNF rate in percentage, while the y-axis lists the teams, ordered from highest to lowest DNF rate. Williams Mercedes appears as the least reliable team with the highest DNF rate, followed by Alfa Romeo Ferrari and AlphaTauri RBPT. Mid-range reliability is seen for teams such as Ferrari, Haas Ferrari, and Aston Martin Aramco Mercedes, while McLaren Mercedes, Red Bull Racing Honda RBPT, and Mercedes show the lowest DNF rates, indicating better reliability. The color gradient from red to green further emphasizes the transition from poorer to stronger reliability across teams.</p>
+</section>
+</section>
+</section>
+<section id="part--2" class="level1">
+<h1>Part -2</h1>
+<section id="package-name" class="level3">
+<h3 class="anchored" data-anchor-id="package-name">Package Name</h3>
+<p><strong>patchwork</strong></p>
+</section>
+<section id="authors" class="level3">
+<h3 class="anchored" data-anchor-id="authors">Authors</h3>
+<p>Thomas Lin Pedersen</p>
+</section>
+<section id="cran-link" class="level3">
+<h3 class="anchored" data-anchor-id="cran-link">CRAN Link</h3>
+<p>https://cran.r-project.org/package=patchwork</p>
+</section>
+<section id="purpose-of-the-package" class="level3">
+<h3 class="anchored" data-anchor-id="purpose-of-the-package">Purpose of the Package</h3>
+<p>The patchwork package extends ggplot2 by allowing users to combine multiple ggplot objects using arithmetic operators. Instead of relying on grid-based layout syntax, patchwork enables plot composition through intuitive expressions such as +, /, and |.</p>
+<p>This approach simplifies the creation of multi-panel figures used in comparative analysis, dashboards, and academic reporting.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(patchwork)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'patchwork' was built under R version 4.5.2</code></pre>
+</div>
+</div>
+<section id="demonstration-of-key-functions" class="level4">
+<h4 class="anchored" data-anchor-id="demonstration-of-key-functions">Demonstration of Key Functions</h4>
+<p>This section demonstrates three core functionalities of the patchwork package using F1 performance metrics.</p>
+</section>
+<section id="combining-plots-horizontally-operator" class="level4">
+<h4 class="anchored" data-anchor-id="combining-plots-horizontally-operator">Combining Plots Horizontally (<code>|</code> Operator)</h4>
+<p>The <code>|</code> operator places plots side by side.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>p1 <span class="ot">&lt;-</span> f1_data <span class="sc">|&gt;</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="fu">group_by</span>(Driver) <span class="sc">|&gt;</span></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a><span class="fu">summarise</span>(<span class="at">Total_Points =</span> <span class="fu">sum</span>(Points, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a><span class="fu">arrange</span>(<span class="fu">desc</span>(Total_Points)) <span class="sc">|&gt;</span></span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a><span class="fu">slice_head</span>(<span class="at">n =</span> <span class="dv">10</span>) <span class="sc">|&gt;</span></span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(Driver, Total_Points), <span class="at">y =</span> Total_Points)) <span class="sc">+</span></span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a><span class="fu">geom_col</span>(<span class="at">fill =</span> <span class="st">"#3498db"</span>) <span class="sc">+</span></span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a><span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a><span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Top 10 Drivers by Total Points"</span>,</span>
+<span id="cb31-10"><a href="#cb31-10" aria-hidden="true" tabindex="-1"></a><span class="at">x =</span> <span class="st">"Driver"</span>,</span>
+<span id="cb31-11"><a href="#cb31-11" aria-hidden="true" tabindex="-1"></a><span class="at">y =</span> <span class="st">"Points"</span>) <span class="sc">+</span></span>
+<span id="cb31-12"><a href="#cb31-12" aria-hidden="true" tabindex="-1"></a><span class="fu">theme_minimal</span>()</span>
+<span id="cb31-13"><a href="#cb31-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-14"><a href="#cb31-14" aria-hidden="true" tabindex="-1"></a>p2 <span class="ot">&lt;-</span> f1_data <span class="sc">|&gt;</span></span>
+<span id="cb31-15"><a href="#cb31-15" aria-hidden="true" tabindex="-1"></a><span class="fu">count</span>(Finish_Status) <span class="sc">|&gt;</span></span>
+<span id="cb31-16"><a href="#cb31-16" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> Finish_Status, <span class="at">y =</span> n)) <span class="sc">+</span></span>
+<span id="cb31-17"><a href="#cb31-17" aria-hidden="true" tabindex="-1"></a><span class="fu">geom_col</span>(<span class="at">fill =</span> <span class="st">"#e67e22"</span>) <span class="sc">+</span></span>
+<span id="cb31-18"><a href="#cb31-18" aria-hidden="true" tabindex="-1"></a><span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Distribution of Finish Statuses"</span>,</span>
+<span id="cb31-19"><a href="#cb31-19" aria-hidden="true" tabindex="-1"></a><span class="at">x =</span> <span class="st">"Status"</span>,</span>
+<span id="cb31-20"><a href="#cb31-20" aria-hidden="true" tabindex="-1"></a><span class="at">y =</span> <span class="st">"Count"</span>) <span class="sc">+</span></span>
+<span id="cb31-21"><a href="#cb31-21" aria-hidden="true" tabindex="-1"></a><span class="fu">theme_minimal</span>()</span>
+<span id="cb31-22"><a href="#cb31-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-23"><a href="#cb31-23" aria-hidden="true" tabindex="-1"></a>p1 <span class="sc">|</span> p2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="F1project_files/figure-html/unnamed-chunk-21-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Explanation:</strong><br>
+This layout enables a direct comparison between overall driver success and race outcome distributions.</p>
+</section>
+</section>
+<section id="vertical-composition-operator" class="level3">
+<h3 class="anchored" data-anchor-id="vertical-composition-operator">Vertical Composition (<code>/</code> Operator)</h3>
+<p>The <code>/</code> operator stacks plots vertically.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>p3 <span class="ot">&lt;-</span> f1_data <span class="sc">|&gt;</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="fu">group_by</span>(Team) <span class="sc">|&gt;</span></span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a><span class="fu">summarise</span>(</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a><span class="at">Avg_Points =</span> <span class="fu">mean</span>(Points, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a><span class="at">DNF_Rate =</span> <span class="fu">mean</span>(Finish_Status <span class="sc">==</span> <span class="st">"DNF"</span>) <span class="sc">*</span> <span class="dv">100</span></span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span></span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> Avg_Points, <span class="at">y =</span> DNF_Rate)) <span class="sc">+</span></span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a><span class="fu">geom_point</span>(<span class="at">color =</span> <span class="st">"#9b59b6"</span>, <span class="at">size =</span> <span class="dv">3</span>) <span class="sc">+</span></span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a><span class="fu">labs</span>(</span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a><span class="at">title =</span> <span class="st">"Team Efficiency vs Reliability"</span>,</span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a><span class="at">x =</span> <span class="st">"Average Points per Entry"</span>,</span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a><span class="at">y =</span> <span class="st">"DNF Rate (%)"</span></span>
+<span id="cb32-13"><a href="#cb32-13" aria-hidden="true" tabindex="-1"></a>) <span class="sc">+</span></span>
+<span id="cb32-14"><a href="#cb32-14" aria-hidden="true" tabindex="-1"></a><span class="fu">theme_minimal</span>()</span>
+<span id="cb32-15"><a href="#cb32-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-16"><a href="#cb32-16" aria-hidden="true" tabindex="-1"></a>p2 <span class="sc">/</span> p3</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="F1project_files/figure-html/unnamed-chunk-22-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Explanation:</strong><br>
+</p>
+<p>This structure allows summary distributions to be placed above analytical scatter plots in a natural reading order.</p>
+<section id="layout-control-with-plot_annotation" class="level4">
+<h4 class="anchored" data-anchor-id="layout-control-with-plot_annotation">Layout Control with plot_annotation()</h4>
+<p>The plot_annotation() function adds global titles, subtitles, and captions to composite figures.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>(p1 <span class="sc">|</span> p3) <span class="sc">+</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot_annotation</span>(</span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a><span class="at">title =</span> <span class="st">"Formula 1 Performance Overview (2022–2025)"</span>,</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a><span class="at">subtitle =</span> <span class="st">"Driver dominance, team reliability, and scoring efficiency"</span>,</span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a><span class="at">caption =</span> <span class="st">"Source: Formula 1 Results Dataset (2022–2025)"</span></span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="F1project_files/figure-html/unnamed-chunk-23-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Explanation:</strong><br>
+</p>
+<p>This feature is essential for academic reporting, allowing multiple plots to be framed as a single analytical figure.</p>
+</section>
+</section>
+<section id="discussion" class="level2">
+<h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
+<p>The patchwork package significantly enhances visualization workflows by providing a declarative and readable syntax for plot composition. Its integration with ggplot2 ensures full compatibility with existing plotting code while reducing layout complexity.</p>
+<p>In the context of Formula 1 analysis, patchwork enables multi-dimensional comparisons—such as driver dominance versus team reliability—within a single cohesive figure, improving interpretability and presentation quality.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>Pedersen, T. L. (2020).<br>
+<em>patchwork: The Composer of Plots</em>.<br>
+CRAN: https://cran.r-project.org/package=patchwork</p>
+</section>
+</section>
+<section id="part-3" class="level1">
+<h1>Part 3</h1>
+<section id="purpose" class="level2">
+<h2 class="anchored" data-anchor-id="purpose"><strong>Purpose</strong></h2>
+<p>Create an R function to analyse driver reliability using race finish data, returning a custom S3 object with dedicated print(), summary(), and plot() methods.</p>
+<section id="driver-reliability-analysis-framework" class="level3">
+<h3 class="anchored" data-anchor-id="driver-reliability-analysis-framework">Driver Reliability Analysis Framework</h3>
+<p>The driver reliability analysis is anchored by the driver_reliability constructor function, which transforms raw Formula 1 race data into a specialized S3 object. This function implements rigorous input validation to ensure required variables like Driver, Finish_Status, and Position_Numeric are present before proceeding with data aggregation. Utilizing the dplyr pipeline, it calculates three core KPIs: the Finish Rate, the DNF Rate, and the Average Finishing Position. To maintain statistical significance and eliminate outliers from one-off race appearances, a min_races filter is applied (defaulting to 10). The final output is assigned a custom class, driverReliability, which allows it to interface seamlessly with specialized print, summary, and plotting methods while retaining its underlying data frame properties.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>driver_reliability <span class="ot">&lt;-</span> <span class="cf">function</span>(data, <span class="at">min_races =</span> <span class="dv">10</span>) {</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>  <span class="co"># 1. Input Validation</span></span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>  required_cols <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Driver"</span>, <span class="st">"Finish_Status"</span>, <span class="st">"Position_Numeric"</span>)</span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="sc">!</span><span class="fu">all</span>(required_cols <span class="sc">%in%</span> <span class="fu">names</span>(data))) {</span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a>    missing <span class="ot">&lt;-</span> <span class="fu">setdiff</span>(required_cols, <span class="fu">names</span>(data))</span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">stop</span>(<span class="fu">paste</span>(<span class="st">"Required columns missing:"</span>, <span class="fu">paste</span>(missing, <span class="at">collapse =</span> <span class="st">", "</span>)))</span>
+<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb34-10"><a href="#cb34-10" aria-hidden="true" tabindex="-1"></a>  <span class="co"># 2. Data Processing</span></span>
+<span id="cb34-11"><a href="#cb34-11" aria-hidden="true" tabindex="-1"></a>  <span class="co"># We use pipe into a standard variable first to ensure transformations are complete</span></span>
+<span id="cb34-12"><a href="#cb34-12" aria-hidden="true" tabindex="-1"></a>  result <span class="ot">&lt;-</span> data <span class="sc">|&gt;</span></span>
+<span id="cb34-13"><a href="#cb34-13" aria-hidden="true" tabindex="-1"></a>    dplyr<span class="sc">::</span><span class="fu">group_by</span>(Driver) <span class="sc">|&gt;</span></span>
+<span id="cb34-14"><a href="#cb34-14" aria-hidden="true" tabindex="-1"></a>    dplyr<span class="sc">::</span><span class="fu">summarise</span>(</span>
+<span id="cb34-15"><a href="#cb34-15" aria-hidden="true" tabindex="-1"></a>      <span class="at">Races =</span> dplyr<span class="sc">::</span><span class="fu">n</span>(),</span>
+<span id="cb34-16"><a href="#cb34-16" aria-hidden="true" tabindex="-1"></a>      <span class="co"># Convert logical to numeric for mean calculation (100 * mean is correct)</span></span>
+<span id="cb34-17"><a href="#cb34-17" aria-hidden="true" tabindex="-1"></a>      <span class="at">Finish_Rate =</span> <span class="fu">mean</span>(Finish_Status <span class="sc">==</span> <span class="st">"Finished"</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>) <span class="sc">*</span> <span class="dv">100</span>,</span>
+<span id="cb34-18"><a href="#cb34-18" aria-hidden="true" tabindex="-1"></a>      <span class="at">DNF_Rate    =</span> <span class="fu">mean</span>(Finish_Status <span class="sc">==</span> <span class="st">"DNF"</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>) <span class="sc">*</span> <span class="dv">100</span>,</span>
+<span id="cb34-19"><a href="#cb34-19" aria-hidden="true" tabindex="-1"></a>      <span class="at">Avg_Position =</span> <span class="fu">mean</span>(Position_Numeric, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb34-20"><a href="#cb34-20" aria-hidden="true" tabindex="-1"></a>      <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb34-21"><a href="#cb34-21" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">|&gt;</span></span>
+<span id="cb34-22"><a href="#cb34-22" aria-hidden="true" tabindex="-1"></a>    dplyr<span class="sc">::</span><span class="fu">filter</span>(Races <span class="sc">&gt;=</span> min_races) <span class="sc">|&gt;</span></span>
+<span id="cb34-23"><a href="#cb34-23" aria-hidden="true" tabindex="-1"></a>    <span class="fu">as.data.frame</span>() <span class="co"># Ensures we don't return a tibble if a standard DF is expected</span></span>
+<span id="cb34-24"><a href="#cb34-24" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb34-25"><a href="#cb34-25" aria-hidden="true" tabindex="-1"></a>  <span class="co"># 3. Proper S3 Class Assignment</span></span>
+<span id="cb34-26"><a href="#cb34-26" aria-hidden="true" tabindex="-1"></a>  <span class="co"># We append our class to the existing ones so it retains data.frame properties</span></span>
+<span id="cb34-27"><a href="#cb34-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">class</span>(result) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"driverReliability"</span>, <span class="fu">class</span>(result))</span>
+<span id="cb34-28"><a href="#cb34-28" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb34-29"><a href="#cb34-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(result)</span>
+<span id="cb34-30"><a href="#cb34-30" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>print.driverReliability <span class="ot">&lt;-</span> <span class="cf">function</span>(x, ...) {</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"</span><span class="sc">\n</span><span class="st">========================================</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"   Formula 1 Driver Reliability Report</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"========================================</span><span class="sc">\n\n</span><span class="st">"</span>)</span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Sort and slice</span></span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>  top_indices <span class="ot">&lt;-</span> <span class="fu">order</span>(x<span class="sc">$</span>Finish_Rate, <span class="at">decreasing =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a>  n_show <span class="ot">&lt;-</span> <span class="fu">min</span>(<span class="dv">5</span>, <span class="fu">nrow</span>(x))</span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a>  top_drivers <span class="ot">&lt;-</span> x[top_indices[<span class="dv">1</span><span class="sc">:</span>n_show], <span class="fu">c</span>(<span class="st">"Driver"</span>, <span class="st">"Finish_Rate"</span>, <span class="st">"DNF_Rate"</span>, <span class="st">"Avg_Position"</span>)]</span>
+<span id="cb35-10"><a href="#cb35-10" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb35-11"><a href="#cb35-11" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Format numeric values</span></span>
+<span id="cb35-12"><a href="#cb35-12" aria-hidden="true" tabindex="-1"></a>  top_drivers<span class="sc">$</span>Finish_Rate <span class="ot">&lt;-</span> <span class="fu">round</span>(top_drivers<span class="sc">$</span>Finish_Rate, <span class="dv">1</span>)</span>
+<span id="cb35-13"><a href="#cb35-13" aria-hidden="true" tabindex="-1"></a>  top_drivers<span class="sc">$</span>DNF_Rate    <span class="ot">&lt;-</span> <span class="fu">round</span>(top_drivers<span class="sc">$</span>DNF_Rate, <span class="dv">1</span>)</span>
+<span id="cb35-14"><a href="#cb35-14" aria-hidden="true" tabindex="-1"></a>  top_drivers<span class="sc">$</span>Avg_Position <span class="ot">&lt;-</span> <span class="fu">round</span>(top_drivers<span class="sc">$</span>Avg_Position, <span class="dv">2</span>)</span>
+<span id="cb35-15"><a href="#cb35-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-16"><a href="#cb35-16" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Cast to data.frame to prevent infinite recursion</span></span>
+<span id="cb35-17"><a href="#cb35-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="fu">as.data.frame</span>(top_drivers), <span class="at">row.names =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb35-18"><a href="#cb35-18" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb35-19"><a href="#cb35-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"========================================</span><span class="sc">\n\n</span><span class="st">"</span>)</span>
+<span id="cb35-20"><a href="#cb35-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">invisible</span>(x)</span>
+<span id="cb35-21"><a href="#cb35-21" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="custom-reporting-and-summary-methods" class="level3">
+<h3 class="anchored" data-anchor-id="custom-reporting-and-summary-methods">Custom Reporting and Summary Methods</h3>
+<p>To facilitate rapid data interpretation, the framework includes dedicated print and summary methods that format complex statistics into human-readable reports. The print.driverReliability method is specifically engineered to prevent infinite recursion by casting the internal subset to a standard data frame before output. It provides a high-level leaderboard of the top five most reliable drivers, rounded for clarity. Complementing this, the summary method generates a global overview of the dataset’s health, calculating the mean, maximum, and minimum reliability rates across the entire filtered driver pool. This dual-method approach ensures that researchers can quickly toggle between granular driver leaderboards and broad fleet-wide performance benchmarks.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Summary method</span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>summary.driverReliability <span class="ot">&lt;-</span> <span class="cf">function</span>(object, ...) {</span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>  summary_stats <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">Mean_Finish_Rate =</span> <span class="fu">mean</span>(object<span class="sc">$</span>Finish_Rate),</span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">Mean_DNF_Rate =</span> <span class="fu">mean</span>(object<span class="sc">$</span>DNF_Rate),</span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">Best_Finish_Rate =</span> <span class="fu">max</span>(object<span class="sc">$</span>Finish_Rate),</span>
+<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">Worst_Finish_Rate =</span> <span class="fu">min</span>(object<span class="sc">$</span>Finish_Rate)</span>
+<span id="cb36-9"><a href="#cb36-9" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb36-10"><a href="#cb36-10" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb36-11"><a href="#cb36-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">class</span>(summary_stats) <span class="ot">&lt;-</span> <span class="st">"summary.driverReliability"</span></span>
+<span id="cb36-12"><a href="#cb36-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(summary_stats)</span>
+<span id="cb36-13"><a href="#cb36-13" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb36-14"><a href="#cb36-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-15"><a href="#cb36-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Print method for summary object</span></span>
+<span id="cb36-16"><a href="#cb36-16" aria-hidden="true" tabindex="-1"></a>print.summary.driverReliability <span class="ot">&lt;-</span> <span class="cf">function</span>(x, ...) {</span>
+<span id="cb36-17"><a href="#cb36-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"Summary of Reliability Metrics</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb36-18"><a href="#cb36-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"Mean Finish Rate:"</span>, <span class="fu">round</span>(x<span class="sc">$</span>Mean_Finish_Rate, <span class="dv">2</span>), <span class="st">"%</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb36-19"><a href="#cb36-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"Mean DNF Rate:"</span>, <span class="fu">round</span>(x<span class="sc">$</span>Mean_DNF_Rate, <span class="dv">2</span>), <span class="st">"%</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb36-20"><a href="#cb36-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"Best Finish Rate:"</span>, <span class="fu">round</span>(x<span class="sc">$</span>Best_Finish_Rate, <span class="dv">2</span>), <span class="st">"%</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb36-21"><a href="#cb36-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"Worst Finish Rate:"</span>, <span class="fu">round</span>(x<span class="sc">$</span>Worst_Finish_Rate, <span class="dv">2</span>), <span class="st">"%</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb36-22"><a href="#cb36-22" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="visual-correlation-reliability-vs.-performance" class="level3">
+<h3 class="anchored" data-anchor-id="visual-correlation-reliability-vs.-performance">Visual Correlation: Reliability vs.&nbsp;Performance</h3>
+<p>The analytical suite concludes with a specialized plot method that leverages ggplot2 to map the relationship between mechanical reliability and race-day performance. By plotting the DNF Rate against the Average Finishing Position, this visualization identifies “at-risk” performers and high-consistency elites. The method automatically applies a reversed x-axis scale—aligning with the intuitive racing logic where a “lower” number (1st place) represents a better result—and utilizes a minimal theme to keep the focus on data distribution. This scatter plot serves as a diagnostic tool for identifying drivers who may be fast but prone to retirements, as well as those who provide a “safe pair of hands” for constructors prioritizing consistent point finishes.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot method for driverReliability objects</span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>plot.driverReliability <span class="ot">&lt;-</span> <span class="cf">function</span>(x, ...) {</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>  ggplot2<span class="sc">::</span><span class="fu">ggplot</span>(x, ggplot2<span class="sc">::</span><span class="fu">aes</span>(<span class="at">x =</span> Avg_Position, <span class="at">y =</span> DNF_Rate)) <span class="sc">+</span></span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>    ggplot2<span class="sc">::</span><span class="fu">geom_point</span>(<span class="at">color =</span> <span class="st">"red"</span>, <span class="at">size =</span> <span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>    ggplot2<span class="sc">::</span><span class="fu">scale_x_reverse</span>() <span class="sc">+</span></span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>    ggplot2<span class="sc">::</span><span class="fu">labs</span>(</span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>      <span class="at">title =</span> <span class="st">"Driver Reliability vs Performance"</span>,</span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>      <span class="at">x =</span> <span class="st">"Average Finishing Position"</span>,</span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a>      <span class="at">y =</span> <span class="st">"DNF Rate (%)"</span></span>
+<span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">+</span></span>
+<span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a>    ggplot2<span class="sc">::</span><span class="fu">theme_minimal</span>()</span>
+<span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>rel <span class="ot">&lt;-</span> <span class="fu">driver_reliability</span>(f1_data, <span class="at">min_races =</span> <span class="dv">20</span>)</span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(rel)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+========================================
+   Formula 1 Driver Reliability Report
+========================================
+
+         Driver Finish_Rate DNF_Rate Avg_Position
+ Max Verstappen        95.7      4.3         2.53
+   Lando Norris        93.5      5.4         5.66
+  Oscar Piastri        92.9      5.7         5.65
+ George Russell        91.3      7.6         5.23
+ Lewis Hamilton        90.2      7.6         5.80
+========================================</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb40"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(rel)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Summary of Reliability Metrics
+Mean Finish Rate: 85.53 %
+Mean DNF Rate: 13.39 %
+Best Finish Rate: 95.65 %
+Worst Finish Rate: 75 %</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb42"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(rel)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="F1project_files/figure-html/unnamed-chunk-28-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="summary-of-competitive-dynamics" class="level3">
+<h3 class="anchored" data-anchor-id="summary-of-competitive-dynamics">Summary of Competitive Dynamics</h3>
+<p>The report concludes that the regulatory changes introduced in the 2022 season significantly influenced the competitive landscape of Formula 1. By examining race outcomes, driver consistency, and team performance, the analysis identified distinct patterns in how teams adapted to the new technical rules. The data reveals that while driver skill remains paramount, the mechanical reliability of constructors is a critical determinant of season-long success, particularly in the context of the high “Did Not Finish” (DNF) rates observed in certain performance tiers.</p>
+</section>
+<section id="analytical-framework-and-reliability" class="level3">
+<h3 class="anchored" data-anchor-id="analytical-framework-and-reliability">Analytical Framework and Reliability</h3>
+<p>A central achievement of this report is the development of a robust data processing pipeline that standardizes complex racing metrics. Key takeaways from the methodology include:</p>
+<ul>
+<li><p><strong>Enhanced Data Utility</strong>: By converting inconsistent time strings and non-numeric finishing positions (like “NC” or “DQ”) into standardized numerical values, the report provides a more accurate basis for statistical modeling.</p></li>
+<li><p><strong>Driver Reliability KPIs</strong>: The introduction of the driverReliability S3 class allows for the systematic tracking of Finish Rates and DNF Rates, offering a quantifiable measure of driver and car performance beyond mere points scored.</p></li>
+<li><p><strong>Visual Insights</strong>: The correlation between average finishing positions and reliability metrics—visualized through custom plotting methods—highlights that elite performance is inextricably linked to technical consistency.</p></li>
+</ul>
+</section>
+<section id="final-outlook" class="level3">
+<h3 class="anchored" data-anchor-id="final-outlook">Final Outlook</h3>
+<p>Overall, the 2022–2025 seasons have demonstrated a stabilizing competitive field where data-driven strategies are essential for navigating technical volatility. The analytical tools developed for this report serve as a foundation for future predictive modeling, enabling teams and researchers to better anticipate race outcomes based on historical reliability and qualifying trends.</p>
+</section>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

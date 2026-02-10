@@ -1,0 +1,1839 @@
+Track,Position,No,Driver,Team,Starting Grid,Laps,Time/Retired,Points,+1 Pt,Fastest Lap,year
+Bahrain,1,16,Charles Leclerc,Ferrari,1,57,37:33.6,26,Yes,01:34.6,2022
+Bahrain,2,55,Carlos Sainz,Ferrari,3,57,5.598,18,No,01:35.7,2022
+Bahrain,3,44,Lewis Hamilton,Mercedes,5,57,9.675,15,No,01:36.2,2022
+Bahrain,4,63,George Russell,Mercedes,9,57,11.211,12,No,01:36.3,2022
+Bahrain,5,20,Kevin Magnussen,Haas Ferrari,7,57,14.754,10,No,01:36.6,2022
+Bahrain,6,77,Valtteri Bottas,Alfa Romeo Ferrari,6,57,16.119,8,No,01:36.6,2022
+Bahrain,7,31,Esteban Ocon,Alpine Renault,11,57,19.423,6,No,01:37.1,2022
+Bahrain,8,22,Yuki Tsunoda,AlphaTauri RBPT,16,57,20.386,4,No,01:37.1,2022
+Bahrain,9,14,Fernando Alonso,Alpine Renault,8,57,22.39,2,No,01:36.7,2022
+Bahrain,10,24,Guanyu Zhou,Alfa Romeo Ferrari,15,57,23.064,1,No,01:36.7,2022
+Bahrain,11,47,Mick Schumacher,Haas Ferrari,12,57,32.574,0,No,01:37.0,2022
+Bahrain,12,18,Lance Stroll,Aston Martin Aramco Mercedes,19,57,45.873,0,No,01:37.1,2022
+Bahrain,13,23,Alexander Albon,Williams Mercedes,14,57,53.932,0,No,01:37.4,2022
+Bahrain,14,3,Daniel Ricciardo,McLaren Mercedes,18,57,54.975,0,No,01:37.3,2022
+Bahrain,15,4,Lando Norris,McLaren Mercedes,13,57,56.335,0,No,01:37.0,2022
+Bahrain,16,6,Nicholas Latifi,Williams Mercedes,20,57,61.795,0,No,01:38.3,2022
+Bahrain,17,27,Nico Hulkenberg,Aston Martin Aramco Mercedes,17,57,63.829,0,No,01:38.2,2022
+Bahrain,18,11,Sergio Perez,Red Bull Racing RBPT,4,56,DNF,0,No,01:36.1,2022
+Bahrain,19,1,Max Verstappen,Red Bull Racing RBPT,2,54,DNF,0,No,01:35.4,2022
+Bahrain,NC,10,Pierre Gasly,AlphaTauri RBPT,10,44,DNF,0,No,01:37.3,2022
+Saudi Arabia,1,1,Max Verstappen,Red Bull Racing RBPT,4,50,24:19.3,25,No,01:31.8,2022
+Saudi Arabia,2,16,Charles Leclerc,Ferrari,2,50,0.549,19,Yes,01:31.6,2022
+Saudi Arabia,3,55,Carlos Sainz,Ferrari,3,50,8.097,15,No,01:31.9,2022
+Saudi Arabia,4,11,Sergio Perez,Red Bull Racing RBPT,1,50,10.8,12,No,01:32.0,2022
+Saudi Arabia,5,63,George Russell,Mercedes,6,50,32.732,10,No,01:32.8,2022
+Saudi Arabia,6,31,Esteban Ocon,Alpine Renault,5,50,56.017,8,No,01:33.1,2022
+Saudi Arabia,7,4,Lando Norris,McLaren Mercedes,11,50,56.124,6,No,01:32.8,2022
+Saudi Arabia,8,10,Pierre Gasly,AlphaTauri RBPT,9,50,62.946,4,No,01:33.5,2022
+Saudi Arabia,9,20,Kevin Magnussen,Haas Ferrari,10,50,64.308,2,No,01:32.8,2022
+Saudi Arabia,10,44,Lewis Hamilton,Mercedes,15,50,73.948,1,No,01:33.0,2022
+Saudi Arabia,11,24,Guanyu Zhou,Alfa Romeo Ferrari,12,50,82.215,0,No,01:33.9,2022
+Saudi Arabia,12,27,Nico Hulkenberg,Aston Martin Aramco Mercedes,17,50,91.742,0,No,01:33.7,2022
+Saudi Arabia,13,18,Lance Stroll,Aston Martin Aramco Mercedes,13,49,+1 lap,0,No,01:34.4,2022
+Saudi Arabia,14,23,Alexander Albon,Williams Mercedes,16,47,DNF,0,No,01:34.4,2022
+Saudi Arabia,NC,77,Valtteri Bottas,Alfa Romeo Ferrari,8,36,DNF,0,No,01:34.0,2022
+Saudi Arabia,NC,14,Fernando Alonso,Alpine Renault,7,35,DNF,0,No,01:33.8,2022
+Saudi Arabia,NC,3,Daniel Ricciardo,McLaren Mercedes,14,35,DNF,0,No,01:34.5,2022
+Saudi Arabia,NC,6,Nicholas Latifi,Williams Mercedes,18,14,DNF,0,No,01:37.5,2022
+Saudi Arabia,NC,22,Yuki Tsunoda,AlphaTauri RBPT,19,0,DNS,0,No,,2022
+Saudi Arabia,NC,47,Mick Schumacher,Haas Ferrari,20,0,DNS,0,No,,2022
+Australia,1,16,Charles Leclerc,Ferrari,1,58,27:46.5,26,Yes,01:20.3,2022
+Australia,2,11,Sergio Perez,Red Bull Racing RBPT,3,58,20.524,18,No,01:21.1,2022
+Australia,3,63,George Russell,Mercedes,6,58,25.593,15,No,01:21.5,2022
+Australia,4,44,Lewis Hamilton,Mercedes,5,58,28.543,12,No,01:21.9,2022
+Australia,5,4,Lando Norris,McLaren Mercedes,4,58,53.303,10,No,01:22.2,2022
+Australia,6,3,Daniel Ricciardo,McLaren Mercedes,7,58,53.737,8,No,01:22.5,2022
+Australia,7,31,Esteban Ocon,Alpine Renault,8,58,61.683,6,No,01:22.5,2022
+Australia,8,77,Valtteri Bottas,Alfa Romeo Ferrari,12,58,68.439,4,No,01:21.7,2022
+Australia,9,10,Pierre Gasly,AlphaTauri RBPT,11,58,76.221,2,No,01:22.7,2022
+Australia,10,23,Alexander Albon,Williams Mercedes,20,58,79.382,1,No,01:22.6,2022
+Australia,11,24,Guanyu Zhou,Alfa Romeo Ferrari,14,58,81.695,0,No,01:22.5,2022
+Australia,12,18,Lance Stroll,Aston Martin Aramco Mercedes,19,58,88.598,0,No,01:23.6,2022
+Australia,13,47,Mick Schumacher,Haas Ferrari,15,57,+1 lap,0,No,01:23.0,2022
+Australia,14,20,Kevin Magnussen,Haas Ferrari,16,57,+1 lap,0,No,01:23.1,2022
+Australia,15,22,Yuki Tsunoda,AlphaTauri RBPT,13,57,+1 lap,0,No,01:23.3,2022
+Australia,16,6,Nicholas Latifi,Williams Mercedes,18,57,+1 lap,0,No,01:23.9,2022
+Australia,17,14,Fernando Alonso,Alpine Renault,10,57,+1 lap,0,No,01:20.8,2022
+Australia,NC,1,Max Verstappen,Red Bull Racing RBPT,2,38,DNF,0,No,01:21.7,2022
+Australia,NC,5,Sebastian Vettel,Aston Martin Aramco Mercedes,17,22,DNF,0,No,01:25.2,2022
+Australia,NC,55,Carlos Sainz,Ferrari,9,1,DNF,0,No,,2022
+Emilia Romagna,1,1,Max Verstappen,Red Bull Racing RBPT,1,63,32:08.0,26,Yes,01:18.4,2022
+Emilia Romagna,2,11,Sergio Perez,Red Bull Racing RBPT,3,63,16.527,18,No,01:18.9,2022
+Emilia Romagna,3,4,Lando Norris,McLaren Mercedes,5,63,34.834,15,No,01:20.9,2022
+Emilia Romagna,4,63,George Russell,Mercedes,11,63,42.506,12,No,01:21.0,2022
+Emilia Romagna,5,77,Valtteri Bottas,Alfa Romeo Ferrari,7,63,43.181,10,No,01:20.8,2022
+Emilia Romagna,6,16,Charles Leclerc,Ferrari,2,63,56.072,8,No,01:18.6,2022
+Emilia Romagna,7,22,Yuki Tsunoda,AlphaTauri RBPT,12,63,61.11,6,No,01:20.5,2022
+Emilia Romagna,8,5,Sebastian Vettel,Aston Martin Aramco Mercedes,13,63,70.892,4,No,01:21.2,2022
+Emilia Romagna,9,20,Kevin Magnussen,Haas Ferrari,8,63,75.26,2,No,01:21.2,2022
+Emilia Romagna,10,18,Lance Stroll,Aston Martin Aramco Mercedes,15,62,+1 lap,1,No,01:21.8,2022
+Emilia Romagna,11,23,Alexander Albon,Williams Mercedes,18,62,+1 lap,0,No,01:21.8,2022
+Emilia Romagna,12,10,Pierre Gasly,AlphaTauri RBPT,17,62,+1 lap,0,No,01:21.7,2022
+Emilia Romagna,13,44,Lewis Hamilton,Mercedes,14,62,+1 lap,0,No,01:21.4,2022
+Emilia Romagna,14,31,Esteban Ocon,Alpine Renault,16,62,+1 lap,0,No,01:21.9,2022
+Emilia Romagna,15,24,Guanyu Zhou,Alfa Romeo Ferrari,20,62,+1 lap,0,No,01:21.3,2022
+Emilia Romagna,16,6,Nicholas Latifi,Williams Mercedes,19,62,+1 lap,0,No,01:21.3,2022
+Emilia Romagna,17,47,Mick Schumacher,Haas Ferrari,10,62,+1 lap,0,No,01:19.0,2022
+Emilia Romagna,18,3,Daniel Ricciardo,McLaren Mercedes,6,62,+1 lap,0,No,01:21.6,2022
+Emilia Romagna,NC,14,Fernando Alonso,Alpine Renault,9,6,DNF,0,No,01:39.7,2022
+Emilia Romagna,NC,55,Carlos Sainz,Ferrari,4,0,DNF,0,No,,2022
+Miami,1,1,Max Verstappen,Red Bull Racing RBPT,3,57,34:24.3,26,Yes,01:31.4,2022
+Miami,2,16,Charles Leclerc,Ferrari,1,57,3.786,18,No,01:31.5,2022
+Miami,3,55,Carlos Sainz,Ferrari,2,57,8.229,15,No,01:31.8,2022
+Miami,4,11,Sergio Perez,Red Bull Racing RBPT,4,57,10.638,12,No,01:31.8,2022
+Miami,5,63,George Russell,Mercedes,12,57,18.582,10,No,01:32.2,2022
+Miami,6,44,Lewis Hamilton,Mercedes,6,57,21.368,8,No,01:32.9,2022
+Miami,7,77,Valtteri Bottas,Alfa Romeo Ferrari,5,57,25.073,6,No,01:33.2,2022
+Miami,8,31,Esteban Ocon,Alpine Renault,20,57,28.386,4,No,01:33.2,2022
+Miami,9,23,Alexander Albon,Williams Mercedes,18,57,32.365,2,No,01:33.4,2022
+Miami,10,18,Lance Stroll,Aston Martin Aramco Mercedes,10,57,37.026,1,No,01:33.3,2022
+Miami,11,14,Fernando Alonso,Alpine Renault,11,57,37.128,0,No,01:33.3,2022
+Miami,12,22,Yuki Tsunoda,AlphaTauri RBPT,9,57,40.146,0,No,01:33.0,2022
+Miami,13,3,Daniel Ricciardo,McLaren Mercedes,14,57,40.902,0,No,01:33.3,2022
+Miami,14,6,Nicholas Latifi,Williams Mercedes,19,57,49.936,0,No,01:34.2,2022
+Miami,15,47,Mick Schumacher,Haas Ferrari,15,57,73.305,0,No,01:32.5,2022
+Miami,16,20,Kevin Magnussen,Haas Ferrari,16,56,DNF,0,No,01:33.5,2022
+Miami,17,5,Sebastian Vettel,Aston Martin Aramco Mercedes,13,54,DNF,0,No,01:33.5,2022
+Miami,NC,10,Pierre Gasly,AlphaTauri RBPT,7,45,DNF,0,No,01:34.5,2022
+Miami,NC,4,Lando Norris,McLaren Mercedes,8,39,DNF,0,No,01:33.4,2022
+Miami,NC,24,Guanyu Zhou,Alfa Romeo Ferrari,17,6,DNF,0,No,01:35.7,2022
+Spain,1,1,Max Verstappen,Red Bull Racing RBPT,2,66,37:20.5,25,No,01:25.5,2022
+Spain,2,11,Sergio Perez,Red Bull Racing RBPT,5,66,13.072,19,Yes,01:24.1,2022
+Spain,3,63,George Russell,Mercedes,4,66,32.927,15,No,01:24.6,2022
+Spain,4,55,Carlos Sainz,Ferrari,3,66,45.208,12,No,01:26.0,2022
+Spain,5,44,Lewis Hamilton,Mercedes,6,66,54.534,10,No,01:24.3,2022
+Spain,6,77,Valtteri Bottas,Alfa Romeo Ferrari,7,66,59.976,8,No,01:26.4,2022
+Spain,7,31,Esteban Ocon,Alpine Renault,12,66,75.397,6,No,01:25.9,2022
+Spain,8,4,Lando Norris,McLaren Mercedes,11,66,83.235,4,No,01:25.6,2022
+Spain,9,14,Fernando Alonso,Alpine Renault,20,65,+1 lap,2,No,01:26.6,2022
+Spain,10,22,Yuki Tsunoda,AlphaTauri RBPT,13,65,+1 lap,1,No,01:26.8,2022
+Spain,11,5,Sebastian Vettel,Aston Martin Aramco Mercedes,16,65,+1 lap,0,No,01:27.6,2022
+Spain,12,3,Daniel Ricciardo,McLaren Mercedes,9,65,+1 lap,0,No,01:27.3,2022
+Spain,13,10,Pierre Gasly,AlphaTauri RBPT,14,65,+1 lap,0,No,01:27.0,2022
+Spain,14,47,Mick Schumacher,Haas Ferrari,10,65,+1 lap,0,No,01:27.4,2022
+Spain,15,18,Lance Stroll,Aston Martin Aramco Mercedes,17,65,+1 lap,0,No,01:26.9,2022
+Spain,16,6,Nicholas Latifi,Williams Mercedes,19,64,+2 laps,0,No,01:27.2,2022
+Spain,17,20,Kevin Magnussen,Haas Ferrari,8,64,+2 laps,0,No,01:27.5,2022
+Spain,18,23,Alexander Albon,Williams Mercedes,18,64,+2 laps,0,No,01:28.3,2022
+Spain,NC,24,Guanyu Zhou,Alfa Romeo Ferrari,15,28,DNF,0,No,01:28.4,2022
+Spain,NC,16,Charles Leclerc,Ferrari,1,27,DNF,0,No,01:27.0,2022
+Monaco,1,11,Sergio Perez,Red Bull Racing RBPT,3,64,56:30.3,25,No,01:16.0,2022
+Monaco,2,55,Carlos Sainz,Ferrari,2,64,1.154,18,No,01:16.4,2022
+Monaco,3,1,Max Verstappen,Red Bull Racing RBPT,4,64,1.491,15,No,01:16.1,2022
+Monaco,4,16,Charles Leclerc,Ferrari,1,64,2.922,12,No,01:16.2,2022
+Monaco,5,63,George Russell,Mercedes,6,64,11.968,10,No,01:16.8,2022
+Monaco,6,4,Lando Norris,McLaren Mercedes,5,64,12.231,9,Yes,01:14.7,2022
+Monaco,7,14,Fernando Alonso,Alpine Renault,7,64,46.358,6,No,01:15.9,2022
+Monaco,8,44,Lewis Hamilton,Mercedes,8,64,50.388,4,No,01:17.2,2022
+Monaco,9,77,Valtteri Bottas,Alfa Romeo Ferrari,12,64,52.525,2,No,01:17.6,2022
+Monaco,10,5,Sebastian Vettel,Aston Martin Aramco Mercedes,9,64,53.536,1,No,01:17.6,2022
+Monaco,11,10,Pierre Gasly,AlphaTauri RBPT,17,64,54.289,0,No,01:17.3,2022
+Monaco,12,31,Esteban Ocon,Alpine Renault,10,64,55.644,0,No,01:17.6,2022
+Monaco,13,3,Daniel Ricciardo,McLaren Mercedes,14,64,57.635,0,No,01:17.5,2022
+Monaco,14,18,Lance Stroll,Aston Martin Aramco Mercedes,18,64,60.802,0,No,01:17.7,2022
+Monaco,15,6,Nicholas Latifi,Williams Mercedes,19,63,+1 lap,0,No,01:18.6,2022
+Monaco,16,24,Guanyu Zhou,Alfa Romeo Ferrari,20,63,+1 lap,0,No,01:18.2,2022
+Monaco,17,22,Yuki Tsunoda,AlphaTauri RBPT,11,63,+1 lap,0,No,01:15.3,2022
+Monaco,NC,23,Alexander Albon,Williams Mercedes,16,48,DNF,0,No,01:18.0,2022
+Monaco,NC,47,Mick Schumacher,Haas Ferrari,15,24,DNF,0,No,01:24.8,2022
+Monaco,NC,20,Kevin Magnussen,Haas Ferrari,13,19,DNF,0,No,01:33.8,2022
+Azerbaijan,1,1,Max Verstappen,Red Bull Racing RBPT,3,51,34:05.9,25,No,01:46.1,2022
+Azerbaijan,2,11,Sergio Perez,Red Bull Racing RBPT,2,51,20.823,19,Yes,01:46.0,2022
+Azerbaijan,3,63,George Russell,Mercedes,5,51,45.995,15,No,01:47.2,2022
+Azerbaijan,4,44,Lewis Hamilton,Mercedes,7,51,71.679,12,No,01:47.0,2022
+Azerbaijan,5,10,Pierre Gasly,AlphaTauri RBPT,6,51,77.299,10,No,01:48.5,2022
+Azerbaijan,6,5,Sebastian Vettel,Aston Martin Aramco Mercedes,9,51,84.099,8,No,01:48.2,2022
+Azerbaijan,7,14,Fernando Alonso,Alpine Renault,10,51,88.596,6,No,01:48.0,2022
+Azerbaijan,8,3,Daniel Ricciardo,McLaren Mercedes,12,51,92.207,4,No,01:48.3,2022
+Azerbaijan,9,4,Lando Norris,McLaren Mercedes,11,51,92.556,2,No,01:48.0,2022
+Azerbaijan,10,31,Esteban Ocon,Alpine Renault,13,51,108.184,1,No,01:48.3,2022
+Azerbaijan,11,77,Valtteri Bottas,Alfa Romeo Ferrari,15,50,+1 lap,0,No,01:48.2,2022
+Azerbaijan,12,23,Alexander Albon,Williams Mercedes,17,50,+1 lap,0,No,01:48.0,2022
+Azerbaijan,13,22,Yuki Tsunoda,AlphaTauri RBPT,8,50,+1 lap,0,No,01:47.5,2022
+Azerbaijan,14,47,Mick Schumacher,Haas Ferrari,20,50,+1 lap,0,No,01:48.4,2022
+Azerbaijan,15,6,Nicholas Latifi,Williams Mercedes,18,50,+1 lap,0,No,01:49.6,2022
+Azerbaijan,16,18,Lance Stroll,Aston Martin Aramco Mercedes,19,46,DNF,0,No,01:48.0,2022
+Azerbaijan,NC,20,Kevin Magnussen,Haas Ferrari,16,31,DNF,0,No,01:48.8,2022
+Azerbaijan,NC,24,Guanyu Zhou,Alfa Romeo Ferrari,14,23,DNF,0,No,01:48.7,2022
+Azerbaijan,NC,16,Charles Leclerc,Ferrari,1,21,DNF,0,No,01:47.5,2022
+Azerbaijan,NC,55,Carlos Sainz,Ferrari,4,8,DNF,0,No,01:49.0,2022
+Canada,1,1,Max Verstappen,Red Bull Racing RBPT,1,70,36:21.8,25,No,01:15.8,2022
+Canada,2,55,Carlos Sainz,Ferrari,3,70,0.993,19,Yes,01:15.7,2022
+Canada,3,44,Lewis Hamilton,Mercedes,4,70,7.006,15,No,01:16.2,2022
+Canada,4,63,George Russell,Mercedes,8,70,12.313,12,No,01:16.4,2022
+Canada,5,16,Charles Leclerc,Ferrari,19,70,15.168,10,No,01:15.9,2022
+Canada,6,31,Esteban Ocon,Alpine Renault,7,70,23.89,8,No,01:17.1,2022
+Canada,7,77,Valtteri Bottas,Alfa Romeo Ferrari,11,70,25.247,6,No,01:16.9,2022
+Canada,8,24,Guanyu Zhou,Alfa Romeo Ferrari,10,70,26.952,4,No,01:16.6,2022
+Canada,9,14,Fernando Alonso,Alpine Renault,2,70,29.945,2,No,01:17.0,2022
+Canada,10,18,Lance Stroll,Aston Martin Aramco Mercedes,17,70,38.222,1,No,01:17.4,2022
+Canada,11,3,Daniel Ricciardo,McLaren Mercedes,9,70,43.047,0,No,01:17.9,2022
+Canada,12,5,Sebastian Vettel,Aston Martin Aramco Mercedes,16,70,44.245,0,No,01:18.0,2022
+Canada,13,23,Alexander Albon,Williams Mercedes,12,70,44.893,0,No,01:18.0,2022
+Canada,14,10,Pierre Gasly,AlphaTauri RBPT,15,70,45.183,0,No,01:17.8,2022
+Canada,15,4,Lando Norris,McLaren Mercedes,14,70,52.145,0,No,01:17.5,2022
+Canada,16,6,Nicholas Latifi,Williams Mercedes,18,70,59.978,0,No,01:18.5,2022
+Canada,17,20,Kevin Magnussen,Haas Ferrari,5,70,68.18,0,No,01:18.0,2022
+Canada,NC,22,Yuki Tsunoda,AlphaTauri RBPT,20,47,DNF,0,No,01:18.3,2022
+Canada,NC,47,Mick Schumacher,Haas Ferrari,6,18,DNF,0,No,01:19.0,2022
+Canada,NC,11,Sergio Perez,Red Bull Racing RBPT,13,7,DNF,0,No,01:18.8,2022
+Great Britain,1,55,Carlos Sainz,Ferrari,1,52,17:50.3,25,No,01:30.8,2022
+Great Britain,2,11,Sergio Perez,Red Bull Racing RBPT,4,52,3.779,18,No,01:30.9,2022
+Great Britain,3,44,Lewis Hamilton,Mercedes,5,52,6.225,16,Yes,01:30.5,2022
+Great Britain,4,16,Charles Leclerc,Ferrari,3,52,8.546,12,No,01:31.3,2022
+Great Britain,5,14,Fernando Alonso,Alpine Renault,7,52,9.571,10,No,01:31.6,2022
+Great Britain,6,4,Lando Norris,McLaren Mercedes,6,52,11.943,8,No,01:31.6,2022
+Great Britain,7,1,Max Verstappen,Red Bull Racing RBPT,2,52,18.777,6,No,01:32.4,2022
+Great Britain,8,47,Mick Schumacher,Haas Ferrari,19,52,18.995,4,No,01:32.1,2022
+Great Britain,9,5,Sebastian Vettel,Aston Martin Aramco Mercedes,18,52,22.356,2,No,01:32.5,2022
+Great Britain,10,20,Kevin Magnussen,Haas Ferrari,17,52,24.59,1,No,01:32.7,2022
+Great Britain,11,18,Lance Stroll,Aston Martin Aramco Mercedes,20,52,26.147,0,No,01:32.4,2022
+Great Britain,12,6,Nicholas Latifi,Williams Mercedes,10,52,32.511,0,No,01:33.3,2022
+Great Britain,13,3,Daniel Ricciardo,McLaren Mercedes,14,52,32.817,0,No,01:32.6,2022
+Great Britain,14,22,Yuki Tsunoda,AlphaTauri RBPT,13,52,40.91,0,No,01:33.8,2022
+Great Britain,NC,31,Esteban Ocon,Alpine Renault,15,37,DNF,0,No,01:33.5,2022
+Great Britain,NC,10,Pierre Gasly,AlphaTauri RBPT,11,26,DNF,0,No,01:34.6,2022
+Great Britain,NC,77,Valtteri Bottas,Alfa Romeo Ferrari,12,20,DNF,0,No,01:35.1,2022
+Great Britain,NC,63,George Russell,Mercedes,8,0,DNF,0,No,,2022
+Great Britain,NC,24,Guanyu Zhou,Alfa Romeo Ferrari,9,0,DNF,0,No,,2022
+Great Britain,NC,23,Alexander Albon,Williams Mercedes,16,0,DNF,0,No,,2022
+Austria,1,16,Charles Leclerc,Ferrari,2,71,24:24.3,25,No,01:07.6,2022
+Austria,2,1,Max Verstappen,Red Bull Racing RBPT,1,71,1.532,19,Yes,01:07.3,2022
+Austria,3,44,Lewis Hamilton,Mercedes,8,71,41.217,15,No,01:09.0,2022
+Austria,4,63,George Russell,Mercedes,4,71,58.972,12,No,01:09.1,2022
+Austria,5,31,Esteban Ocon,Alpine Renault,6,71,68.436,10,No,01:09.6,2022
+Austria,6,47,Mick Schumacher,Haas Ferrari,9,70,+1 lap,8,No,01:09.6,2022
+Austria,7,4,Lando Norris,McLaren Mercedes,10,70,+1 lap,6,No,01:09.3,2022
+Austria,8,20,Kevin Magnussen,Haas Ferrari,7,70,+1 lap,4,No,01:09.9,2022
+Austria,9,3,Daniel Ricciardo,McLaren Mercedes,11,70,+1 lap,2,No,01:09.9,2022
+Austria,10,14,Fernando Alonso,Alpine Renault,19,70,+1 lap,1,No,01:08.6,2022
+Austria,11,77,Valtteri Bottas,Alfa Romeo Ferrari,20,70,+1 lap,0,No,01:09.3,2022
+Austria,12,23,Alexander Albon,Williams Mercedes,15,70,+1 lap,0,No,01:09.7,2022
+Austria,13,18,Lance Stroll,Aston Martin Aramco Mercedes,12,70,+1 lap,0,No,01:10.0,2022
+Austria,14,24,Guanyu Zhou,Alfa Romeo Ferrari,13,70,+1 lap,0,No,01:09.4,2022
+Austria,15,10,Pierre Gasly,AlphaTauri RBPT,14,70,+1 lap,0,No,01:10.1,2022
+Austria,16,22,Yuki Tsunoda,AlphaTauri RBPT,16,70,+1 lap,0,No,01:10.0,2022
+Austria,17,5,Sebastian Vettel,Aston Martin Aramco Mercedes,18,70,+1 lap,0,No,01:10.0,2022
+Austria,NC,55,Carlos Sainz,Ferrari,3,56,DNF,0,No,01:08.6,2022
+Austria,NC,6,Nicholas Latifi,Williams Mercedes,17,48,DNF,0,No,01:10.9,2022
+Austria,NC,11,Sergio Perez,Red Bull Racing RBPT,5,24,DNF,0,No,01:11.8,2022
+France,1,1,Max Verstappen,Red Bull Racing RBPT,2,53,30:02.1,25,No,01:37.5,2022
+France,2,44,Lewis Hamilton,Mercedes,4,53,10.587,18,No,01:37.7,2022
+France,3,63,George Russell,Mercedes,6,53,16.495,15,No,01:37.5,2022
+France,4,11,Sergio Perez,Red Bull Racing RBPT,3,53,17.31,12,No,01:37.8,2022
+France,5,55,Carlos Sainz,Ferrari,19,53,28.872,11,Yes,01:35.8,2022
+France,6,14,Fernando Alonso,Alpine Renault,7,53,42.879,8,No,01:38.2,2022
+France,7,4,Lando Norris,McLaren Mercedes,5,53,52.026,6,No,01:39.0,2022
+France,8,31,Esteban Ocon,Alpine Renault,10,53,56.959,4,No,01:38.7,2022
+France,9,3,Daniel Ricciardo,McLaren Mercedes,9,53,60.372,2,No,01:39.1,2022
+France,10,18,Lance Stroll,Aston Martin Aramco Mercedes,15,53,62.549,1,No,01:39.2,2022
+France,11,5,Sebastian Vettel,Aston Martin Aramco Mercedes,12,53,65.448,0,No,01:39.0,2022
+France,12,10,Pierre Gasly,AlphaTauri RBPT,14,53,65.448,0,No,01:38.8,2022
+France,13,23,Alexander Albon,Williams Mercedes,13,53,68.565,0,No,01:39.2,2022
+France,14,77,Valtteri Bottas,Alfa Romeo Ferrari,11,53,76.666,0,No,01:38.0,2022
+France,15,47,Mick Schumacher,Haas Ferrari,17,53,80.394,0,No,01:39.1,2022
+France,16,24,Guanyu Zhou,Alfa Romeo Ferrari,16,47,+6 laps,0,No,01:39.4,2022
+France,NC,6,Nicholas Latifi,Williams Mercedes,18,40,DNF,0,No,01:39.6,2022
+France,NC,20,Kevin Magnussen,Haas Ferrari,20,37,DNF,0,No,01:39.3,2022
+France,NC,16,Charles Leclerc,Ferrari,1,17,DNF,0,No,01:38.1,2022
+France,NC,22,Yuki Tsunoda,AlphaTauri RBPT,8,17,DNF,0,No,01:40.2,2022
+Hungary,1,1,Max Verstappen,Red Bull Racing RBPT,10,70,39:25.9,25,No,01:22.1,2022
+Hungary,2,44,Lewis Hamilton,Mercedes,7,70,7.834,19,Yes,01:21.4,2022
+Hungary,3,63,George Russell,Mercedes,1,70,12.337,15,No,01:22.8,2022
+Hungary,4,55,Carlos Sainz,Ferrari,2,70,14.579,12,No,01:22.0,2022
+Hungary,5,11,Sergio Perez,Red Bull Racing RBPT,11,70,15.688,10,No,01:21.9,2022
+Hungary,6,16,Charles Leclerc,Ferrari,3,70,16.047,8,No,01:21.6,2022
+Hungary,7,4,Lando Norris,McLaren Mercedes,4,70,78.3,6,No,01:23.0,2022
+Hungary,8,14,Fernando Alonso,Alpine Renault,6,69,+1 lap,4,No,01:24.0,2022
+Hungary,9,31,Esteban Ocon,Alpine Renault,5,69,+1 lap,2,No,01:24.1,2022
+Hungary,10,5,Sebastian Vettel,Aston Martin Aramco Mercedes,18,69,+1 lap,1,No,01:22.8,2022
+Hungary,11,18,Lance Stroll,Aston Martin Aramco Mercedes,14,69,+1 lap,0,No,01:22.4,2022
+Hungary,12,10,Pierre Gasly,AlphaTauri RBPT,20,69,+1 lap,0,No,01:23.2,2022
+Hungary,13,24,Guanyu Zhou,Alfa Romeo Ferrari,12,69,+1 lap,0,No,01:22.0,2022
+Hungary,14,47,Mick Schumacher,Haas Ferrari,15,69,+1 lap,0,No,01:23.2,2022
+Hungary,15,3,Daniel Ricciardo,McLaren Mercedes,9,69,+1 lap,0,No,01:23.7,2022
+Hungary,16,20,Kevin Magnussen,Haas Ferrari,13,69,+1 lap,0,No,01:23.5,2022
+Hungary,17,23,Alexander Albon,Williams Mercedes,17,69,+1 lap,0,No,01:23.0,2022
+Hungary,18,6,Nicholas Latifi,Williams Mercedes,19,69,+1 lap,0,No,01:22.5,2022
+Hungary,19,22,Yuki Tsunoda,AlphaTauri RBPT,16,68,+2 laps,0,No,01:23.5,2022
+Hungary,20,77,Valtteri Bottas,Alfa Romeo Ferrari,8,65,DNF,0,No,01:24.0,2022
+Belgium,1,1,Max Verstappen,Red Bull Racing RBPT,14,44,25:52.9,26,Yes,01:49.4,2022
+Belgium,2,11,Sergio Perez,Red Bull Racing RBPT,2,44,17.841,18,No,01:50.8,2022
+Belgium,3,55,Carlos Sainz,Ferrari,1,44,26.886,15,No,01:52.0,2022
+Belgium,4,63,George Russell,Mercedes,5,44,29.14,12,No,01:50.8,2022
+Belgium,5,14,Fernando Alonso,Alpine Renault,3,44,73.256,10,No,01:52.9,2022
+Belgium,6,16,Charles Leclerc,Ferrari,15,44,74.936,8,No,01:50.0,2022
+Belgium,7,31,Esteban Ocon,Alpine Renault,16,44,75.64,6,No,01:51.7,2022
+Belgium,8,5,Sebastian Vettel,Aston Martin Aramco Mercedes,10,44,78.107,4,No,01:52.5,2022
+Belgium,9,10,Pierre Gasly,AlphaTauri RBPT,8,44,92.181,2,No,01:53.0,2022
+Belgium,10,23,Alexander Albon,Williams Mercedes,6,44,101.9,1,No,01:53.1,2022
+Belgium,11,18,Lance Stroll,Aston Martin Aramco Mercedes,9,44,103.078,0,No,01:52.9,2022
+Belgium,12,4,Lando Norris,McLaren Mercedes,17,44,104.739,0,No,01:51.7,2022
+Belgium,13,22,Yuki Tsunoda,AlphaTauri RBPT,20,44,105.217,0,No,01:52.4,2022
+Belgium,14,24,Guanyu Zhou,Alfa Romeo Ferrari,18,44,106.252,0,No,01:52.3,2022
+Belgium,15,3,Daniel Ricciardo,McLaren Mercedes,7,44,107.163,0,No,01:53.1,2022
+Belgium,16,20,Kevin Magnussen,Haas Ferrari,12,43,+1 lap,0,No,01:53.3,2022
+Belgium,17,47,Mick Schumacher,Haas Ferrari,19,43,+1 lap,0,No,01:52.6,2022
+Belgium,18,6,Nicholas Latifi,Williams Mercedes,11,43,+1 lap,0,No,01:52.3,2022
+Belgium,NC,77,Valtteri Bottas,Alfa Romeo Ferrari,13,1,DNF,0,No,,2022
+Belgium,NC,44,Lewis Hamilton,Mercedes,4,0,DNF,0,No,,2022
+Netherlands,1,1,Max Verstappen,Red Bull Racing RBPT,1,72,36:42.8,26,Yes,01:13.7,2022
+Netherlands,2,63,George Russell,Mercedes,6,72,4.071,18,No,01:13.7,2022
+Netherlands,3,16,Charles Leclerc,Ferrari,2,72,10.929,15,No,01:14.4,2022
+Netherlands,4,44,Lewis Hamilton,Mercedes,4,72,13.016,12,No,01:13.9,2022
+Netherlands,5,11,Sergio Perez,Red Bull Racing RBPT,5,72,18.168,10,No,01:14.4,2022
+Netherlands,6,14,Fernando Alonso,Alpine Renault,13,72,18.754,8,No,01:14.1,2022
+Netherlands,7,4,Lando Norris,McLaren Mercedes,7,72,19.306,6,No,01:14.7,2022
+Netherlands,8,55,Carlos Sainz,Ferrari,3,72,20.916,4,No,01:14.6,2022
+Netherlands,9,31,Esteban Ocon,Alpine Renault,12,72,21.117,2,No,01:15.1,2022
+Netherlands,10,18,Lance Stroll,Aston Martin Aramco Mercedes,10,72,22.459,1,No,01:15.0,2022
+Netherlands,11,10,Pierre Gasly,AlphaTauri RBPT,11,72,27.009,0,No,01:15.2,2022
+Netherlands,12,23,Alexander Albon,Williams Mercedes,15,72,30.39,0,No,01:15.5,2022
+Netherlands,13,47,Mick Schumacher,Haas Ferrari,8,72,32.995,0,No,01:15.2,2022
+Netherlands,14,5,Sebastian Vettel,Aston Martin Aramco Mercedes,19,72,36.007,0,No,01:14.9,2022
+Netherlands,15,20,Kevin Magnussen,Haas Ferrari,18,72,36.869,0,No,01:15.4,2022
+Netherlands,16,24,Guanyu Zhou,Alfa Romeo Ferrari,14,72,37.32,0,No,01:15.9,2022
+Netherlands,17,3,Daniel Ricciardo,McLaren Mercedes,17,72,37.764,0,No,01:15.6,2022
+Netherlands,18,6,Nicholas Latifi,Williams Mercedes,20,71,+1 lap,0,No,01:16.1,2022
+Netherlands,NC,77,Valtteri Bottas,Alfa Romeo Ferrari,16,53,DNF,0,No,01:16.8,2022
+Netherlands,NC,22,Yuki Tsunoda,AlphaTauri RBPT,9,43,DNF,0,No,01:17.1,2022
+Italy,1,1,Max Verstappen,Red Bull Racing RBPT,7,53,20:27.5,25,No,01:24.7,2022
+Italy,2,16,Charles Leclerc,Ferrari,1,53,2.446,18,No,01:24.3,2022
+Italy,3,63,George Russell,Mercedes,2,53,3.405,15,No,01:25.3,2022
+Italy,4,55,Carlos Sainz,Ferrari,18,53,5.061,12,No,01:24.4,2022
+Italy,5,44,Lewis Hamilton,Mercedes,19,53,5.38,10,No,01:24.4,2022
+Italy,6,11,Sergio Perez,Red Bull Racing RBPT,13,53,6.091,9,Yes,01:24.0,2022
+Italy,7,4,Lando Norris,McLaren Mercedes,3,53,6.207,6,No,01:24.7,2022
+Italy,8,10,Pierre Gasly,AlphaTauri RBPT,5,53,6.396,4,No,01:26.7,2022
+Italy,9,45,Nyck De Vries,Williams Mercedes,8,53,7.122,2,No,01:26.6,2022
+Italy,10,24,Guanyu Zhou,Alfa Romeo Ferrari,9,53,7.91,1,No,01:26.4,2022
+Italy,11,31,Esteban Ocon,Alpine Renault,14,53,8.323,0,No,01:26.6,2022
+Italy,12,47,Mick Schumacher,Haas Ferrari,17,53,8.549,0,No,01:25.3,2022
+Italy,13,77,Valtteri Bottas,Alfa Romeo Ferrari,15,52,+1 lap,0,No,01:25.7,2022
+Italy,14,22,Yuki Tsunoda,AlphaTauri RBPT,20,52,+1 lap,0,No,01:26.9,2022
+Italy,15,6,Nicholas Latifi,Williams Mercedes,10,52,+1 lap,0,No,01:26.8,2022
+Italy,16,20,Kevin Magnussen,Haas Ferrari,16,52,+1 lap,0,No,01:26.8,2022
+Italy,NC,3,Daniel Ricciardo,McLaren Mercedes,4,45,DNF,0,No,01:26.6,2022
+Italy,NC,18,Lance Stroll,Aston Martin Aramco Mercedes,12,39,DNF,0,No,01:27.5,2022
+Italy,NC,14,Fernando Alonso,Alpine Renault,6,31,DNF,0,No,01:27.2,2022
+Italy,NC,5,Sebastian Vettel,Aston Martin Aramco Mercedes,11,10,DNF,0,No,01:27.5,2022
+Singapore,1,11,Sergio Perez,Red Bull Racing RBPT,2,59,02:20.2,25,No,01:48.2,2022
+Singapore,2,16,Charles Leclerc,Ferrari,1,59,2.595,18,No,01:48.8,2022
+Singapore,3,55,Carlos Sainz,Ferrari,4,59,10.305,15,No,01:48.4,2022
+Singapore,4,4,Lando Norris,McLaren Mercedes,6,59,21.133,12,No,01:49.2,2022
+Singapore,5,3,Daniel Ricciardo,McLaren Mercedes,16,59,53.282,10,No,01:51.0,2022
+Singapore,6,18,Lance Stroll,Aston Martin Aramco Mercedes,11,59,56.33,8,No,01:50.3,2022
+Singapore,7,1,Max Verstappen,Red Bull Racing RBPT,8,59,58.825,6,No,01:49.1,2022
+Singapore,8,5,Sebastian Vettel,Aston Martin Aramco Mercedes,13,59,60.032,4,No,01:50.7,2022
+Singapore,9,44,Lewis Hamilton,Mercedes,3,59,61.515,2,No,01:50.6,2022
+Singapore,10,10,Pierre Gasly,AlphaTauri RBPT,7,59,69.576,1,No,01:50.6,2022
+Singapore,11,77,Valtteri Bottas,Alfa Romeo Ferrari,15,59,88.844,0,No,01:51.9,2022
+Singapore,12,20,Kevin Magnussen,Haas Ferrari,9,59,92.61,0,No,01:52.1,2022
+Singapore,13,47,Mick Schumacher,Haas Ferrari,12,58,+1 lap,0,No,01:50.3,2022
+Singapore,14,63,George Russell,Mercedes,20,57,+2 laps,0,No,01:46.5,2022
+Singapore,NC,22,Yuki Tsunoda,AlphaTauri RBPT,10,34,DNF,0,No,01:58.7,2022
+Singapore,NC,31,Esteban Ocon,Alpine Renault,17,26,DNF,0,No,02:01.1,2022
+Singapore,NC,23,Alexander Albon,Williams Mercedes,18,25,DNF,0,No,02:02.1,2022
+Singapore,NC,14,Fernando Alonso,Alpine Renault,5,20,DNF,0,No,02:00.5,2022
+Singapore,NC,6,Nicholas Latifi,Williams Mercedes,19,7,DNF,0,No,02:05.6,2022
+Singapore,NC,24,Guanyu Zhou,Alfa Romeo Ferrari,14,6,DNF,0,No,02:05.6,2022
+Japan,1,1,Max Verstappen,Red Bull Racing RBPT,1,28,01:44.0,25,No,01:44.9,2022
+Japan,2,11,Sergio Perez,Red Bull Racing RBPT,4,28,27.066,18,No,01:46.1,2022
+Japan,3,16,Charles Leclerc,Ferrari,2,28,31.763,15,No,01:44.5,2022
+Japan,4,31,Esteban Ocon,Alpine Renault,5,28,39.685,12,No,01:46.6,2022
+Japan,5,44,Lewis Hamilton,Mercedes,6,28,40.326,10,No,01:45.5,2022
+Japan,6,5,Sebastian Vettel,Aston Martin Aramco Mercedes,9,28,46.358,8,No,01:47.0,2022
+Japan,7,14,Fernando Alonso,Alpine Renault,7,28,46.369,6,No,01:44.4,2022
+Japan,8,63,George Russell,Mercedes,8,28,47.661,4,No,01:47.0,2022
+Japan,9,6,Nicholas Latifi,Williams Mercedes,19,28,70.143,2,No,01:48.4,2022
+Japan,10,4,Lando Norris,McLaren Mercedes,10,28,70.782,1,No,01:48.2,2022
+Japan,11,3,Daniel Ricciardo,McLaren Mercedes,11,28,72.877,0,No,01:47.8,2022
+Japan,12,18,Lance Stroll,Aston Martin Aramco Mercedes,18,28,73.904,0,No,01:45.2,2022
+Japan,13,22,Yuki Tsunoda,AlphaTauri RBPT,13,28,75.599,0,No,01:45.9,2022
+Japan,14,20,Kevin Magnussen,Haas Ferrari,17,28,86.016,0,No,01:48.1,2022
+Japan,15,77,Valtteri Bottas,Alfa Romeo Ferrari,12,28,86.496,0,No,01:47.8,2022
+Japan,16,24,Guanyu Zhou,Alfa Romeo Ferrari,14,28,87.043,0,No,01:44.4,2022
+Japan,17,47,Mick Schumacher,Haas Ferrari,15,28,92.523,0,No,01:46.5,2022
+Japan,18,10,Pierre Gasly,AlphaTauri RBPT,20,28,108.091,0,No,01:45.4,2022
+Japan,NC,55,Carlos Sainz,Ferrari,3,0,DNF,0,No,,2022
+Japan,NC,23,Alexander Albon,Williams Mercedes,16,0,DNF,0,No,,2022
+United States,1,1,Max Verstappen,Red Bull Racing RBPT,2,56,42:11.7,25,No,01:39.5,2022
+United States,2,44,Lewis Hamilton,Mercedes,3,56,5.023,18,No,01:39.8,2022
+United States,3,16,Charles Leclerc,Ferrari,12,56,7.501,15,No,01:39.7,2022
+United States,4,11,Sergio Perez,Red Bull Racing RBPT,9,56,8.293,12,No,01:39.6,2022
+United States,5,63,George Russell,Mercedes,4,56,44.815,11,Yes,01:38.8,2022
+United States,6,4,Lando Norris,McLaren Mercedes,6,56,53.785,8,No,01:41.3,2022
+United States,7,14,Fernando Alonso,Alpine Renault,14,56,55.078,6,No,01:41.8,2022
+United States,8,5,Sebastian Vettel,Aston Martin Aramco Mercedes,10,56,65.354,4,No,01:41.5,2022
+United States,9,20,Kevin Magnussen,Haas Ferrari,13,56,65.834,2,No,01:42.5,2022
+United States,10,22,Yuki Tsunoda,AlphaTauri RBPT,19,56,70.919,1,No,01:42.2,2022
+United States,11,31,Esteban Ocon,Alpine Renault,20,56,72.875,0,No,01:41.2,2022
+United States,12,24,Guanyu Zhou,Alfa Romeo Ferrari,18,56,76.164,0,No,01:42.4,2022
+United States,13,23,Alexander Albon,Williams Mercedes,8,56,80.057,0,No,01:42.5,2022
+United States,14,10,Pierre Gasly,AlphaTauri RBPT,11,56,81.763,0,No,01:41.7,2022
+United States,15,47,Mick Schumacher,Haas Ferrari,16,56,84.49,0,No,01:42.3,2022
+United States,16,3,Daniel Ricciardo,McLaren Mercedes,15,56,90.487,0,No,01:42.4,2022
+United States,17,6,Nicholas Latifi,Williams Mercedes,17,56,103.588,0,No,01:43.5,2022
+United States,NC,18,Lance Stroll,Aston Martin Aramco Mercedes,5,21,DNF,0,No,01:43.1,2022
+United States,NC,77,Valtteri Bottas,Alfa Romeo Ferrari,7,16,DNF,0,No,01:43.4,2022
+United States,NC,55,Carlos Sainz,Ferrari,1,1,DNF,0,No,,2022
+Mexico,1,1,Max Verstappen,Red Bull Racing RBPT,1,71,38:36.7,25,No,01:22.0,2022
+Mexico,2,44,Lewis Hamilton,Mercedes,3,71,15.186,18,No,01:22.1,2022
+Mexico,3,11,Sergio Perez,Red Bull Racing RBPT,4,71,18.097,15,No,01:21.8,2022
+Mexico,4,63,George Russell,Mercedes,2,71,49.431,13,Yes,01:20.2,2022
+Mexico,5,55,Carlos Sainz,Ferrari,5,71,58.123,10,No,01:22.2,2022
+Mexico,6,16,Charles Leclerc,Ferrari,7,71,68.774,8,No,01:22.6,2022
+Mexico,7,3,Daniel Ricciardo,McLaren Mercedes,11,70,+1 lap,6,No,01:22.0,2022
+Mexico,8,31,Esteban Ocon,Alpine Renault,10,70,+1 lap,4,No,01:23.3,2022
+Mexico,9,4,Lando Norris,McLaren Mercedes,8,70,+1 lap,2,No,01:23.4,2022
+Mexico,10,77,Valtteri Bottas,Alfa Romeo Ferrari,6,70,+1 lap,1,No,01:23.4,2022
+Mexico,11,10,Pierre Gasly,AlphaTauri RBPT,14,70,+1 lap,0,No,01:22.3,2022
+Mexico,12,23,Alexander Albon,Williams Mercedes,17,70,+1 lap,0,No,01:22.9,2022
+Mexico,13,24,Guanyu Zhou,Alfa Romeo Ferrari,12,70,+1 lap,0,No,01:22.3,2022
+Mexico,14,5,Sebastian Vettel,Aston Martin Aramco Mercedes,16,70,+1 lap,0,No,01:23.1,2022
+Mexico,15,18,Lance Stroll,Aston Martin Aramco Mercedes,20,70,+1 lap,0,No,01:22.5,2022
+Mexico,16,47,Mick Schumacher,Haas Ferrari,15,70,+1 lap,0,No,01:23.6,2022
+Mexico,17,20,Kevin Magnussen,Haas Ferrari,19,70,+1 lap,0,No,01:23.3,2022
+Mexico,18,6,Nicholas Latifi,Williams Mercedes,18,69,+2 laps,0,No,01:23.7,2022
+Mexico,19,14,Fernando Alonso,Alpine Renault,9,63,DNF,0,No,01:22.9,2022
+Mexico,NC,22,Yuki Tsunoda,AlphaTauri RBPT,13,50,DNF,0,No,01:23.4,2022
+Brazil,1,63,George Russell,Mercedes,1,71,38:34.0,26,Yes,01:13.8,2022
+Brazil,2,44,Lewis Hamilton,Mercedes,2,71,1.529,18,No,01:13.9,2022
+Brazil,3,55,Carlos Sainz,Ferrari,7,71,4.051,15,No,01:14.0,2022
+Brazil,4,16,Charles Leclerc,Ferrari,5,71,8.441,12,No,01:14.3,2022
+Brazil,5,14,Fernando Alonso,Alpine Renault,17,71,9.561,10,No,01:14.2,2022
+Brazil,6,1,Max Verstappen,Red Bull Racing RBPT,3,71,10.056,8,No,01:14.2,2022
+Brazil,7,11,Sergio Perez,Red Bull Racing RBPT,4,71,14.08,6,No,01:14.3,2022
+Brazil,8,31,Esteban Ocon,Alpine Renault,16,71,18.69,4,No,01:15.1,2022
+Brazil,9,77,Valtteri Bottas,Alfa Romeo Ferrari,14,71,22.552,2,No,01:15.5,2022
+Brazil,10,18,Lance Stroll,Aston Martin Aramco Mercedes,15,71,23.552,1,No,01:14.8,2022
+Brazil,11,5,Sebastian Vettel,Aston Martin Aramco Mercedes,9,71,26.183,0,No,01:15.5,2022
+Brazil,12,24,Guanyu Zhou,Alfa Romeo Ferrari,13,71,29.325,0,No,01:15.8,2022
+Brazil,13,47,Mick Schumacher,Haas Ferrari,12,71,29.899,0,No,01:15.3,2022
+Brazil,14,10,Pierre Gasly,AlphaTauri RBPT,10,71,31.867,0,No,01:15.3,2022
+Brazil,15,23,Alexander Albon,Williams Mercedes,19,71,36.016,0,No,01:15.6,2022
+Brazil,16,6,Nicholas Latifi,Williams Mercedes,18,71,37.038,0,No,01:15.3,2022
+Brazil,17,22,Yuki Tsunoda,AlphaTauri RBPT,20,71,+1 lap,0,No,01:15.5,2022
+Brazil,NC,4,Lando Norris,McLaren Mercedes,6,50,DNF,0,No,01:15.9,2022
+Brazil,NC,20,Kevin Magnussen,Haas Ferrari,8,0,DNF,0,No,,2022
+Brazil,NC,3,Daniel Ricciardo,McLaren Mercedes,11,0,DNF,0,No,,2022
+Abu Dhabi,1,1,Max Verstappen,Red Bull Racing RBPT,1,58,27:45.9,25,No,01:29.4,2022
+Abu Dhabi,2,16,Charles Leclerc,Ferrari,3,58,8.771,18,No,01:29.7,2022
+Abu Dhabi,3,11,Sergio Perez,Red Bull Racing RBPT,2,58,10.093,15,No,01:29.0,2022
+Abu Dhabi,4,55,Carlos Sainz,Ferrari,4,58,24.892,12,No,01:28.9,2022
+Abu Dhabi,5,63,George Russell,Mercedes,6,58,35.888,10,No,01:28.8,2022
+Abu Dhabi,6,4,Lando Norris,McLaren Mercedes,7,58,56.234,9,Yes,01:28.4,2022
+Abu Dhabi,7,31,Esteban Ocon,Alpine Renault,8,58,57.24,6,No,01:29.3,2022
+Abu Dhabi,8,18,Lance Stroll,Aston Martin Aramco Mercedes,14,58,76.931,4,No,01:29.6,2022
+Abu Dhabi,9,3,Daniel Ricciardo,McLaren Mercedes,13,58,83.268,2,No,01:30.8,2022
+Abu Dhabi,10,5,Sebastian Vettel,Aston Martin Aramco Mercedes,9,58,83.898,1,No,01:30.3,2022
+Abu Dhabi,11,22,Yuki Tsunoda,AlphaTauri RBPT,11,58,89.371,0,No,01:29.5,2022
+Abu Dhabi,12,24,Guanyu Zhou,Alfa Romeo Ferrari,15,57,+1 lap,0,No,01:29.6,2022
+Abu Dhabi,13,23,Alexander Albon,Williams Mercedes,19,57,+1 lap,0,No,01:29.9,2022
+Abu Dhabi,14,10,Pierre Gasly,AlphaTauri RBPT,17,57,+1 lap,0,No,01:31.1,2022
+Abu Dhabi,15,77,Valtteri Bottas,Alfa Romeo Ferrari,18,57,+1 lap,0,No,01:30.4,2022
+Abu Dhabi,16,47,Mick Schumacher,Haas Ferrari,12,57,+1 lap,0,No,01:29.8,2022
+Abu Dhabi,17,20,Kevin Magnussen,Haas Ferrari,16,57,+1 lap,0,No,01:31.2,2022
+Abu Dhabi,18,44,Lewis Hamilton,Mercedes,5,55,DNF,0,No,01:29.8,2022
+Abu Dhabi,19,6,Nicholas Latifi,Williams Mercedes,20,55,DNF,0,No,01:30.3,2022
+Abu Dhabi,NC,14,Fernando Alonso,Alpine Renault,10,27,DNF,0,No,01:30.6,2022
+Bahrain,1,1,Max Verstappen,Red Bull Racing Honda RBPT,1,57,33:56.7,25,No,01:36.2,2023
+Bahrain,2,11,Sergio Perez,Red Bull Racing Honda RBPT,2,57,11.987,18,No,01:36.3,2023
+Bahrain,3,14,Fernando Alonso,Aston Martin Aramco Mercedes,5,57,38.637,15,No,01:36.2,2023
+Bahrain,4,55,Carlos Sainz,Ferrari,4,57,48.052,12,No,01:37.1,2023
+Bahrain,5,44,Lewis Hamilton,Mercedes,7,57,50.977,10,No,01:36.5,2023
+Bahrain,6,18,Lance Stroll,Aston Martin Aramco Mercedes,8,57,54.502,8,No,01:36.5,2023
+Bahrain,7,63,George Russell,Mercedes,6,57,55.873,6,No,01:37.2,2023
+Bahrain,8,77,Valtteri Bottas,Alfa Romeo Ferrari,12,57,72.647,4,No,01:37.4,2023
+Bahrain,9,10,Pierre Gasly,Alpine Renault,20,57,73.753,2,No,01:35.1,2023
+Bahrain,10,23,Alexander Albon,Williams Mercedes,15,57,89.774,1,No,01:37.1,2023
+Bahrain,11,22,Yuki Tsunoda,AlphaTauri Honda RBPT,14,57,90.87,0,No,01:36.6,2023
+Bahrain,12,2,Logan Sargeant,Williams Mercedes,16,56,+1 lap,0,No,01:36.0,2023
+Bahrain,13,20,Kevin Magnussen,Haas Ferrari,17,56,+1 lap,0,No,01:36.5,2023
+Bahrain,14,21,Nyck De Vries,AlphaTauri Honda RBPT,19,56,+1 lap,0,No,01:37.7,2023
+Bahrain,15,27,Nico Hulkenberg,Haas Ferrari,10,56,+1 lap,0,No,01:36.6,2023
+Bahrain,16,24,Guanyu Zhou,Alfa Romeo Ferrari,13,56,+1 lap,0,Yes,01:34.0,2023
+Bahrain,17,4,Lando Norris,McLaren Mercedes,11,55,+2 laps,0,No,01:35.8,2023
+Bahrain,NC,31,Esteban Ocon,Alpine Renault,9,41,DNF,0,No,01:36.8,2023
+Bahrain,NC,16,Charles Leclerc,Ferrari,3,39,DNF,0,No,01:37.2,2023
+Bahrain,NC,81,Oscar Piastri,McLaren Mercedes,18,13,DNF,0,No,01:40.7,2023
+Saudi Arabia,1,11,Sergio Perez,Red Bull Racing Honda RBPT,1,50,21:14.9,25,No,01:32.2,2023
+Saudi Arabia,2,1,Max Verstappen,Red Bull Racing Honda RBPT,15,50,5.335,19,Yes,01:31.9,2023
+Saudi Arabia,3,14,Fernando Alonso,Aston Martin Aramco Mercedes,2,50,20.728,15,No,01:32.2,2023
+Saudi Arabia,4,63,George Russell,Mercedes,3,50,25.866,12,No,01:32.4,2023
+Saudi Arabia,5,44,Lewis Hamilton,Mercedes,7,50,31.065,10,No,01:32.9,2023
+Saudi Arabia,6,55,Carlos Sainz,Ferrari,4,50,35.876,8,No,01:32.8,2023
+Saudi Arabia,7,16,Charles Leclerc,Ferrari,12,50,43.162,6,No,01:33.1,2023
+Saudi Arabia,8,31,Esteban Ocon,Alpine Renault,6,50,52.832,4,No,01:33.2,2023
+Saudi Arabia,9,10,Pierre Gasly,Alpine Renault,9,50,54.747,2,No,01:33.4,2023
+Saudi Arabia,10,20,Kevin Magnussen,Haas Ferrari,13,50,64.826,1,No,01:33.4,2023
+Saudi Arabia,11,22,Yuki Tsunoda,AlphaTauri Honda RBPT,16,50,67.494,0,No,01:33.9,2023
+Saudi Arabia,12,27,Nico Hulkenberg,Haas Ferrari,10,50,70.588,0,No,01:33.8,2023
+Saudi Arabia,13,24,Guanyu Zhou,Alfa Romeo Ferrari,11,50,76.06,0,No,01:33.9,2023
+Saudi Arabia,14,21,Nyck De Vries,AlphaTauri Honda RBPT,18,50,77.478,0,No,01:33.6,2023
+Saudi Arabia,15,81,Oscar Piastri,McLaren Mercedes,8,50,85.021,0,No,01:34.3,2023
+Saudi Arabia,16,2,Logan Sargeant,Williams Mercedes,20,50,86.293,0,No,01:34.5,2023
+Saudi Arabia,17,4,Lando Norris,McLaren Mercedes,19,50,86.445,0,No,01:34.1,2023
+Saudi Arabia,18,77,Valtteri Bottas,Alfa Romeo Ferrari,14,49,+1 lap,0,No,01:34.4,2023
+Saudi Arabia,NC,23,Alexander Albon,Williams Mercedes,17,27,DNF,0,No,01:35.6,2023
+Saudi Arabia,NC,18,Lance Stroll,Aston Martin Aramco Mercedes,5,16,DNF,0,No,01:35.1,2023
+Australia,1,1,Max Verstappen,Red Bull Racing Honda RBPT,1,58,32:28.4,25,No,01:20.3,2023
+Australia,2,44,Lewis Hamilton,Mercedes,3,58,0.179,18,No,01:20.6,2023
+Australia,3,14,Fernando Alonso,Aston Martin Aramco Mercedes,4,58,0.769,15,No,01:20.5,2023
+Australia,4,18,Lance Stroll,Aston Martin Aramco Mercedes,6,58,3.082,12,No,01:20.9,2023
+Australia,5,11,Sergio Perez,Red Bull Racing Honda RBPT,20,58,3.32,11,Yes,01:20.2,2023
+Australia,6,4,Lando Norris,McLaren Mercedes,13,58,3.701,8,No,01:21.2,2023
+Australia,7,27,Nico Hulkenberg,Haas Ferrari,10,58,4.939,6,No,01:21.1,2023
+Australia,8,81,Oscar Piastri,McLaren Mercedes,16,58,5.382,4,No,01:21.3,2023
+Australia,9,24,Guanyu Zhou,Alfa Romeo Ferrari,17,58,5.713,2,No,01:21.8,2023
+Australia,10,22,Yuki Tsunoda,AlphaTauri Honda RBPT,12,58,6.052,1,No,01:21.8,2023
+Australia,11,77,Valtteri Bottas,Alfa Romeo Ferrari,19,58,6.513,0,No,01:22.2,2023
+Australia,12,55,Carlos Sainz,Ferrari,5,58,6.594,0,No,01:20.5,2023
+Australia,13,10,Pierre Gasly,Alpine Renault,9,56,DNF,0,No,01:21.0,2023
+Australia,14,31,Esteban Ocon,Alpine Renault,11,56,DNF,0,No,01:21.2,2023
+Australia,15,21,Nyck De Vries,AlphaTauri Honda RBPT,15,56,DNF,0,No,01:21.2,2023
+Australia,16,2,Logan Sargeant,Williams Mercedes,18,56,DNF,0,No,01:21.5,2023
+Australia,17,20,Kevin Magnussen,Haas Ferrari,14,52,DNF,0,No,01:21.7,2023
+Australia,NC,63,George Russell,Mercedes,2,17,DNF,0,No,01:22.7,2023
+Australia,NC,23,Alexander Albon,Williams Mercedes,8,6,DNF,0,No,01:23.3,2023
+Australia,NC,16,Charles Leclerc,Ferrari,7,0,DNF,0,No,,2023
+Azerbaijan,1,11,Sergio Perez,Red Bull Racing Honda RBPT,3,51,32:42.4,25,No,01:44.6,2023
+Azerbaijan,2,1,Max Verstappen,Red Bull Racing Honda RBPT,2,51,2.137,18,No,01:44.2,2023
+Azerbaijan,3,16,Charles Leclerc,Ferrari,1,51,21.217,15,No,01:44.6,2023
+Azerbaijan,4,14,Fernando Alonso,Aston Martin Aramco Mercedes,6,51,22.024,12,No,01:44.2,2023
+Azerbaijan,5,55,Carlos Sainz,Ferrari,4,51,45.491,10,No,01:45.2,2023
+Azerbaijan,6,44,Lewis Hamilton,Mercedes,5,51,46.145,8,No,01:45.3,2023
+Azerbaijan,7,18,Lance Stroll,Aston Martin Aramco Mercedes,9,51,51.617,6,No,01:45.6,2023
+Azerbaijan,8,63,George Russell,Mercedes,11,51,74.24,5,Yes,01:43.4,2023
+Azerbaijan,9,4,Lando Norris,McLaren Mercedes,7,51,80.376,2,No,01:45.7,2023
+Azerbaijan,10,22,Yuki Tsunoda,AlphaTauri Honda RBPT,8,51,83.862,1,No,01:45.7,2023
+Azerbaijan,11,81,Oscar Piastri,McLaren Mercedes,10,51,86.501,0,No,01:45.6,2023
+Azerbaijan,12,23,Alexander Albon,Williams Mercedes,12,51,88.623,0,No,01:45.9,2023
+Azerbaijan,13,20,Kevin Magnussen,Haas Ferrari,16,51,89.729,0,No,01:45.9,2023
+Azerbaijan,14,10,Pierre Gasly,Alpine Renault,17,51,91.332,0,No,01:45.5,2023
+Azerbaijan,15,31,Esteban Ocon,Alpine Renault,19,51,97.794,0,No,01:45.9,2023
+Azerbaijan,16,2,Logan Sargeant,Williams Mercedes,14,51,100.943,0,No,01:46.5,2023
+Azerbaijan,17,27,Nico Hulkenberg,Haas Ferrari,20,50,+1 lap,0,No,01:46.7,2023
+Azerbaijan,18,77,Valtteri Bottas,Alfa Romeo Ferrari,13,50,+1 lap,0,No,01:46.3,2023
+Azerbaijan,NC,24,Guanyu Zhou,Alfa Romeo Ferrari,15,36,DNF,0,No,01:47.6,2023
+Azerbaijan,NC,21,Nyck De Vries,AlphaTauri Honda RBPT,18,9,DNF,0,No,01:48.8,2023
+Miami,1,1,Max Verstappen,Red Bull Racing Honda RBPT,9,57,27:38.2,26,Yes,01:29.7,2023
+Miami,2,11,Sergio Perez,Red Bull Racing Honda RBPT,1,57,5.384,18,No,01:30.6,2023
+Miami,3,14,Fernando Alonso,Aston Martin Aramco Mercedes,2,57,26.305,15,No,01:30.5,2023
+Miami,4,63,George Russell,Mercedes,6,57,33.229,12,No,01:31.0,2023
+Miami,5,55,Carlos Sainz,Ferrari,3,57,42.511,10,No,01:31.4,2023
+Miami,6,44,Lewis Hamilton,Mercedes,13,57,51.249,8,No,01:30.7,2023
+Miami,7,16,Charles Leclerc,Ferrari,7,57,52.988,6,No,01:31.4,2023
+Miami,8,10,Pierre Gasly,Alpine Renault,5,57,55.67,4,No,01:32.0,2023
+Miami,9,31,Esteban Ocon,Alpine Renault,8,57,58.123,2,No,01:31.1,2023
+Miami,10,20,Kevin Magnussen,Haas Ferrari,4,57,62.945,1,No,01:31.7,2023
+Miami,11,22,Yuki Tsunoda,AlphaTauri Honda RBPT,17,57,64.309,0,No,01:31.0,2023
+Miami,12,18,Lance Stroll,Aston Martin Aramco Mercedes,18,57,64.754,0,No,01:30.9,2023
+Miami,13,77,Valtteri Bottas,Alfa Romeo Ferrari,10,57,71.637,0,No,01:31.8,2023
+Miami,14,23,Alexander Albon,Williams Mercedes,11,57,72.861,0,No,01:31.9,2023
+Miami,15,27,Nico Hulkenberg,Haas Ferrari,12,57,74.95,0,No,01:30.9,2023
+Miami,16,24,Guanyu Zhou,Alfa Romeo Ferrari,14,57,78.44,0,No,01:31.7,2023
+Miami,17,4,Lando Norris,McLaren Mercedes,16,57,87.717,0,No,01:32.4,2023
+Miami,18,21,Nyck De Vries,AlphaTauri Honda RBPT,15,57,88.949,0,No,01:31.6,2023
+Miami,19,81,Oscar Piastri,McLaren Mercedes,19,56,+1 lap,0,No,01:32.0,2023
+Miami,20,2,Logan Sargeant,Williams Mercedes,20,56,+1 lap,0,No,01:32.4,2023
+Monaco,1,1,Max Verstappen,Red Bull Racing Honda RBPT,1,78,48:52.0,25,No,01:16.6,2023
+Monaco,2,14,Fernando Alonso,Aston Martin Aramco Mercedes,2,78,27.921,18,No,01:16.7,2023
+Monaco,3,31,Esteban Ocon,Alpine Renault,3,78,36.99,15,No,01:16.5,2023
+Monaco,4,44,Lewis Hamilton,Mercedes,5,78,39.062,13,Yes,01:15.7,2023
+Monaco,5,63,George Russell,Mercedes,8,78,56.284,10,No,01:16.8,2023
+Monaco,6,16,Charles Leclerc,Ferrari,6,78,61.89,8,No,01:15.8,2023
+Monaco,7,10,Pierre Gasly,Alpine Renault,7,78,62.362,6,No,01:15.8,2023
+Monaco,8,55,Carlos Sainz,Ferrari,4,78,63.391,4,No,01:16.4,2023
+Monaco,9,4,Lando Norris,McLaren Mercedes,10,77,+1 lap,2,No,01:17.8,2023
+Monaco,10,81,Oscar Piastri,McLaren Mercedes,11,77,+1 lap,1,No,01:17.5,2023
+Monaco,11,77,Valtteri Bottas,Alfa Romeo Ferrari,15,77,+1 lap,0,No,01:17.8,2023
+Monaco,12,21,Nyck De Vries,AlphaTauri Honda RBPT,12,77,+1 lap,0,No,01:17.6,2023
+Monaco,13,24,Guanyu Zhou,Alfa Romeo Ferrari,19,77,+1 lap,0,No,01:16.9,2023
+Monaco,14,23,Alexander Albon,Williams Mercedes,13,77,+1 lap,0,No,01:16.7,2023
+Monaco,15,22,Yuki Tsunoda,AlphaTauri Honda RBPT,9,76,+2 laps,0,No,01:17.7,2023
+Monaco,16,11,Sergio Perez,Red Bull Racing Honda RBPT,20,76,+2 laps,0,No,01:16.3,2023
+Monaco,17,27,Nico Hulkenberg,Haas Ferrari,18,76,+2 laps,0,No,01:17.0,2023
+Monaco,18,2,Logan Sargeant,Williams Mercedes,16,76,+2 laps,0,No,01:17.3,2023
+Monaco,19,20,Kevin Magnussen,Haas Ferrari,17,70,DNF,0,No,01:18.4,2023
+Monaco,NC,18,Lance Stroll,Aston Martin Aramco Mercedes,14,53,DNF,0,No,01:17.8,2023
+Spain,1,1,Max Verstappen,Red Bull Racing Honda RBPT,1,66,27:57.9,26,Yes,01:16.3,2023
+Spain,2,44,Lewis Hamilton,Mercedes,4,66,24.09,18,No,01:16.7,2023
+Spain,3,63,George Russell,Mercedes,12,66,32.389,15,No,01:17.9,2023
+Spain,4,11,Sergio Perez,Red Bull Racing Honda RBPT,11,66,35.812,12,No,01:16.7,2023
+Spain,5,55,Carlos Sainz,Ferrari,2,66,45.698,10,No,01:18.4,2023
+Spain,6,18,Lance Stroll,Aston Martin Aramco Mercedes,5,66,63.32,8,No,01:18.7,2023
+Spain,7,14,Fernando Alonso,Aston Martin Aramco Mercedes,8,66,64.127,6,No,01:18.1,2023
+Spain,8,31,Esteban Ocon,Alpine Renault,6,66,69.242,4,No,01:18.9,2023
+Spain,9,24,Guanyu Zhou,Alfa Romeo Ferrari,13,66,71.878,2,No,01:18.8,2023
+Spain,10,10,Pierre Gasly,Alpine Renault,10,66,73.53,1,No,01:18.4,2023
+Spain,11,16,Charles Leclerc,Ferrari,19,66,74.419,0,No,01:18.4,2023
+Spain,12,22,Yuki Tsunoda,AlphaTauri Honda RBPT,15,66,75.416,0,No,01:18.9,2023
+Spain,13,81,Oscar Piastri,McLaren Mercedes,9,65,+1 lap,0,No,01:18.7,2023
+Spain,14,21,Nyck De Vries,AlphaTauri Honda RBPT,14,65,+1 lap,0,No,01:18.6,2023
+Spain,15,27,Nico Hulkenberg,Haas Ferrari,7,65,+1 lap,0,No,01:18.8,2023
+Spain,16,23,Alexander Albon,Williams Mercedes,18,65,+1 lap,0,No,01:19.1,2023
+Spain,17,4,Lando Norris,McLaren Mercedes,3,65,+1 lap,0,No,01:17.2,2023
+Spain,18,20,Kevin Magnussen,Haas Ferrari,17,65,+1 lap,0,No,01:18.1,2023
+Spain,19,77,Valtteri Bottas,Alfa Romeo Ferrari,16,65,+1 lap,0,No,01:18.2,2023
+Spain,20,2,Logan Sargeant,Williams Mercedes,20,65,+1 lap,0,No,01:19.2,2023
+Canada,1,1,Max Verstappen,Red Bull Racing Honda RBPT,1,70,33:58.3,25,No,01:15.6,2023
+Canada,2,14,Fernando Alonso,Aston Martin Aramco Mercedes,2,70,9.57,18,No,01:15.8,2023
+Canada,3,44,Lewis Hamilton,Mercedes,3,70,14.168,15,No,01:15.4,2023
+Canada,4,16,Charles Leclerc,Ferrari,10,70,18.648,12,No,01:15.9,2023
+Canada,5,55,Carlos Sainz,Ferrari,11,70,21.54,10,No,01:15.9,2023
+Canada,6,11,Sergio Perez,Red Bull Racing Honda RBPT,12,70,51.028,9,Yes,01:14.5,2023
+Canada,7,23,Alexander Albon,Williams Mercedes,9,70,60.813,6,No,01:16.9,2023
+Canada,8,31,Esteban Ocon,Alpine Renault,6,70,61.692,4,No,01:16.8,2023
+Canada,9,18,Lance Stroll,Aston Martin Aramco Mercedes,16,70,64.402,2,No,01:16.6,2023
+Canada,10,77,Valtteri Bottas,Alfa Romeo Ferrari,14,70,64.432,1,No,01:16.6,2023
+Canada,11,81,Oscar Piastri,McLaren Mercedes,8,70,65.101,0,No,01:16.6,2023
+Canada,12,10,Pierre Gasly,Alpine Renault,15,70,65.249,0,No,01:16.4,2023
+Canada,13,4,Lando Norris,McLaren Mercedes,7,70,68.363,0,No,01:16.4,2023
+Canada,14,22,Yuki Tsunoda,AlphaTauri Honda RBPT,19,70,73.423,0,No,01:16.7,2023
+Canada,15,27,Nico Hulkenberg,Haas Ferrari,5,69,+1 lap,0,No,01:17.2,2023
+Canada,16,24,Guanyu Zhou,Alfa Romeo Ferrari,20,69,+1 lap,0,No,01:17.1,2023
+Canada,17,20,Kevin Magnussen,Haas Ferrari,13,69,+1 lap,0,No,01:16.1,2023
+Canada,18,21,Nyck De Vries,AlphaTauri Honda RBPT,17,69,+1 lap,0,No,01:16.7,2023
+Canada,NC,63,George Russell,Mercedes,4,53,DNF,0,No,01:17.1,2023
+Canada,NC,2,Logan Sargeant,Williams Mercedes,18,6,DNF,0,No,01:18.4,2023
+Austria,1,1,Max Verstappen,Red Bull Racing Honda RBPT,1,71,25:33.6,26,Yes,01:07.0,2023
+Austria,2,16,Charles Leclerc,Ferrari,2,71,5.155,18,No,01:08.8,2023
+Austria,3,11,Sergio Perez,Red Bull Racing Honda RBPT,15,71,17.188,15,No,01:08.1,2023
+Austria,4,4,Lando Norris,McLaren Mercedes,4,71,26.327,12,No,01:08.7,2023
+Austria,5,14,Fernando Alonso,Aston Martin Aramco Mercedes,7,71,30.317,10,No,01:09.1,2023
+Austria,6,55,Carlos Sainz,Ferrari,3,71,31.377,8,No,01:08.9,2023
+Austria,7,63,George Russell,Mercedes,11,71,48.403,6,No,01:09.3,2023
+Austria,8,44,Lewis Hamilton,Mercedes,5,71,49.196,4,No,01:09.2,2023
+Austria,9,18,Lance Stroll,Aston Martin Aramco Mercedes,6,71,59.043,2,No,01:08.5,2023
+Austria,10,10,Pierre Gasly,Alpine Renault,9,71,67.667,1,No,01:09.0,2023
+Austria,11,23,Alexander Albon,Williams Mercedes,10,71,79.767,0,No,01:09.6,2023
+Austria,12,24,Guanyu Zhou,Alfa Romeo Ferrari,17,70,+1 lap,0,No,01:09.8,2023
+Austria,13,2,Logan Sargeant,Williams Mercedes,18,70,+1 lap,0,No,01:09.6,2023
+Austria,14,31,Esteban Ocon,Alpine Renault,12,70,+1 lap,0,No,01:09.8,2023
+Austria,15,77,Valtteri Bottas,Alfa Romeo Ferrari,14,70,+1 lap,0,No,01:09.9,2023
+Austria,16,81,Oscar Piastri,McLaren Mercedes,13,70,+1 lap,0,No,01:09.9,2023
+Austria,17,21,Nyck De Vries,AlphaTauri Honda RBPT,20,70,+1 lap,0,No,01:09.9,2023
+Austria,18,20,Kevin Magnussen,Haas Ferrari,19,70,+1 lap,0,No,01:10.2,2023
+Austria,19,22,Yuki Tsunoda,AlphaTauri Honda RBPT,16,70,+1 lap,0,No,01:09.6,2023
+Austria,NC,27,Nico Hulkenberg,Haas Ferrari,8,12,DNF,0,No,01:11.1,2023
+Great Britain,1,1,Max Verstappen,Red Bull Racing Honda RBPT,1,52,25:16.9,26,Yes,01:30.3,2023
+Great Britain,2,4,Lando Norris,McLaren Mercedes,2,52,3.798,18,No,01:30.5,2023
+Great Britain,3,44,Lewis Hamilton,Mercedes,7,52,6.783,15,No,01:30.5,2023
+Great Britain,4,81,Oscar Piastri,McLaren Mercedes,3,52,7.776,12,No,01:30.9,2023
+Great Britain,5,63,George Russell,Mercedes,6,52,11.206,10,No,01:31.1,2023
+Great Britain,6,11,Sergio Perez,Red Bull Racing Honda RBPT,15,52,12.882,8,No,01:30.9,2023
+Great Britain,7,14,Fernando Alonso,Aston Martin Aramco Mercedes,9,52,17.193,6,No,01:31.3,2023
+Great Britain,8,23,Alexander Albon,Williams Mercedes,8,52,17.878,4,No,01:31.3,2023
+Great Britain,9,16,Charles Leclerc,Ferrari,4,52,18.689,2,No,01:31.3,2023
+Great Britain,10,55,Carlos Sainz,Ferrari,5,52,19.448,1,No,01:31.4,2023
+Great Britain,11,2,Logan Sargeant,Williams Mercedes,14,52,23.632,0,No,01:31.7,2023
+Great Britain,12,77,Valtteri Bottas,Alfa Romeo Ferrari,20,52,25.83,0,No,01:31.9,2023
+Great Britain,13,27,Nico Hulkenberg,Haas Ferrari,11,52,26.663,0,No,01:31.8,2023
+Great Britain,14,18,Lance Stroll,Aston Martin Aramco Mercedes,12,52,27.483,0,No,01:31.5,2023
+Great Britain,15,24,Guanyu Zhou,Alfa Romeo Ferrari,17,52,29.82,0,No,01:31.8,2023
+Great Britain,16,22,Yuki Tsunoda,AlphaTauri Honda RBPT,16,52,31.225,0,No,01:32.1,2023
+Great Britain,17,21,Nyck De Vries,AlphaTauri Honda RBPT,18,52,33.128,0,No,01:32.4,2023
+Great Britain,18,10,Pierre Gasly,Alpine Renault,10,46,DNF,0,No,01:31.5,2023
+Great Britain,NC,20,Kevin Magnussen,Haas Ferrari,19,31,DNF,0,No,01:33.4,2023
+Great Britain,NC,31,Esteban Ocon,Alpine Renault,13,9,DNF,0,No,01:33.9,2023
+Hungary,1,1,Max Verstappen,Red Bull Racing Honda RBPT,2,70,38:08.6,26,Yes,01:20.5,2023
+Hungary,2,4,Lando Norris,McLaren Mercedes,3,70,33.731,18,No,01:22.2,2023
+Hungary,3,11,Sergio Perez,Red Bull Racing Honda RBPT,9,70,37.603,15,No,01:22.3,2023
+Hungary,4,44,Lewis Hamilton,Mercedes,1,70,39.134,12,No,01:21.6,2023
+Hungary,5,81,Oscar Piastri,McLaren Mercedes,4,70,62.572,10,No,01:22.7,2023
+Hungary,6,63,George Russell,Mercedes,18,70,65.825,8,No,01:22.2,2023
+Hungary,7,16,Charles Leclerc,Ferrari,6,70,70.317,6,No,01:22.5,2023
+Hungary,8,55,Carlos Sainz,Ferrari,11,70,71.073,4,No,01:22.6,2023
+Hungary,9,14,Fernando Alonso,Aston Martin Aramco Mercedes,8,70,75.709,2,No,01:22.7,2023
+Hungary,10,18,Lance Stroll,Aston Martin Aramco Mercedes,14,69,+1 lap,1,No,01:23.4,2023
+Hungary,11,23,Alexander Albon,Williams Mercedes,16,69,+1 lap,0,No,01:24.1,2023
+Hungary,12,77,Valtteri Bottas,Alfa Romeo Ferrari,7,69,+1 lap,0,No,01:23.7,2023
+Hungary,13,3,Daniel Ricciardo,AlphaTauri Honda RBPT,13,69,+1 lap,0,No,01:23.9,2023
+Hungary,14,27,Nico Hulkenberg,Haas Ferrari,10,69,+1 lap,0,No,01:23.6,2023
+Hungary,15,22,Yuki Tsunoda,AlphaTauri Honda RBPT,17,69,+1 lap,0,No,01:23.3,2023
+Hungary,16,24,Guanyu Zhou,Alfa Romeo Ferrari,5,69,+1 lap,0,No,01:23.7,2023
+Hungary,17,20,Kevin Magnussen,Haas Ferrari,19,69,+1 lap,0,No,01:23.9,2023
+Hungary,18,2,Logan Sargeant,Williams Mercedes,20,67,DNF,0,No,01:23.5,2023
+Hungary,NC,31,Esteban Ocon,Alpine Renault,12,2,DNF,0,No,,2023
+Hungary,NC,10,Pierre Gasly,Alpine Renault,15,1,DNF,0,No,,2023
+Belgium,1,1,Max Verstappen,Red Bull Racing Honda RBPT,6,44,22:30.4,25,No,01:48.9,2023
+Belgium,2,11,Sergio Perez,Red Bull Racing Honda RBPT,2,44,22.305,18,No,01:50.3,2023
+Belgium,3,16,Charles Leclerc,Ferrari,1,44,32.259,15,No,01:50.4,2023
+Belgium,4,44,Lewis Hamilton,Mercedes,3,44,49.671,13,Yes,01:47.3,2023
+Belgium,5,14,Fernando Alonso,Aston Martin Aramco Mercedes,9,44,56.184,10,No,01:50.9,2023
+Belgium,6,63,George Russell,Mercedes,8,44,63.101,8,No,01:50.6,2023
+Belgium,7,4,Lando Norris,McLaren Mercedes,7,44,73.719,6,No,01:51.7,2023
+Belgium,8,31,Esteban Ocon,Alpine Renault,14,44,74.719,4,No,01:50.4,2023
+Belgium,9,18,Lance Stroll,Aston Martin Aramco Mercedes,10,44,79.34,2,No,01:51.3,2023
+Belgium,10,22,Yuki Tsunoda,AlphaTauri Honda RBPT,11,44,80.221,1,No,01:51.4,2023
+Belgium,11,10,Pierre Gasly,Alpine Renault,12,44,83.084,0,No,01:50.9,2023
+Belgium,12,77,Valtteri Bottas,Alfa Romeo Ferrari,13,44,85.191,0,No,01:50.5,2023
+Belgium,13,24,Guanyu Zhou,Alfa Romeo Ferrari,17,44,95.441,0,No,01:50.2,2023
+Belgium,14,23,Alexander Albon,Williams Mercedes,15,44,96.184,0,No,01:49.8,2023
+Belgium,15,20,Kevin Magnussen,Haas Ferrari,16,44,101.754,0,No,01:51.0,2023
+Belgium,16,3,Daniel Ricciardo,AlphaTauri Honda RBPT,19,44,103.071,0,No,01:51.0,2023
+Belgium,17,2,Logan Sargeant,Williams Mercedes,18,44,104.476,0,No,01:50.5,2023
+Belgium,18,27,Nico Hulkenberg,Haas Ferrari,20,44,110.45,0,No,01:49.9,2023
+Belgium,NC,55,Carlos Sainz,Ferrari,4,23,DNF,0,No,01:53.1,2023
+Belgium,NC,81,Oscar Piastri,McLaren Mercedes,5,0,DNF,0,No,,2023
+Netherlands,1,1,Max Verstappen,Red Bull Racing Honda RBPT,1,72,24:04.4,25,No,01:13.9,2023
+Netherlands,2,14,Fernando Alonso,Aston Martin Aramco Mercedes,5,72,3.744,19,Yes,01:13.8,2023
+Netherlands,3,10,Pierre Gasly,Alpine Renault,12,72,7.058,15,No,01:14.4,2023
+Netherlands,4,11,Sergio Perez,Red Bull Racing Honda RBPT,7,72,10.068,12,No,01:14.2,2023
+Netherlands,5,55,Carlos Sainz,Ferrari,6,72,12.541,10,No,01:14.9,2023
+Netherlands,6,44,Lewis Hamilton,Mercedes,13,72,13.209,8,No,01:13.9,2023
+Netherlands,7,4,Lando Norris,McLaren Mercedes,2,72,13.232,6,No,01:14.4,2023
+Netherlands,8,23,Alexander Albon,Williams Mercedes,4,72,15.155,4,No,01:14.5,2023
+Netherlands,9,81,Oscar Piastri,McLaren Mercedes,8,72,16.58,2,No,01:14.3,2023
+Netherlands,10,31,Esteban Ocon,Alpine Renault,16,72,18.346,1,No,01:14.6,2023
+Netherlands,11,18,Lance Stroll,Aston Martin Aramco Mercedes,11,72,20.087,0,No,01:15.2,2023
+Netherlands,12,27,Nico Hulkenberg,Haas Ferrari,14,72,20.84,0,No,01:14.5,2023
+Netherlands,13,40,Liam Lawson,AlphaTauri Honda RBPT,19,72,26.147,0,No,01:14.8,2023
+Netherlands,14,77,Valtteri Bottas,Alfa Romeo Ferrari,18,72,27.388,0,No,01:14.7,2023
+Netherlands,15,22,Yuki Tsunoda,AlphaTauri Honda RBPT,17,72,29.893,0,No,01:16.3,2023
+Netherlands,16,20,Kevin Magnussen,Haas Ferrari,20,72,31.41,0,No,01:15.5,2023
+Netherlands,17,63,George Russell,Mercedes,3,72,55.754,0,No,01:15.1,2023
+Netherlands,NC,24,Guanyu Zhou,Alfa Romeo Ferrari,15,62,DNF,0,No,01:15.4,2023
+Netherlands,NC,16,Charles Leclerc,Ferrari,9,41,DNF,0,No,01:17.3,2023
+Netherlands,NC,2,Logan Sargeant,Williams Mercedes,10,14,DNF,0,No,01:17.4,2023
+Italy,1,1,Max Verstappen,Red Bull Racing Honda RBPT,2,51,13:41.1,25,No,01:25.2,2023
+Italy,2,11,Sergio Perez,Red Bull Racing Honda RBPT,5,51,6.064,18,No,01:25.5,2023
+Italy,3,55,Carlos Sainz,Ferrari,1,51,11.193,15,No,01:25.5,2023
+Italy,4,16,Charles Leclerc,Ferrari,3,51,11.377,12,No,01:25.6,2023
+Italy,5,63,George Russell,Mercedes,4,51,23.028,10,No,01:25.8,2023
+Italy,6,44,Lewis Hamilton,Mercedes,8,51,42.679,8,No,01:25.6,2023
+Italy,7,23,Alexander Albon,Williams Mercedes,6,51,45.106,6,No,01:26.4,2023
+Italy,8,4,Lando Norris,McLaren Mercedes,9,51,45.449,4,No,01:26.1,2023
+Italy,9,14,Fernando Alonso,Aston Martin Aramco Mercedes,10,51,46.294,2,No,01:26.1,2023
+Italy,10,77,Valtteri Bottas,Alfa Romeo Ferrari,14,51,64.056,1,No,01:26.0,2023
+Italy,11,40,Liam Lawson,AlphaTauri Honda RBPT,12,51,70.638,0,No,01:25.8,2023
+Italy,12,81,Oscar Piastri,McLaren Mercedes,7,51,73.074,0,Yes,01:25.1,2023
+Italy,13,2,Logan Sargeant,Williams Mercedes,15,51,78.557,0,No,01:26.8,2023
+Italy,14,24,Guanyu Zhou,Alfa Romeo Ferrari,16,51,80.164,0,No,01:26.0,2023
+Italy,15,10,Pierre Gasly,Alpine Renault,17,51,82.51,0,No,01:25.8,2023
+Italy,16,18,Lance Stroll,Aston Martin Aramco Mercedes,20,51,87.266,0,No,01:26.6,2023
+Italy,17,27,Nico Hulkenberg,Haas Ferrari,13,50,+1 lap,0,No,01:25.9,2023
+Italy,18,20,Kevin Magnussen,Haas Ferrari,19,50,+1 lap,0,No,01:26.3,2023
+Italy,NC,31,Esteban Ocon,Alpine Renault,18,39,DNF,0,No,01:27.0,2023
+Italy,NC,22,Yuki Tsunoda,AlphaTauri Honda RBPT,11,0,DNS,0,No,,2023
+Singapore,1,55,Carlos Sainz,Ferrari,1,62,46:37.4,25,No,01:37.7,2023
+Singapore,2,4,Lando Norris,McLaren Mercedes,4,62,0.812,18,No,01:38.0,2023
+Singapore,3,44,Lewis Hamilton,Mercedes,5,62,1.269,16,Yes,01:35.9,2023
+Singapore,4,16,Charles Leclerc,Ferrari,3,62,21.177,12,No,01:38.3,2023
+Singapore,5,1,Max Verstappen,Red Bull Racing Honda RBPT,11,62,21.441,10,No,01:36.6,2023
+Singapore,6,10,Pierre Gasly,Alpine Renault,12,62,38.441,8,No,01:38.3,2023
+Singapore,7,81,Oscar Piastri,McLaren Mercedes,17,62,41.479,6,No,01:38.5,2023
+Singapore,8,11,Sergio Perez,Red Bull Racing Honda RBPT,13,62,54.534,4,No,01:37.1,2023
+Singapore,9,40,Liam Lawson,AlphaTauri Honda RBPT,10,62,65.918,2,No,01:39.0,2023
+Singapore,10,20,Kevin Magnussen,Haas Ferrari,6,62,72.116,1,No,01:38.1,2023
+Singapore,11,23,Alexander Albon,Williams Mercedes,14,62,73.417,0,No,01:37.3,2023
+Singapore,12,24,Guanyu Zhou,Alfa Romeo Ferrari,19,62,83.649,0,No,01:39.3,2023
+Singapore,13,27,Nico Hulkenberg,Haas Ferrari,9,62,85.201,0,No,01:39.9,2023
+Singapore,14,2,Logan Sargeant,Williams Mercedes,18,62,86.889,0,No,01:38.5,2023
+Singapore,15,14,Fernando Alonso,Aston Martin Aramco Mercedes,7,62,87.603,0,No,01:36.5,2023
+Singapore,16,63,George Russell,Mercedes,2,61,DNF,0,No,01:36.3,2023
+Singapore,NC,77,Valtteri Bottas,Alfa Romeo Ferrari,16,51,DNF,0,No,01:38.1,2023
+Singapore,NC,31,Esteban Ocon,Alpine Renault,8,42,DNF,0,No,01:39.9,2023
+Singapore,NC,22,Yuki Tsunoda,AlphaTauri Honda RBPT,15,0,DNF,0,No,,2023
+Singapore,NC,18,Lance Stroll,Aston Martin Aramco Mercedes,20,0,DNS,0,No,,2023
+Japan,1,1,Max Verstappen,Red Bull Racing Honda RBPT,1,53,30:58.4,26,Yes,01:34.2,2023
+Japan,2,4,Lando Norris,McLaren Mercedes,3,53,19.387,18,No,01:35.2,2023
+Japan,3,81,Oscar Piastri,McLaren Mercedes,2,53,36.494,15,No,01:36.3,2023
+Japan,4,16,Charles Leclerc,Ferrari,4,53,43.998,12,No,01:36.4,2023
+Japan,5,44,Lewis Hamilton,Mercedes,7,53,49.376,10,No,01:35.6,2023
+Japan,6,55,Carlos Sainz,Ferrari,6,53,50.221,8,No,01:36.2,2023
+Japan,7,63,George Russell,Mercedes,8,53,57.659,6,No,01:37.7,2023
+Japan,8,14,Fernando Alonso,Aston Martin Aramco Mercedes,10,53,74.725,4,No,01:37.2,2023
+Japan,9,31,Esteban Ocon,Alpine Renault,14,53,79.678,2,No,01:37.4,2023
+Japan,10,10,Pierre Gasly,Alpine Renault,12,53,83.155,1,No,01:36.4,2023
+Japan,11,40,Liam Lawson,AlphaTauri Honda RBPT,11,52,+1 lap,0,No,01:38.3,2023
+Japan,12,22,Yuki Tsunoda,AlphaTauri Honda RBPT,9,52,+1 lap,0,No,01:37.8,2023
+Japan,13,24,Guanyu Zhou,Alfa Romeo Ferrari,19,52,+1 lap,0,No,01:37.8,2023
+Japan,14,27,Nico Hulkenberg,Haas Ferrari,18,52,+1 lap,0,No,01:37.3,2023
+Japan,15,20,Kevin Magnussen,Haas Ferrari,15,52,+1 lap,0,No,01:37.8,2023
+Japan,NC,23,Alexander Albon,Williams Mercedes,13,26,DNF,0,No,01:39.2,2023
+Japan,NC,2,Logan Sargeant,Williams Mercedes,20,22,DNF,0,No,01:38.8,2023
+Japan,NC,18,Lance Stroll,Aston Martin Aramco Mercedes,17,20,DNF,0,No,01:39.1,2023
+Japan,NC,11,Sergio Perez,Red Bull Racing Honda RBPT,5,15,DNF,0,No,01:39.7,2023
+Japan,NC,77,Valtteri Bottas,Alfa Romeo Ferrari,16,7,DNF,0,No,02:02.8,2023
+Qatar,1,1,Max Verstappen,Red Bull Racing Honda RBPT,1,57,27:39.2,26,Yes,01:24.3,2023
+Qatar,2,81,Oscar Piastri,McLaren Mercedes,6,57,4.833,18,No,01:24.9,2023
+Qatar,3,4,Lando Norris,McLaren Mercedes,10,57,5.969,15,No,01:24.8,2023
+Qatar,4,63,George Russell,Mercedes,2,57,34.119,12,No,01:25.8,2023
+Qatar,5,16,Charles Leclerc,Ferrari,5,57,38.976,10,No,01:25.0,2023
+Qatar,6,14,Fernando Alonso,Aston Martin Aramco Mercedes,4,57,49.032,8,No,01:26.0,2023
+Qatar,7,31,Esteban Ocon,Alpine Renault,8,57,62.39,6,No,01:26.5,2023
+Qatar,8,77,Valtteri Bottas,Alfa Romeo Ferrari,9,57,66.563,4,No,01:26.7,2023
+Qatar,9,24,Guanyu Zhou,Alfa Romeo Ferrari,19,57,76.127,2,No,01:26.3,2023
+Qatar,10,11,Sergio Perez,Red Bull Racing Honda RBPT,20,57,80.181,1,No,01:26.2,2023
+Qatar,11,18,Lance Stroll,Aston Martin Aramco Mercedes,16,57,81.652,0,No,01:26.4,2023
+Qatar,12,10,Pierre Gasly,Alpine Renault,7,57,82.3,0,No,01:26.3,2023
+Qatar,13,23,Alexander Albon,Williams Mercedes,13,57,91.014,0,No,01:26.7,2023
+Qatar,14,20,Kevin Magnussen,Haas Ferrari,18,56,+1 lap,0,No,01:27.1,2023
+Qatar,15,22,Yuki Tsunoda,AlphaTauri Honda RBPT,11,56,+1 lap,0,No,01:27.2,2023
+Qatar,16,27,Nico Hulkenberg,Haas Ferrari,14,56,+1 lap,0,No,01:26.5,2023
+Qatar,17,40,Liam Lawson,AlphaTauri Honda RBPT,17,56,+1 lap,0,No,01:27.1,2023
+Qatar,NC,2,Logan Sargeant,Williams Mercedes,15,40,DNF,0,No,01:28.0,2023
+Qatar,NC,44,Lewis Hamilton,Mercedes,3,0,DNF,0,No,,2023
+Qatar,NC,55,Carlos Sainz,Ferrari,12,0,DNS,0,No,,2023
+United States,1,1,Max Verstappen,Red Bull Racing Honda RBPT,6,56,35:21.4,25,No,01:40.0,2023
+United States,DQ,44,Lewis Hamilton,Mercedes,3,56,2.225,0,No,01:39.6,2023
+United States,2,4,Lando Norris,McLaren Mercedes,2,56,10.73,18,No,01:40.0,2023
+United States,3,55,Carlos Sainz,Ferrari,4,56,15.134,15,No,01:40.0,2023
+United States,4,11,Sergio Perez,Red Bull Racing Honda RBPT,9,56,18.46,12,No,01:39.7,2023
+United States,DQ,16,Charles Leclerc,Ferrari,1,56,24.662,0,No,01:41.0,2023
+United States,5,63,George Russell,Mercedes,5,56,24.999,10,No,01:39.4,2023
+United States,6,10,Pierre Gasly,Alpine Renault,7,56,47.996,8,No,01:40.4,2023
+United States,7,18,Lance Stroll,Aston Martin Aramco Mercedes,20,56,48.696,6,No,01:39.9,2023
+United States,8,22,Yuki Tsunoda,AlphaTauri Honda RBPT,11,56,74.385,5,Yes,01:38.1,2023
+United States,9,23,Alexander Albon,Williams Mercedes,15,56,86.714,2,No,01:41.4,2023
+United States,10,2,Logan Sargeant,Williams Mercedes,16,56,87.998,1,No,01:41.2,2023
+United States,11,27,Nico Hulkenberg,Haas Ferrari,18,56,89.904,0,No,01:40.9,2023
+United States,12,77,Valtteri Bottas,Alfa Romeo Ferrari,13,56,98.601,0,No,01:42.0,2023
+United States,13,24,Guanyu Zhou,Alfa Romeo Ferrari,12,55,+1 lap,0,No,01:41.9,2023
+United States,14,20,Kevin Magnussen,Haas Ferrari,17,55,+1 lap,0,No,01:41.5,2023
+United States,15,3,Daniel Ricciardo,AlphaTauri Honda RBPT,14,55,+1 lap,0,No,01:39.4,2023
+United States,NC,14,Fernando Alonso,Aston Martin Aramco Mercedes,19,49,DNF,0,No,01:40.0,2023
+United States,NC,81,Oscar Piastri,McLaren Mercedes,10,10,DNF,0,No,01:42.7,2023
+United States,NC,31,Esteban Ocon,Alpine Renault,8,6,DNF,0,No,01:44.8,2023
+Mexico,1,1,Max Verstappen,Red Bull Racing Honda RBPT,3,71,02:30.8,25,No,01:21.6,2023
+Mexico,2,44,Lewis Hamilton,Mercedes,6,71,13.875,19,Yes,01:21.3,2023
+Mexico,3,16,Charles Leclerc,Ferrari,1,71,23.124,15,No,01:22.3,2023
+Mexico,4,55,Carlos Sainz,Ferrari,2,71,27.154,12,No,01:22.5,2023
+Mexico,5,4,Lando Norris,McLaren Mercedes,17,71,33.266,10,No,01:21.9,2023
+Mexico,6,63,George Russell,Mercedes,8,71,41.02,8,No,01:22.8,2023
+Mexico,7,3,Daniel Ricciardo,AlphaTauri Honda RBPT,4,71,41.57,6,No,01:22.7,2023
+Mexico,8,81,Oscar Piastri,McLaren Mercedes,7,71,43.104,4,No,01:22.8,2023
+Mexico,9,23,Alexander Albon,Williams Mercedes,14,71,48.573,2,No,01:22.8,2023
+Mexico,10,31,Esteban Ocon,Alpine Renault,15,71,62.879,1,No,01:23.0,2023
+Mexico,11,10,Pierre Gasly,Alpine Renault,11,71,66.208,0,No,01:23.2,2023
+Mexico,12,22,Yuki Tsunoda,AlphaTauri Honda RBPT,18,71,78.982,0,No,01:22.5,2023
+Mexico,13,27,Nico Hulkenberg,Haas Ferrari,12,71,80.309,0,No,01:23.2,2023
+Mexico,14,24,Guanyu Zhou,Alfa Romeo Ferrari,10,71,81.676,0,No,01:23.6,2023
+Mexico,15,77,Valtteri Bottas,Alfa Romeo Ferrari,9,71,85.597,0,No,01:23.2,2023
+Mexico,16,2,Logan Sargeant,Williams Mercedes,19,70,DNF,0,No,01:23.0,2023
+Mexico,17,18,Lance Stroll,Aston Martin Aramco Mercedes,20,66,DNF,0,No,01:23.3,2023
+Mexico,NC,14,Fernando Alonso,Aston Martin Aramco Mercedes,13,47,DNF,0,No,01:23.5,2023
+Mexico,NC,20,Kevin Magnussen,Haas Ferrari,16,31,DNF,0,No,01:23.1,2023
+Mexico,NC,11,Sergio Perez,Red Bull Racing Honda RBPT,5,1,DNF,0,No,,2023
+Brazil,1,1,Max Verstappen,Red Bull Racing Honda RBPT,1,71,56:48.9,25,No,01:13.4,2023
+Brazil,2,4,Lando Norris,McLaren Mercedes,6,71,8.227,19,Yes,01:12.5,2023
+Brazil,3,14,Fernando Alonso,Aston Martin Aramco Mercedes,4,71,34.155,15,No,01:14.4,2023
+Brazil,4,11,Sergio Perez,Red Bull Racing Honda RBPT,9,71,34.208,12,No,01:14.1,2023
+Brazil,5,18,Lance Stroll,Aston Martin Aramco Mercedes,3,71,40.845,10,No,01:14.0,2023
+Brazil,6,55,Carlos Sainz,Ferrari,7,71,50.188,8,No,01:14.4,2023
+Brazil,7,10,Pierre Gasly,Alpine Renault,15,71,56.093,6,No,01:14.5,2023
+Brazil,8,44,Lewis Hamilton,Mercedes,5,71,62.859,4,No,01:14.7,2023
+Brazil,9,22,Yuki Tsunoda,AlphaTauri Honda RBPT,16,71,69.88,2,No,01:14.2,2023
+Brazil,10,31,Esteban Ocon,Alpine Renault,14,70,+1 lap,1,No,01:14.2,2023
+Brazil,11,2,Logan Sargeant,Williams Mercedes,19,70,+1 lap,0,No,01:15.7,2023
+Brazil,12,27,Nico Hulkenberg,Haas Ferrari,11,70,+1 lap,0,No,01:15.0,2023
+Brazil,13,3,Daniel Ricciardo,AlphaTauri Honda RBPT,17,70,+1 lap,0,No,01:13.9,2023
+Brazil,14,81,Oscar Piastri,McLaren Mercedes,10,69,+2 laps,0,No,01:14.3,2023
+Brazil,NC,63,George Russell,Mercedes,8,57,DNF,0,No,01:14.9,2023
+Brazil,NC,77,Valtteri Bottas,Alfa Romeo Ferrari,18,39,DNF,0,No,01:15.7,2023
+Brazil,NC,24,Guanyu Zhou,Alfa Romeo Ferrari,20,22,DNF,0,No,01:16.2,2023
+Brazil,NC,20,Kevin Magnussen,Haas Ferrari,12,0,DNF,0,No,,2023
+Brazil,NC,23,Alexander Albon,Williams Mercedes,13,0,DNF,0,No,,2023
+Brazil,NC,16,Charles Leclerc,Ferrari,2,0,DNS,0,No,,2023
+Las Vegas,1,1,Max Verstappen,Red Bull Racing Honda RBPT,2,50,29:08.3,25,No,01:35.6,2023
+Las Vegas,2,16,Charles Leclerc,Ferrari,1,50,2.07,18,No,01:35.7,2023
+Las Vegas,3,11,Sergio Perez,Red Bull Racing Honda RBPT,11,50,2.241,15,No,01:35.9,2023
+Las Vegas,4,31,Esteban Ocon,Alpine Renault,16,50,18.665,12,No,01:36.6,2023
+Las Vegas,5,18,Lance Stroll,Aston Martin Aramco Mercedes,19,50,20.067,10,No,01:36.6,2023
+Las Vegas,6,55,Carlos Sainz,Ferrari,12,50,20.834,8,No,01:36.0,2023
+Las Vegas,7,44,Lewis Hamilton,Mercedes,10,50,21.755,6,No,01:35.7,2023
+Las Vegas,8,63,George Russell,Mercedes,3,50,23.091,4,No,01:36.1,2023
+Las Vegas,9,14,Fernando Alonso,Aston Martin Aramco Mercedes,9,50,25.964,2,No,01:36.6,2023
+Las Vegas,10,81,Oscar Piastri,McLaren Mercedes,18,50,29.496,2,Yes,01:35.5,2023
+Las Vegas,11,10,Pierre Gasly,Alpine Renault,4,50,34.27,0,No,01:36.9,2023
+Las Vegas,12,23,Alexander Albon,Williams Mercedes,5,50,43.398,0,No,01:37.4,2023
+Las Vegas,13,20,Kevin Magnussen,Haas Ferrari,8,50,44.825,0,No,01:37.5,2023
+Las Vegas,14,3,Daniel Ricciardo,AlphaTauri Honda RBPT,14,50,48.525,0,No,01:37.1,2023
+Las Vegas,15,24,Guanyu Zhou,Alfa Romeo Ferrari,17,50,50.162,0,No,01:37.4,2023
+Las Vegas,16,2,Logan Sargeant,Williams Mercedes,6,50,50.882,0,No,01:37.7,2023
+Las Vegas,17,77,Valtteri Bottas,Alfa Romeo Ferrari,7,50,85.35,0,No,01:37.6,2023
+Las Vegas,18,22,Yuki Tsunoda,AlphaTauri Honda RBPT,20,46,DNF,0,No,01:37.6,2023
+Las Vegas,19,27,Nico Hulkenberg,Haas Ferrari,13,45,DNF,0,No,01:37.6,2023
+Las Vegas,NC,4,Lando Norris,McLaren Mercedes,15,2,DNF,0,No,01:59.3,2023
+Abu Dhabi,1,1,Max Verstappen,Red Bull Racing Honda RBPT,1,58,27:02.6,26,Yes,01:27.0,2023
+Abu Dhabi,2,16,Charles Leclerc,Ferrari,2,58,17.993,18,No,01:28.2,2023
+Abu Dhabi,3,63,George Russell,Mercedes,4,58,20.328,15,No,01:28.2,2023
+Abu Dhabi,4,11,Sergio Perez,Red Bull Racing Honda RBPT,9,58,21.453,12,No,01:27.5,2023
+Abu Dhabi,5,4,Lando Norris,McLaren Mercedes,5,58,24.284,10,No,01:28.2,2023
+Abu Dhabi,6,81,Oscar Piastri,McLaren Mercedes,3,58,31.487,8,No,01:28.1,2023
+Abu Dhabi,7,14,Fernando Alonso,Aston Martin Aramco Mercedes,7,58,39.512,6,No,01:28.3,2023
+Abu Dhabi,8,22,Yuki Tsunoda,AlphaTauri Honda RBPT,6,58,43.088,4,No,01:29.3,2023
+Abu Dhabi,9,44,Lewis Hamilton,Mercedes,11,58,44.424,2,No,01:28.4,2023
+Abu Dhabi,10,18,Lance Stroll,Aston Martin Aramco Mercedes,13,58,55.632,1,No,01:28.1,2023
+Abu Dhabi,11,3,Daniel Ricciardo,AlphaTauri Honda RBPT,15,58,56.229,0,No,01:28.6,2023
+Abu Dhabi,12,31,Esteban Ocon,Alpine Renault,12,58,66.373,0,No,01:30.0,2023
+Abu Dhabi,13,10,Pierre Gasly,Alpine Renault,10,58,70.36,0,No,01:29.0,2023
+Abu Dhabi,14,23,Alexander Albon,Williams Mercedes,14,58,73.184,0,No,01:27.8,2023
+Abu Dhabi,15,27,Nico Hulkenberg,Haas Ferrari,8,58,83.696,0,No,01:29.2,2023
+Abu Dhabi,16,2,Logan Sargeant,Williams Mercedes,20,58,87.791,0,No,01:28.6,2023
+Abu Dhabi,17,24,Guanyu Zhou,Alfa Romeo Ferrari,19,58,89.422,0,No,01:28.7,2023
+Abu Dhabi,18,55,Carlos Sainz,Ferrari,16,57,DNF,0,No,01:29.5,2023
+Abu Dhabi,19,77,Valtteri Bottas,Alfa Romeo Ferrari,18,57,+1 lap,0,No,01:29.9,2023
+Abu Dhabi,20,20,Kevin Magnussen,Haas Ferrari,17,57,+1 lap,0,No,01:29.9,2023
+Bahrain,1,1,Max Verstappen,Red Bull Racing Honda RBPT,1,57,31:44.7,26,Yes,01:32.6,2024
+Bahrain,2,11,Sergio Perez,Red Bull Racing Honda RBPT,5,57,22.457,18,No,01:34.4,2024
+Bahrain,3,55,Carlos Sainz,Ferrari,4,57,25.11,15,No,01:34.5,2024
+Bahrain,4,16,Charles Leclerc,Ferrari,2,57,39.669,12,No,01:34.1,2024
+Bahrain,5,63,George Russell,Mercedes,3,57,46.788,10,No,01:35.1,2024
+Bahrain,6,4,Lando Norris,McLaren Mercedes,7,57,48.458,8,No,01:34.5,2024
+Bahrain,7,44,Lewis Hamilton,Mercedes,9,57,50.324,6,No,01:34.7,2024
+Bahrain,8,81,Oscar Piastri,McLaren Mercedes,8,57,56.082,4,No,01:35.0,2024
+Bahrain,9,14,Fernando Alonso,Aston Martin Aramco Mercedes,6,57,74.887,2,No,01:34.2,2024
+Bahrain,10,18,Lance Stroll,Aston Martin Aramco Mercedes,12,57,93.216,1,No,01:35.6,2024
+Bahrain,11,24,Guanyu Zhou,Kick Sauber Ferrari,17,56,+1 lap,0,No,01:35.5,2024
+Bahrain,12,20,Kevin Magnussen,Haas Ferrari,15,56,+1 lap,0,No,01:35.6,2024
+Bahrain,13,3,Daniel Ricciardo,RB Honda RBPT,14,56,+1 lap,0,No,01:35.2,2024
+Bahrain,14,22,Yuki Tsunoda,RB Honda RBPT,11,56,+1 lap,0,No,01:35.8,2024
+Bahrain,15,23,Alexander Albon,Williams Mercedes,13,56,+1 lap,0,No,01:35.7,2024
+Bahrain,16,27,Nico Hulkenberg,Haas Ferrari,10,56,+1 lap,0,No,01:34.8,2024
+Bahrain,17,31,Esteban Ocon,Alpine Renault,19,56,+1 lap,0,No,01:36.2,2024
+Bahrain,18,10,Pierre Gasly,Alpine Renault,20,56,+1 lap,0,No,01:34.8,2024
+Bahrain,19,77,Valtteri Bottas,Kick Sauber Ferrari,16,56,+1 lap,0,No,01:36.2,2024
+Bahrain,20,2,Logan Sargeant,Williams Mercedes,18,55,+2 laps,0,No,01:34.7,2024
+Saudi Arabia,1,1,Max Verstappen,Red Bull Racing Honda RBPT,1,50,20:43.3,25,No,01:31.8,2024
+Saudi Arabia,2,11,Sergio Perez,Red Bull Racing Honda RBPT,3,50,13.643,18,No,01:32.3,2024
+Saudi Arabia,3,16,Charles Leclerc,Ferrari,2,50,18.639,16,Yes,01:31.6,2024
+Saudi Arabia,4,81,Oscar Piastri,McLaren Mercedes,5,50,32.007,12,No,01:32.3,2024
+Saudi Arabia,5,14,Fernando Alonso,Aston Martin Aramco Mercedes,4,50,35.759,10,No,01:32.4,2024
+Saudi Arabia,6,63,George Russell,Mercedes,7,50,39.936,8,No,01:32.3,2024
+Saudi Arabia,7,38,Oliver Bearman,Ferrari,11,50,42.679,6,No,01:32.2,2024
+Saudi Arabia,8,4,Lando Norris,McLaren Mercedes,6,50,45.708,4,No,01:31.9,2024
+Saudi Arabia,9,44,Lewis Hamilton,Mercedes,8,50,47.391,2,No,01:31.7,2024
+Saudi Arabia,10,27,Nico Hulkenberg,Haas Ferrari,15,50,76.996,1,No,01:32.4,2024
+Saudi Arabia,11,23,Alexander Albon,Williams Mercedes,12,50,88.354,0,No,01:32.3,2024
+Saudi Arabia,12,20,Kevin Magnussen,Haas Ferrari,13,50,105.737,0,No,01:32.3,2024
+Saudi Arabia,13,31,Esteban Ocon,Alpine Renault,17,49,+1 lap,0,No,01:33.5,2024
+Saudi Arabia,14,2,Logan Sargeant,Williams Mercedes,19,49,+1 lap,0,No,01:33.0,2024
+Saudi Arabia,15,22,Yuki Tsunoda,RB Honda RBPT,9,49,+1 lap,0,No,01:33.5,2024
+Saudi Arabia,16,3,Daniel Ricciardo,RB Honda RBPT,14,49,+1 lap,0,No,01:33.3,2024
+Saudi Arabia,17,77,Valtteri Bottas,Kick Sauber Ferrari,16,49,+1 lap,0,No,01:32.7,2024
+Saudi Arabia,18,24,Guanyu Zhou,Kick Sauber Ferrari,20,49,+1 lap,0,No,01:32.2,2024
+Saudi Arabia,NC,18,Lance Stroll,Aston Martin Aramco Mercedes,10,5,DNF,0,No,01:35.6,2024
+Saudi Arabia,NC,10,Pierre Gasly,Alpine Renault,18,1,DNF,0,No,,2024
+Australia,1,55,Carlos Sainz,Ferrari,2,58,20:26.8,25,No,01:20.0,2024
+Australia,2,16,Charles Leclerc,Ferrari,4,58,2.366,19,Yes,01:19.8,2024
+Australia,3,4,Lando Norris,McLaren Mercedes,3,58,5.904,15,No,01:19.9,2024
+Australia,4,81,Oscar Piastri,McLaren Mercedes,5,58,35.77,12,No,01:20.2,2024
+Australia,5,11,Sergio Perez,Red Bull Racing Honda RBPT,6,58,56.309,10,No,01:20.4,2024
+Australia,6,18,Lance Stroll,Aston Martin Aramco Mercedes,9,58,93.222,8,No,01:20.9,2024
+Australia,7,22,Yuki Tsunoda,RB Honda RBPT,8,58,95.601,6,No,01:21.1,2024
+Australia,8,14,Fernando Alonso,Aston Martin Aramco Mercedes,10,58,100.992,4,No,01:20.5,2024
+Australia,9,27,Nico Hulkenberg,Haas Ferrari,16,58,104.553,2,No,01:21.1,2024
+Australia,10,20,Kevin Magnussen,Haas Ferrari,14,57,+1 lap,1,No,01:21.1,2024
+Australia,11,23,Alexander Albon,Williams Mercedes,12,57,+1 lap,0,No,01:21.6,2024
+Australia,12,3,Daniel Ricciardo,RB Honda RBPT,18,57,+1 lap,0,No,01:21.2,2024
+Australia,13,10,Pierre Gasly,Alpine Renault,17,57,+1 lap,0,No,01:21.1,2024
+Australia,14,77,Valtteri Bottas,Kick Sauber Ferrari,13,57,+1 lap,0,No,01:21.4,2024
+Australia,15,24,Guanyu Zhou,Kick Sauber Ferrari,19,57,+1 lap,0,No,01:21.3,2024
+Australia,16,31,Esteban Ocon,Alpine Renault,15,57,+1 lap,0,No,01:21.4,2024
+Australia,17,63,George Russell,Mercedes,7,56,DNF,0,No,01:20.3,2024
+Australia,NC,44,Lewis Hamilton,Mercedes,11,15,DNF,0,No,01:22.4,2024
+Australia,NC,1,Max Verstappen,Red Bull Racing Honda RBPT,1,3,DNF,0,No,01:23.1,2024
+Japan,1,1,Max Verstappen,Red Bull Racing Honda RBPT,1,53,54:23.6,26,Yes,01:33.7,2024
+Japan,2,11,Sergio Perez,Red Bull Racing Honda RBPT,2,53,12.535,18,No,01:33.9,2024
+Japan,3,55,Carlos Sainz,Ferrari,4,53,20.866,15,No,01:33.8,2024
+Japan,4,16,Charles Leclerc,Ferrari,8,53,26.522,12,No,01:35.0,2024
+Japan,5,4,Lando Norris,McLaren Mercedes,3,53,29.7,10,No,01:35.2,2024
+Japan,6,14,Fernando Alonso,Aston Martin Aramco Mercedes,5,53,44.272,8,No,01:34.7,2024
+Japan,7,63,George Russell,Mercedes,9,53,45.951,6,No,01:34.4,2024
+Japan,8,81,Oscar Piastri,McLaren Mercedes,6,53,47.525,4,No,01:34.8,2024
+Japan,9,44,Lewis Hamilton,Mercedes,7,53,48.626,2,No,01:34.0,2024
+Japan,10,22,Yuki Tsunoda,RB Honda RBPT,10,52,+1 lap,1,No,01:36.3,2024
+Japan,11,27,Nico Hulkenberg,Haas Ferrari,12,52,+1 lap,0,No,01:35.3,2024
+Japan,12,18,Lance Stroll,Aston Martin Aramco Mercedes,16,52,+1 lap,0,No,01:35.8,2024
+Japan,13,20,Kevin Magnussen,Haas Ferrari,18,52,+1 lap,0,No,01:36.7,2024
+Japan,14,77,Valtteri Bottas,Kick Sauber Ferrari,13,52,+1 lap,0,No,01:36.6,2024
+Japan,15,31,Esteban Ocon,Alpine Renault,15,52,+1 lap,0,No,01:36.2,2024
+Japan,16,10,Pierre Gasly,Alpine Renault,17,52,+1 lap,0,No,01:36.6,2024
+Japan,17,2,Logan Sargeant,Williams Mercedes,19,52,+1 lap,0,No,01:34.9,2024
+Japan,NC,24,Guanyu Zhou,Kick Sauber Ferrari,20,12,DNF,0,No,01:37.2,2024
+Japan,NC,3,Daniel Ricciardo,RB Honda RBPT,11,0,DNF,0,No,,2024
+Japan,NC,23,Alexander Albon,Williams Mercedes,14,0,DNF,0,No,,2024
+China,1,1,Max Verstappen,Red Bull Racing Honda RBPT,1,56,40:52.6,25,No,01:38.4,2024
+China,2,4,Lando Norris,McLaren Mercedes,4,56,13.773,18,No,01:38.8,2024
+China,3,11,Sergio Perez,Red Bull Racing Honda RBPT,2,56,19.16,15,No,01:39.4,2024
+China,4,16,Charles Leclerc,Ferrari,6,56,23.623,12,No,01:39.4,2024
+China,5,55,Carlos Sainz,Ferrari,7,56,33.983,10,No,01:39.8,2024
+China,6,63,George Russell,Mercedes,8,56,38.724,8,No,01:40.1,2024
+China,7,14,Fernando Alonso,Aston Martin Aramco Mercedes,3,56,43.414,7,Yes,01:37.8,2024
+China,8,81,Oscar Piastri,McLaren Mercedes,5,56,56.198,4,No,01:39.7,2024
+China,9,44,Lewis Hamilton,Mercedes,18,56,57.986,2,No,01:40.8,2024
+China,10,27,Nico Hulkenberg,Haas Ferrari,9,56,60.476,1,No,01:40.8,2024
+China,11,31,Esteban Ocon,Alpine Renault,13,56,62.812,0,No,01:40.9,2024
+China,12,23,Alexander Albon,Williams Mercedes,14,56,65.506,0,No,01:40.8,2024
+China,13,10,Pierre Gasly,Alpine Renault,15,56,69.223,0,No,01:39.2,2024
+China,14,24,Guanyu Zhou,Kick Sauber Ferrari,16,56,71.689,0,No,01:38.6,2024
+China,15,18,Lance Stroll,Aston Martin Aramco Mercedes,11,56,82.786,0,No,01:39.4,2024
+China,16,20,Kevin Magnussen,Haas Ferrari,17,56,87.533,0,No,01:41.1,2024
+China,17,2,Logan Sargeant,Williams Mercedes,20,56,95.11,0,No,01:41.0,2024
+China,NC,3,Daniel Ricciardo,RB Honda RBPT,12,33,DNF,0,No,01:41.0,2024
+China,NC,22,Yuki Tsunoda,RB Honda RBPT,19,26,DNF,0,No,01:41.6,2024
+China,NC,77,Valtteri Bottas,Kick Sauber Ferrari,10,19,DNF,0,No,01:41.3,2024
+Miami,1,4,Lando Norris,McLaren Mercedes,5,57,30:49.9,25,No,01:31.0,2024
+Miami,2,1,Max Verstappen,Red Bull Racing Honda RBPT,1,57,7.612,18,No,01:31.3,2024
+Miami,3,16,Charles Leclerc,Ferrari,2,57,9.92,15,No,01:31.1,2024
+Miami,4,11,Sergio Perez,Red Bull Racing Honda RBPT,4,57,14.65,12,No,01:30.9,2024
+Miami,5,55,Carlos Sainz,Ferrari,3,57,16.407,10,No,01:30.9,2024
+Miami,6,44,Lewis Hamilton,Mercedes,8,57,16.585,8,No,01:31.2,2024
+Miami,7,22,Yuki Tsunoda,RB Honda RBPT,10,57,26.185,6,No,01:31.7,2024
+Miami,8,63,George Russell,Mercedes,7,57,34.789,4,No,01:31.9,2024
+Miami,9,14,Fernando Alonso,Aston Martin Aramco Mercedes,15,57,37.107,2,No,01:31.7,2024
+Miami,10,31,Esteban Ocon,Alpine Renault,13,57,39.746,1,No,01:32.0,2024
+Miami,11,27,Nico Hulkenberg,Haas Ferrari,9,57,40.789,0,No,01:31.9,2024
+Miami,12,10,Pierre Gasly,Alpine Renault,12,57,44.958,0,No,01:32.1,2024
+Miami,13,81,Oscar Piastri,McLaren Mercedes,6,57,49.756,0,Yes,01:30.6,2024
+Miami,14,24,Guanyu Zhou,Kick Sauber Ferrari,19,57,49.979,0,No,01:32.0,2024
+Miami,15,3,Daniel Ricciardo,RB Honda RBPT,20,57,50.956,0,No,01:32.1,2024
+Miami,16,77,Valtteri Bottas,Kick Sauber Ferrari,16,57,52.356,0,No,01:32.1,2024
+Miami,17,18,Lance Stroll,Aston Martin Aramco Mercedes,11,57,55.173,0,No,01:31.6,2024
+Miami,18,23,Alexander Albon,Williams Mercedes,14,57,76.091,0,No,01:30.8,2024
+Miami,19,20,Kevin Magnussen,Haas Ferrari,18,57,84.683,0,No,01:31.8,2024
+Miami,NC,2,Logan Sargeant,Williams Mercedes,17,27,DNF,0,No,01:33.5,2024
+Emilia Romagna,1,1,Max Verstappen,Red Bull Racing Honda RBPT,1,63,25:25.3,25,No,01:20.4,2024
+Emilia Romagna,2,4,Lando Norris,McLaren Mercedes,2,63,0.725,18,No,01:20.0,2024
+Emilia Romagna,3,16,Charles Leclerc,Ferrari,3,63,7.916,15,No,01:19.9,2024
+Emilia Romagna,4,81,Oscar Piastri,McLaren Mercedes,5,63,14.132,12,No,01:19.9,2024
+Emilia Romagna,5,55,Carlos Sainz,Ferrari,4,63,22.325,10,No,01:20.2,2024
+Emilia Romagna,6,44,Lewis Hamilton,Mercedes,8,63,35.104,8,No,01:20.3,2024
+Emilia Romagna,7,63,George Russell,Mercedes,6,63,47.154,7,Yes,01:18.6,2024
+Emilia Romagna,8,11,Sergio Perez,Red Bull Racing Honda RBPT,11,63,54.776,4,No,01:19.7,2024
+Emilia Romagna,9,18,Lance Stroll,Aston Martin Aramco Mercedes,13,63,79.556,2,No,01:20.6,2024
+Emilia Romagna,10,22,Yuki Tsunoda,RB Honda RBPT,7,62,+1 lap,1,No,01:20.9,2024
+Emilia Romagna,11,27,Nico Hulkenberg,Haas Ferrari,10,62,+1 lap,0,No,01:21.7,2024
+Emilia Romagna,12,20,Kevin Magnussen,Haas Ferrari,18,62,+1 lap,0,No,01:21.0,2024
+Emilia Romagna,13,3,Daniel Ricciardo,RB Honda RBPT,9,62,+1 lap,0,No,01:21.6,2024
+Emilia Romagna,14,31,Esteban Ocon,Alpine Renault,12,62,+1 lap,0,No,01:21.3,2024
+Emilia Romagna,15,24,Guanyu Zhou,Kick Sauber Ferrari,17,62,+1 lap,0,No,01:21.0,2024
+Emilia Romagna,16,10,Pierre Gasly,Alpine Renault,15,62,+1 lap,0,No,01:21.4,2024
+Emilia Romagna,17,2,Logan Sargeant,Williams Mercedes,19,62,+1 lap,0,No,01:21.2,2024
+Emilia Romagna,18,77,Valtteri Bottas,Kick Sauber Ferrari,16,62,+1 lap,0,No,01:21.5,2024
+Emilia Romagna,19,14,Fernando Alonso,Aston Martin Aramco Mercedes,20,62,+1 lap,0,No,01:19.0,2024
+Emilia Romagna,NC,23,Alexander Albon,Williams Mercedes,14,51,DNF,0,No,01:21.3,2024
+Monaco,1,16,Charles Leclerc,Ferrari,1,78,23:15.6,25,No,01:15.2,2024
+Monaco,2,81,Oscar Piastri,McLaren Mercedes,2,78,7.152,18,No,01:16.3,2024
+Monaco,3,55,Carlos Sainz,Ferrari,3,78,7.585,15,No,01:14.7,2024
+Monaco,4,4,Lando Norris,McLaren Mercedes,4,78,8.65,12,No,01:15.7,2024
+Monaco,5,63,George Russell,Mercedes,5,78,13.309,10,No,01:15.2,2024
+Monaco,6,1,Max Verstappen,Red Bull Racing Honda RBPT,6,78,13.853,8,No,01:14.6,2024
+Monaco,7,44,Lewis Hamilton,Mercedes,7,78,14.908,7,Yes,01:14.2,2024
+Monaco,8,22,Yuki Tsunoda,RB Honda RBPT,8,77,+1 lap,4,No,01:14.7,2024
+Monaco,9,23,Alexander Albon,Williams Mercedes,9,77,+1 lap,2,No,01:17.1,2024
+Monaco,10,10,Pierre Gasly,Alpine Renault,10,77,+1 lap,1,No,01:15.6,2024
+Monaco,11,14,Fernando Alonso,Aston Martin Aramco Mercedes,14,76,+2 laps,0,No,01:17.9,2024
+Monaco,12,3,Daniel Ricciardo,RB Honda RBPT,12,76,+2 laps,0,No,01:17.2,2024
+Monaco,13,77,Valtteri Bottas,Kick Sauber Ferrari,17,76,+2 laps,0,No,01:16.6,2024
+Monaco,14,18,Lance Stroll,Aston Martin Aramco Mercedes,13,76,+2 laps,0,No,01:16.7,2024
+Monaco,15,2,Logan Sargeant,Williams Mercedes,15,76,+2 laps,0,No,01:15.5,2024
+Monaco,16,24,Guanyu Zhou,Kick Sauber Ferrari,18,76,+2 laps,0,No,01:14.7,2024
+Monaco,NC,31,Esteban Ocon,Alpine Renault,11,0,DNF,0,No,,2024
+Monaco,NC,11,Sergio Perez,Red Bull Racing Honda RBPT,16,0,DNF,0,No,,2024
+Monaco,NC,27,Nico Hulkenberg,Haas Ferrari,19,0,DNF,0,No,,2024
+Monaco,NC,20,Kevin Magnussen,Haas Ferrari,20,0,DNF,0,No,,2024
+Canada,1,1,Max Verstappen,Red Bull Racing Honda RBPT,2,70,45:47.9,25,No,01:15.6,2024
+Canada,2,4,Lando Norris,McLaren Mercedes,3,70,3.879,18,No,01:15.6,2024
+Canada,3,63,George Russell,Mercedes,1,70,4.317,15,No,01:14.9,2024
+Canada,4,44,Lewis Hamilton,Mercedes,7,70,4.915,13,Yes,01:14.9,2024
+Canada,5,81,Oscar Piastri,McLaren Mercedes,4,70,10.199,10,No,01:16.2,2024
+Canada,6,14,Fernando Alonso,Aston Martin Aramco Mercedes,6,70,17.51,8,No,01:16.3,2024
+Canada,7,18,Lance Stroll,Aston Martin Aramco Mercedes,9,70,23.625,6,No,01:16.8,2024
+Canada,8,3,Daniel Ricciardo,RB Honda RBPT,5,70,28.672,4,No,01:17.1,2024
+Canada,9,10,Pierre Gasly,Alpine Renault,15,70,30.021,2,No,01:17.0,2024
+Canada,10,31,Esteban Ocon,Alpine Renault,18,70,30.313,1,No,01:17.0,2024
+Canada,11,27,Nico Hulkenberg,Haas Ferrari,17,70,30.824,0,No,01:16.7,2024
+Canada,12,20,Kevin Magnussen,Haas Ferrari,14,70,31.253,0,No,01:16.5,2024
+Canada,13,77,Valtteri Bottas,Kick Sauber Ferrari,19,70,40.487,0,No,01:17.3,2024
+Canada,14,22,Yuki Tsunoda,RB Honda RBPT,8,70,52.694,0,No,01:17.3,2024
+Canada,15,24,Guanyu Zhou,Kick Sauber Ferrari,20,69,+1 lap,0,No,01:17.3,2024
+Canada,NC,55,Carlos Sainz,Ferrari,12,52,DNF,0,No,01:19.0,2024
+Canada,NC,23,Alexander Albon,Williams Mercedes,10,52,DNF,0,No,01:19.4,2024
+Canada,NC,11,Sergio Perez,Red Bull Racing Honda RBPT,16,51,DNF,0,No,01:18.8,2024
+Canada,NC,16,Charles Leclerc,Ferrari,11,40,DNF,0,No,01:26.0,2024
+Canada,NC,2,Logan Sargeant,Williams Mercedes,13,23,DNF,0,No,01:26.5,2024
+Spain,1,1,Max Verstappen,Red Bull Racing Honda RBPT,2,66,28:20.2,25,No,01:17.8,2024
+Spain,2,4,Lando Norris,McLaren Mercedes,1,66,2.219,19,Yes,01:17.1,2024
+Spain,3,44,Lewis Hamilton,Mercedes,3,66,17.79,15,No,01:17.8,2024
+Spain,4,63,George Russell,Mercedes,4,66,22.32,12,No,01:18.3,2024
+Spain,5,16,Charles Leclerc,Ferrari,5,66,22.709,10,No,01:17.9,2024
+Spain,6,55,Carlos Sainz,Ferrari,6,66,31.028,8,No,01:18.5,2024
+Spain,7,81,Oscar Piastri,McLaren Mercedes,9,66,33.76,6,No,01:17.9,2024
+Spain,8,11,Sergio Perez,Red Bull Racing Honda RBPT,11,66,59.524,4,No,01:17.8,2024
+Spain,9,10,Pierre Gasly,Alpine Renault,7,66,62.025,2,No,01:19.0,2024
+Spain,10,31,Esteban Ocon,Alpine Renault,8,66,71.889,1,No,01:19.0,2024
+Spain,11,27,Nico Hulkenberg,Haas Ferrari,13,66,79.215,0,No,01:18.6,2024
+Spain,12,14,Fernando Alonso,Aston Martin Aramco Mercedes,10,65,+1 lap,0,No,01:18.3,2024
+Spain,13,24,Guanyu Zhou,Kick Sauber Ferrari,15,65,+1 lap,0,No,01:18.8,2024
+Spain,14,18,Lance Stroll,Aston Martin Aramco Mercedes,14,65,+1 lap,0,No,01:19.3,2024
+Spain,15,3,Daniel Ricciardo,RB Honda RBPT,18,65,+1 lap,0,No,01:19.4,2024
+Spain,16,77,Valtteri Bottas,Kick Sauber Ferrari,12,65,+1 lap,0,No,01:19.6,2024
+Spain,17,20,Kevin Magnussen,Haas Ferrari,16,65,+1 lap,0,No,01:19.8,2024
+Spain,18,23,Alexander Albon,Williams Mercedes,20,65,+1 lap,0,No,01:19.1,2024
+Spain,19,22,Yuki Tsunoda,RB Honda RBPT,17,65,+1 lap,0,No,01:19.4,2024
+Spain,20,2,Logan Sargeant,Williams Mercedes,19,64,+2 laps,0,No,01:20.2,2024
+Austria,1,63,George Russell,Mercedes,3,71,24:22.8,25,No,01:09.2,2024
+Austria,2,81,Oscar Piastri,McLaren Mercedes,7,71,1.906,18,No,01:08.7,2024
+Austria,3,55,Carlos Sainz,Ferrari,4,71,4.533,15,No,01:09.3,2024
+Austria,4,44,Lewis Hamilton,Mercedes,5,71,23.142,12,No,01:09.6,2024
+Austria,5,1,Max Verstappen,Red Bull Racing Honda RBPT,1,71,37.253,10,No,01:07.7,2024
+Austria,6,27,Nico Hulkenberg,Haas Ferrari,9,71,54.088,8,No,01:10.2,2024
+Austria,7,11,Sergio Perez,Red Bull Racing Honda RBPT,8,71,54.672,6,No,01:09.7,2024
+Austria,8,20,Kevin Magnussen,Haas Ferrari,12,71,60.355,4,No,01:10.1,2024
+Austria,9,3,Daniel Ricciardo,RB Honda RBPT,11,71,61.169,2,No,01:10.4,2024
+Austria,10,10,Pierre Gasly,Alpine Renault,13,71,61.766,1,No,01:09.6,2024
+Austria,11,16,Charles Leclerc,Ferrari,6,71,67.056,0,No,01:09.6,2024
+Austria,12,31,Esteban Ocon,Alpine Renault,10,71,68.325,0,No,01:09.6,2024
+Austria,13,18,Lance Stroll,Aston Martin Aramco Mercedes,17,70,+1 lap,0,No,01:10.1,2024
+Austria,14,22,Yuki Tsunoda,RB Honda RBPT,14,70,+1 lap,0,No,01:10.3,2024
+Austria,15,23,Alexander Albon,Williams Mercedes,16,70,+1 lap,0,No,01:10.4,2024
+Austria,16,77,Valtteri Bottas,Kick Sauber Ferrari,18,70,+1 lap,0,No,01:10.4,2024
+Austria,17,24,Guanyu Zhou,Kick Sauber Ferrari,20,70,+1 lap,0,No,01:10.5,2024
+Austria,18,14,Fernando Alonso,Aston Martin Aramco Mercedes,15,70,+1 lap,0,Yes,01:07.7,2024
+Austria,19,2,Logan Sargeant,Williams Mercedes,19,69,+2 laps,0,No,01:10.4,2024
+Austria,20,4,Lando Norris,McLaren Mercedes,2,64,+7 laps,0,No,01:08.0,2024
+Great Britain,1,44,Lewis Hamilton,Mercedes,2,52,22:27.1,25,No,01:29.4,2024
+Great Britain,2,1,Max Verstappen,Red Bull Racing Honda RBPT,4,52,1.465,18,No,01:29.0,2024
+Great Britain,3,4,Lando Norris,McLaren Mercedes,3,52,7.547,15,No,01:29.3,2024
+Great Britain,4,81,Oscar Piastri,McLaren Mercedes,5,52,12.429,12,No,01:28.7,2024
+Great Britain,5,55,Carlos Sainz,Ferrari,7,52,47.318,11,Yes,01:28.3,2024
+Great Britain,6,27,Nico Hulkenberg,Haas Ferrari,6,52,55.722,8,No,01:29.8,2024
+Great Britain,7,18,Lance Stroll,Aston Martin Aramco Mercedes,8,52,56.569,6,No,01:29.9,2024
+Great Britain,8,14,Fernando Alonso,Aston Martin Aramco Mercedes,10,52,63.577,4,No,01:29.7,2024
+Great Britain,9,23,Alexander Albon,Williams Mercedes,9,52,68.387,2,No,01:29.7,2024
+Great Britain,10,22,Yuki Tsunoda,RB Honda RBPT,13,52,79.303,1,No,01:30.2,2024
+Great Britain,11,2,Logan Sargeant,Williams Mercedes,12,52,88.96,0,No,01:30.0,2024
+Great Britain,12,20,Kevin Magnussen,Haas Ferrari,17,52,90.153,0,No,01:30.1,2024
+Great Britain,13,3,Daniel Ricciardo,RB Honda RBPT,15,51,+1 lap,0,No,01:30.7,2024
+Great Britain,14,16,Charles Leclerc,Ferrari,11,51,+1 lap,0,No,01:29.7,2024
+Great Britain,15,77,Valtteri Bottas,Kick Sauber Ferrari,16,51,+1 lap,0,No,01:31.3,2024
+Great Britain,16,31,Esteban Ocon,Alpine Renault,18,50,+2 laps,0,No,01:30.9,2024
+Great Britain,17,11,Sergio Perez,Red Bull Racing Honda RBPT,20,50,+2 laps,0,No,01:29.7,2024
+Great Britain,18,24,Guanyu Zhou,Kick Sauber Ferrari,14,50,+2 laps,0,No,01:31.0,2024
+Great Britain,NC,63,George Russell,Mercedes,1,33,DNF,0,No,01:31.3,2024
+Great Britain,NC,10,Pierre Gasly,Alpine Renault,19,0,DNS,0,No,,2024
+Hungary,1,81,Oscar Piastri,McLaren Mercedes,2,70,38:02.0,25,No,01:21.7,2024
+Hungary,2,4,Lando Norris,McLaren Mercedes,1,70,2.141,18,No,01:21.7,2024
+Hungary,3,44,Lewis Hamilton,Mercedes,5,70,14.88,15,No,01:22.2,2024
+Hungary,4,16,Charles Leclerc,Ferrari,6,70,19.686,12,No,01:22.2,2024
+Hungary,5,1,Max Verstappen,Red Bull Racing Honda RBPT,3,70,21.349,10,No,01:20.9,2024
+Hungary,6,55,Carlos Sainz,Ferrari,4,70,23.073,8,No,01:21.4,2024
+Hungary,7,11,Sergio Perez,Red Bull Racing Honda RBPT,16,70,39.792,6,No,01:21.1,2024
+Hungary,8,63,George Russell,Mercedes,17,70,42.368,5,Yes,01:20.3,2024
+Hungary,9,22,Yuki Tsunoda,RB Honda RBPT,10,70,77.259,2,No,01:23.5,2024
+Hungary,10,18,Lance Stroll,Aston Martin Aramco Mercedes,8,70,77.976,1,No,01:22.3,2024
+Hungary,11,14,Fernando Alonso,Aston Martin Aramco Mercedes,7,70,82.46,0,No,01:23.1,2024
+Hungary,12,3,Daniel Ricciardo,RB Honda RBPT,9,69,+1 lap,0,No,01:22.6,2024
+Hungary,13,27,Nico Hulkenberg,Haas Ferrari,11,69,+1 lap,0,No,01:23.5,2024
+Hungary,14,23,Alexander Albon,Williams Mercedes,13,69,+1 lap,0,No,01:23.9,2024
+Hungary,15,20,Kevin Magnussen,Haas Ferrari,15,69,+1 lap,0,No,01:23.6,2024
+Hungary,16,77,Valtteri Bottas,Kick Sauber Ferrari,12,69,+1 lap,0,No,01:22.8,2024
+Hungary,17,2,Logan Sargeant,Williams Mercedes,14,69,+1 lap,0,No,01:20.6,2024
+Hungary,18,31,Esteban Ocon,Alpine Renault,19,69,+1 lap,0,No,01:21.6,2024
+Hungary,19,24,Guanyu Zhou,Kick Sauber Ferrari,18,69,+1 lap,0,No,01:23.5,2024
+Hungary,NC,10,Pierre Gasly,Alpine Renault,20,33,DNF,0,No,01:23.3,2024
+Belgium,DQ,63,George Russell,Mercedes,6,44,19:57.0,0,No,01:47.1,2024
+Belgium,1,44,Lewis Hamilton,Mercedes,3,44,0.526,25,No,01:46.7,2024
+Belgium,2,81,Oscar Piastri,McLaren Mercedes,5,44,1.173,18,No,01:45.8,2024
+Belgium,3,16,Charles Leclerc,Ferrari,1,44,8.549,15,No,01:47.0,2024
+Belgium,4,1,Max Verstappen,Red Bull Racing Honda RBPT,11,44,9.226,12,No,01:46.1,2024
+Belgium,5,4,Lando Norris,McLaren Mercedes,4,44,9.85,10,No,01:45.6,2024
+Belgium,6,55,Carlos Sainz,Ferrari,7,44,19.795,8,No,01:46.4,2024
+Belgium,7,11,Sergio Perez,Red Bull Racing Honda RBPT,2,44,3.195,7,Yes,01:44.7,2024
+Belgium,8,14,Fernando Alonso,Aston Martin Aramco Mercedes,8,44,49.963,4,No,01:48.1,2024
+Belgium,9,31,Esteban Ocon,Alpine Renault,9,44,52.552,2,No,01:47.0,2024
+Belgium,10,3,Daniel Ricciardo,RB Honda RBPT,13,44,54.926,1,No,01:47.4,2024
+Belgium,11,18,Lance Stroll,Aston Martin Aramco Mercedes,15,44,63.011,0,No,01:48.1,2024
+Belgium,12,23,Alexander Albon,Williams Mercedes,10,44,63.651,0,No,01:48.0,2024
+Belgium,13,10,Pierre Gasly,Alpine Renault,12,44,64.365,0,No,01:47.4,2024
+Belgium,14,20,Kevin Magnussen,Haas Ferrari,17,44,66.631,0,No,01:47.8,2024
+Belgium,15,77,Valtteri Bottas,Kick Sauber Ferrari,14,44,70.638,0,No,01:47.0,2024
+Belgium,16,22,Yuki Tsunoda,RB Honda RBPT,20,44,76.737,0,No,01:48.0,2024
+Belgium,17,2,Logan Sargeant,Williams Mercedes,18,44,86.057,0,No,01:47.5,2024
+Belgium,18,27,Nico Hulkenberg,Haas Ferrari,16,44,88.833,0,No,01:49.0,2024
+Belgium,NC,24,Guanyu Zhou,Kick Sauber Ferrari,19,5,DNF,0,No,01:52.1,2024
+Netherlands,1,4,Lando Norris,McLaren Mercedes,1,72,30:45.5,26,Yes,01:13.8,2024
+Netherlands,2,1,Max Verstappen,Red Bull Racing Honda RBPT,2,72,22.896,18,No,01:14.8,2024
+Netherlands,3,16,Charles Leclerc,Ferrari,6,72,25.439,15,No,01:14.6,2024
+Netherlands,4,81,Oscar Piastri,McLaren Mercedes,3,72,27.337,12,No,01:14.2,2024
+Netherlands,5,55,Carlos Sainz,Ferrari,10,72,32.137,10,No,01:14.1,2024
+Netherlands,6,11,Sergio Perez,Red Bull Racing Honda RBPT,5,72,39.542,8,No,01:14.6,2024
+Netherlands,7,63,George Russell,Mercedes,4,72,44.617,6,No,01:13.9,2024
+Netherlands,8,44,Lewis Hamilton,Mercedes,14,72,49.599,4,No,01:13.9,2024
+Netherlands,9,10,Pierre Gasly,Alpine Renault,9,71,+1 lap,2,No,01:14.9,2024
+Netherlands,10,14,Fernando Alonso,Aston Martin Aramco Mercedes,7,71,+1 lap,1,No,01:14.8,2024
+Netherlands,11,27,Nico Hulkenberg,Haas Ferrari,12,71,+1 lap,0,No,01:15.7,2024
+Netherlands,12,3,Daniel Ricciardo,RB Honda RBPT,13,71,+1 lap,0,No,01:15.2,2024
+Netherlands,13,18,Lance Stroll,Aston Martin Aramco Mercedes,8,71,+1 lap,0,No,01:15.3,2024
+Netherlands,14,23,Alexander Albon,Williams Mercedes,19,71,+1 lap,0,No,01:14.4,2024
+Netherlands,15,31,Esteban Ocon,Alpine Renault,15,71,+1 lap,0,No,01:15.4,2024
+Netherlands,16,2,Logan Sargeant,Williams Mercedes,18,71,+1 lap,0,No,01:15.5,2024
+Netherlands,17,22,Yuki Tsunoda,RB Honda RBPT,11,71,+1 lap,0,No,01:15.6,2024
+Netherlands,18,20,Kevin Magnussen,Haas Ferrari,20,71,+1 lap,0,No,01:15.0,2024
+Netherlands,19,77,Valtteri Bottas,Kick Sauber Ferrari,16,70,+2 laps,0,No,01:15.8,2024
+Netherlands,20,24,Guanyu Zhou,Kick Sauber Ferrari,17,70,+2 laps,0,No,01:15.7,2024
+Italy,1,16,Charles Leclerc,Ferrari,4,53,14:40.7,25,No,01:23.2,2024
+Italy,2,81,Oscar Piastri,McLaren Mercedes,2,53,2.664,18,No,01:21.9,2024
+Italy,3,4,Lando Norris,McLaren Mercedes,1,53,6.153,16,Yes,01:21.4,2024
+Italy,4,55,Carlos Sainz,Ferrari,5,53,15.621,12,No,01:23.2,2024
+Italy,5,44,Lewis Hamilton,Mercedes,6,53,22.82,10,No,01:21.5,2024
+Italy,6,1,Max Verstappen,Red Bull Racing Honda RBPT,7,53,37.932,8,No,01:21.7,2024
+Italy,7,63,George Russell,Mercedes,3,53,39.715,6,No,01:22.0,2024
+Italy,8,11,Sergio Perez,Red Bull Racing Honda RBPT,8,53,54.148,4,No,01:23.0,2024
+Italy,9,23,Alexander Albon,Williams Mercedes,9,53,67.456,2,No,01:23.9,2024
+Italy,10,20,Kevin Magnussen,Haas Ferrari,13,53,68.302,1,No,01:23.4,2024
+Italy,11,14,Fernando Alonso,Aston Martin Aramco Mercedes,11,53,68.495,0,No,01:22.9,2024
+Italy,12,43,Franco Colapinto,Williams Mercedes,18,53,81.308,0,No,01:23.7,2024
+Italy,13,3,Daniel Ricciardo,RB Honda RBPT,12,53,93.452,0,No,01:24.2,2024
+Italy,14,31,Esteban Ocon,Alpine Renault,15,52,+1 lap,0,No,01:24.3,2024
+Italy,15,10,Pierre Gasly,Alpine Renault,14,52,+1 lap,0,No,01:23.8,2024
+Italy,16,77,Valtteri Bottas,Kick Sauber Ferrari,19,52,+1 lap,0,No,01:23.6,2024
+Italy,17,27,Nico Hulkenberg,Haas Ferrari,10,52,+1 lap,0,No,01:23.3,2024
+Italy,18,24,Guanyu Zhou,Kick Sauber Ferrari,20,52,+1 lap,0,No,01:25.1,2024
+Italy,19,18,Lance Stroll,Aston Martin Aramco Mercedes,17,52,+1 lap,0,No,01:22.2,2024
+Italy,NC,22,Yuki Tsunoda,RB Honda RBPT,16,7,DNF,0,No,01:26.2,2024
+Azerbaijan,1,81,Oscar Piastri,McLaren Mercedes,2,51,32:58.0,25,No,01:47.1,2024
+Azerbaijan,2,16,Charles Leclerc,Ferrari,1,51,10.91,18,No,01:47.1,2024
+Azerbaijan,3,63,George Russell,Mercedes,5,51,31.328,15,No,01:46.6,2024
+Azerbaijan,4,4,Lando Norris,McLaren Mercedes,15,51,36.142,13,Yes,01:45.3,2024
+Azerbaijan,5,1,Max Verstappen,Red Bull Racing Honda RBPT,6,51,77.098,10,No,01:46.8,2024
+Azerbaijan,6,14,Fernando Alonso,Aston Martin Aramco Mercedes,7,51,85.468,8,No,01:47.1,2024
+Azerbaijan,7,23,Alexander Albon,Williams Mercedes,9,51,87.396,6,No,01:46.9,2024
+Azerbaijan,8,43,Franco Colapinto,Williams Mercedes,8,51,89.541,4,No,01:47.3,2024
+Azerbaijan,9,44,Lewis Hamilton,Mercedes,19,51,92.401,2,No,01:47.2,2024
+Azerbaijan,10,50,Oliver Bearman,Haas Ferrari,10,51,93.127,1,No,01:47.0,2024
+Azerbaijan,11,27,Nico Hulkenberg,Haas Ferrari,12,51,93.465,0,No,01:47.7,2024
+Azerbaijan,12,10,Pierre Gasly,Alpine Renault,18,51,117.189,0,No,01:48.0,2024
+Azerbaijan,13,3,Daniel Ricciardo,RB Honda RBPT,14,51,146.907,0,No,01:48.4,2024
+Azerbaijan,14,24,Guanyu Zhou,Kick Sauber Ferrari,17,51,148.841,0,No,01:47.6,2024
+Azerbaijan,15,31,Esteban Ocon,Alpine Renault,20,50,+1 lap,0,No,01:48.8,2024
+Azerbaijan,16,77,Valtteri Bottas,Kick Sauber Ferrari,16,50,+1 lap,0,No,01:48.4,2024
+Azerbaijan,17,11,Sergio Perez,Red Bull Racing Honda RBPT,4,49,DNF,0,No,01:47.0,2024
+Azerbaijan,18,55,Carlos Sainz,Ferrari,3,49,DNF,0,No,01:46.9,2024
+Azerbaijan,19,18,Lance Stroll,Aston Martin Aramco Mercedes,13,45,DNF,0,No,01:48.1,2024
+Azerbaijan,NC,22,Yuki Tsunoda,RB Honda RBPT,11,14,DNF,0,No,01:50.9,2024
+Singapore,1,4,Lando Norris,McLaren Mercedes,1,62,40:52.6,25,No,01:34.9,2024
+Singapore,2,1,Max Verstappen,Red Bull Racing Honda RBPT,2,62,20.945,18,No,01:36.0,2024
+Singapore,3,81,Oscar Piastri,McLaren Mercedes,5,62,41.823,15,No,01:35.7,2024
+Singapore,4,63,George Russell,Mercedes,4,62,61.04,12,No,01:37.0,2024
+Singapore,5,16,Charles Leclerc,Ferrari,9,62,62.43,10,No,01:35.4,2024
+Singapore,6,44,Lewis Hamilton,Mercedes,3,62,85.248,8,No,01:37.4,2024
+Singapore,7,55,Carlos Sainz,Ferrari,10,62,96.039,6,No,01:36.6,2024
+Singapore,8,14,Fernando Alonso,Aston Martin Aramco Mercedes,7,61,+1 lap,4,No,01:37.7,2024
+Singapore,9,27,Nico Hulkenberg,Haas Ferrari,6,61,+1 lap,2,No,01:37.5,2024
+Singapore,10,11,Sergio Perez,Red Bull Racing Honda RBPT,13,61,+1 lap,1,No,01:37.5,2024
+Singapore,11,43,Franco Colapinto,Williams Mercedes,12,61,+1 lap,0,No,01:37.3,2024
+Singapore,12,22,Yuki Tsunoda,RB Honda RBPT,8,61,+1 lap,0,No,01:36.4,2024
+Singapore,13,31,Esteban Ocon,Alpine Renault,15,61,+1 lap,0,No,01:38.0,2024
+Singapore,14,18,Lance Stroll,Aston Martin Aramco Mercedes,17,61,+1 lap,0,No,01:37.9,2024
+Singapore,15,24,Guanyu Zhou,Kick Sauber Ferrari,20,61,+1 lap,0,No,01:37.5,2024
+Singapore,16,77,Valtteri Bottas,Kick Sauber Ferrari,19,61,+1 lap,0,No,01:37.5,2024
+Singapore,17,10,Pierre Gasly,Alpine Renault,18,61,+1 lap,0,No,01:36.9,2024
+Singapore,18,3,Daniel Ricciardo,RB Honda RBPT,16,61,+1 lap,0,Yes,01:34.5,2024
+Singapore,19,20,Kevin Magnussen,Haas Ferrari,14,57,DNF,0,No,01:37.4,2024
+Singapore,NC,23,Alexander Albon,Williams Mercedes,11,15,DNF,0,No,01:36.9,2024
+United States,1,16,Charles Leclerc,Ferrari,4,56,35:09.6,25,No,01:37.8,2024
+United States,2,55,Carlos Sainz,Ferrari,3,56,8.562,18,No,01:37.8,2024
+United States,3,1,Max Verstappen,Red Bull Racing Honda RBPT,2,56,19.412,15,No,01:38.1,2024
+United States,4,4,Lando Norris,McLaren Mercedes,1,56,20.354,12,No,01:37.7,2024
+United States,5,81,Oscar Piastri,McLaren Mercedes,5,56,21.921,10,No,01:37.9,2024
+United States,6,63,George Russell,Mercedes,20,56,56.295,8,No,01:37.7,2024
+United States,7,11,Sergio Perez,Red Bull Racing Honda RBPT,9,56,59.072,6,No,01:38.5,2024
+United States,8,27,Nico Hulkenberg,Haas Ferrari,11,56,62.957,4,No,01:38.4,2024
+United States,9,30,Liam Lawson,RB Honda RBPT,19,56,70.563,2,No,01:38.1,2024
+United States,10,43,Franco Colapinto,Williams Mercedes,15,56,71.979,1,No,01:37.6,2024
+United States,11,20,Kevin Magnussen,Haas Ferrari,8,56,79.782,0,No,01:38.2,2024
+United States,12,10,Pierre Gasly,Alpine Renault,6,56,90.558,0,No,01:38.3,2024
+United States,13,14,Fernando Alonso,Aston Martin Aramco Mercedes,7,55,+1 lap,0,No,01:39.3,2024
+United States,14,22,Yuki Tsunoda,RB Honda RBPT,10,55,+1 lap,0,No,01:39.2,2024
+United States,15,18,Lance Stroll,Aston Martin Aramco Mercedes,13,55,+1 lap,0,No,01:39.2,2024
+United States,16,23,Alexander Albon,Williams Mercedes,14,55,+1 lap,0,No,01:39.1,2024
+United States,17,77,Valtteri Bottas,Kick Sauber Ferrari,16,55,+1 lap,0,No,01:40.6,2024
+United States,18,31,Esteban Ocon,Alpine Renault,12,55,+1 lap,0,Yes,01:37.3,2024
+United States,19,24,Guanyu Zhou,Kick Sauber Ferrari,18,55,+1 lap,0,No,01:39.3,2024
+United States,NC,44,Lewis Hamilton,Mercedes,17,1,DNF,0,No,,2024
+Mexico,1,55,Carlos Sainz,Ferrari,1,71,40:55.8,25,No,01:20.1,2024
+Mexico,2,4,Lando Norris,McLaren Mercedes,3,71,4.705,18,No,01:19.7,2024
+Mexico,3,16,Charles Leclerc,Ferrari,4,71,34.387,16,Yes,01:18.3,2024
+Mexico,4,44,Lewis Hamilton,Mercedes,6,71,44.78,12,No,01:20.4,2024
+Mexico,5,63,George Russell,Mercedes,5,71,48.536,10,No,01:20.7,2024
+Mexico,6,1,Max Verstappen,Red Bull Racing Honda RBPT,2,71,59.558,8,No,01:20.9,2024
+Mexico,7,20,Kevin Magnussen,Haas Ferrari,7,71,63.642,6,No,01:20.6,2024
+Mexico,8,81,Oscar Piastri,McLaren Mercedes,17,71,64.928,4,No,01:20.1,2024
+Mexico,9,27,Nico Hulkenberg,Haas Ferrari,10,70,+1 lap,2,No,01:20.7,2024
+Mexico,10,10,Pierre Gasly,Alpine Renault,8,70,+1 lap,1,No,01:21.3,2024
+Mexico,11,18,Lance Stroll,Aston Martin Aramco Mercedes,14,70,+1 lap,0,No,01:21.3,2024
+Mexico,12,43,Franco Colapinto,Williams Mercedes,16,70,+1 lap,0,No,01:20.1,2024
+Mexico,13,31,Esteban Ocon,Alpine Renault,20,70,+1 lap,0,No,01:20.7,2024
+Mexico,14,77,Valtteri Bottas,Kick Sauber Ferrari,15,70,+1 lap,0,No,01:21.1,2024
+Mexico,15,24,Guanyu Zhou,Kick Sauber Ferrari,19,70,+1 lap,0,No,01:21.6,2024
+Mexico,16,30,Liam Lawson,RB Honda RBPT,12,70,+1 lap,0,No,01:19.5,2024
+Mexico,17,11,Sergio Perez,Red Bull Racing Honda RBPT,18,70,+1 lap,0,No,01:19.2,2024
+Mexico,NC,14,Fernando Alonso,Aston Martin Aramco Mercedes,13,15,DNF,0,No,01:22.7,2024
+Mexico,NC,23,Alexander Albon,Williams Mercedes,9,0,DNF,0,No,,2024
+Mexico,NC,22,Yuki Tsunoda,RB Honda RBPT,11,0,DNF,0,No,,2024
+Brazil,1,1,Max Verstappen,Red Bull Racing Honda RBPT,17,69,06:54.4,26,Yes,01:20.5,2024
+Brazil,2,31,Esteban Ocon,Alpine Renault,4,69,19.477,18,No,01:21.8,2024
+Brazil,3,10,Pierre Gasly,Alpine Renault,13,69,22.532,15,No,01:21.6,2024
+Brazil,4,63,George Russell,Mercedes,2,69,23.265,12,No,01:21.6,2024
+Brazil,5,16,Charles Leclerc,Ferrari,6,69,30.177,10,No,01:21.6,2024
+Brazil,6,4,Lando Norris,McLaren Mercedes,1,69,31.372,8,No,01:21.5,2024
+Brazil,7,22,Yuki Tsunoda,RB Honda RBPT,3,69,42.056,6,No,01:21.8,2024
+Brazil,8,81,Oscar Piastri,McLaren Mercedes,8,69,44.943,4,No,01:21.5,2024
+Brazil,9,30,Liam Lawson,RB Honda RBPT,5,69,50.452,2,No,01:22.1,2024
+Brazil,10,44,Lewis Hamilton,Mercedes,14,69,50.753,1,No,01:22.0,2024
+Brazil,11,11,Sergio Perez,Red Bull Racing Honda RBPT,12,69,51.531,0,No,01:22.1,2024
+Brazil,12,50,Oliver Bearman,Haas Ferrari,15,69,57.085,0,No,01:22.5,2024
+Brazil,13,77,Valtteri Bottas,Kick Sauber Ferrari,11,69,63.588,0,No,01:22.9,2024
+Brazil,14,14,Fernando Alonso,Aston Martin Aramco Mercedes,9,69,78.049,0,No,01:22.3,2024
+Brazil,15,24,Guanyu Zhou,Kick Sauber Ferrari,19,69,79.649,0,No,01:23.1,2024
+Brazil,NC,55,Carlos Sainz,Ferrari,20,38,DNF,0,No,01:24.2,2024
+Brazil,NC,43,Franco Colapinto,Williams Mercedes,16,30,DNF,0,No,01:24.3,2024
+Brazil,NC,23,Alexander Albon,Williams Mercedes,7,0,DNS,0,No,,2024
+Brazil,NC,18,Lance Stroll,Aston Martin Aramco Mercedes,10,0,DNS,0,No,,2024
+Brazil,DQ,27,Nico Hulkenberg,Haas Ferrari,18,0,DSQ,0,No,01:23.8,2024
+Las Vegas,1,63,George Russell,Mercedes,1,50,22:06.0,25,No,01:35.7,2024
+Las Vegas,2,44,Lewis Hamilton,Mercedes,10,50,7.313,18,No,01:35.5,2024
+Las Vegas,3,55,Carlos Sainz,Ferrari,2,50,11.906,15,No,01:35.9,2024
+Las Vegas,4,16,Charles Leclerc,Ferrari,4,50,14.283,12,No,01:35.7,2024
+Las Vegas,5,1,Max Verstappen,Red Bull Racing Honda RBPT,5,50,16.582,10,No,01:36.2,2024
+Las Vegas,6,4,Lando Norris,McLaren Mercedes,6,50,43.385,9,Yes,01:34.9,2024
+Las Vegas,7,81,Oscar Piastri,McLaren Mercedes,8,50,51.365,6,No,01:36.6,2024
+Las Vegas,8,27,Nico Hulkenberg,Haas Ferrari,9,50,59.808,4,No,01:36.6,2024
+Las Vegas,9,22,Yuki Tsunoda,RB Honda RBPT,7,50,62.808,2,No,01:37.0,2024
+Las Vegas,10,11,Sergio Perez,Red Bull Racing Honda RBPT,15,50,63.114,1,No,01:36.3,2024
+Las Vegas,11,14,Fernando Alonso,Aston Martin Aramco Mercedes,16,50,69.195,0,No,01:36.6,2024
+Las Vegas,12,20,Kevin Magnussen,Haas Ferrari,12,50,69.803,0,No,01:36.6,2024
+Las Vegas,13,24,Guanyu Zhou,Kick Sauber Ferrari,13,50,74.085,0,No,01:36.3,2024
+Las Vegas,14,43,Franco Colapinto,Williams Mercedes,20,50,75.172,0,No,01:36.9,2024
+Las Vegas,15,18,Lance Stroll,Aston Martin Aramco Mercedes,18,50,84.102,0,No,01:37.2,2024
+Las Vegas,16,30,Liam Lawson,RB Honda RBPT,14,50,91.005,0,No,01:37.0,2024
+Las Vegas,17,31,Esteban Ocon,Alpine Renault,11,49,+1 lap,0,No,01:36.5,2024
+Las Vegas,18,77,Valtteri Bottas,Kick Sauber Ferrari,19,49,+1 lap,0,No,01:36.6,2024
+Las Vegas,NC,23,Alexander Albon,Williams Mercedes,17,25,DNF,0,No,01:38.0,2024
+Las Vegas,NC,10,Pierre Gasly,Alpine Renault,3,15,DNF,0,No,01:38.3,2024
+Qatar,1,1,Max Verstappen,Red Bull Racing Honda RBPT,2,57,31:05.3,25,No,01:22.9,2024
+Qatar,2,16,Charles Leclerc,Ferrari,5,57,6.031,18,No,01:23.2,2024
+Qatar,3,81,Oscar Piastri,McLaren Mercedes,4,57,6.819,15,No,01:23.2,2024
+Qatar,4,63,George Russell,Mercedes,1,57,14.104,12,No,01:23.4,2024
+Qatar,5,10,Pierre Gasly,Alpine Renault,11,57,16.782,10,No,01:23.7,2024
+Qatar,6,55,Carlos Sainz,Ferrari,7,57,17.476,8,No,01:23.5,2024
+Qatar,7,14,Fernando Alonso,Aston Martin Aramco Mercedes,8,57,19.867,6,No,01:23.7,2024
+Qatar,8,24,Guanyu Zhou,Kick Sauber Ferrari,12,57,25.36,4,No,01:23.9,2024
+Qatar,9,20,Kevin Magnussen,Haas Ferrari,10,57,32.177,2,No,01:24.3,2024
+Qatar,10,4,Lando Norris,McLaren Mercedes,3,57,35.762,2,Yes,01:22.4,2024
+Qatar,11,77,Valtteri Bottas,Kick Sauber Ferrari,13,57,50.243,0,No,01:25.5,2024
+Qatar,12,44,Lewis Hamilton,Mercedes,6,57,56.122,0,No,01:23.9,2024
+Qatar,13,22,Yuki Tsunoda,RB Honda RBPT,14,57,61.1,0,No,01:26.1,2024
+Qatar,14,30,Liam Lawson,RB Honda RBPT,17,57,62.656,0,No,01:26.1,2024
+Qatar,15,23,Alexander Albon,Williams Mercedes,16,56,+1 lap,0,No,01:25.6,2024
+Qatar,NC,27,Nico Hulkenberg,Haas Ferrari,18,39,DNF,0,No,01:25.8,2024
+Qatar,NC,11,Sergio Perez,Red Bull Racing Honda RBPT,9,38,DNF,0,No,01:25.3,2024
+Qatar,NC,18,Lance Stroll,Aston Martin Aramco Mercedes,15,8,DNF,0,No,01:30.9,2024
+Qatar,NC,43,Franco Colapinto,Williams Mercedes,19,0,DNF,0,No,,2024
+Qatar,NC,31,Esteban Ocon,Alpine Renault,20,0,DNF,0,No,,2024
+Abu Dhabi,1,4,Lando Norris,McLaren Mercedes,1,58,26:33.3,25,No,01:27.4,2024
+Abu Dhabi,2,55,Carlos Sainz,Ferrari,3,58,5.832,18,No,01:27.8,2024
+Abu Dhabi,3,16,Charles Leclerc,Ferrari,19,58,31.928,15,No,01:28.0,2024
+Abu Dhabi,4,44,Lewis Hamilton,Mercedes,16,58,36.483,12,No,01:27.3,2024
+Abu Dhabi,5,63,George Russell,Mercedes,6,58,37.538,10,No,01:28.2,2024
+Abu Dhabi,6,1,Max Verstappen,Red Bull Racing Honda RBPT,4,58,49.847,8,No,01:27.8,2024
+Abu Dhabi,7,10,Pierre Gasly,Alpine Renault,5,58,72.56,6,No,01:29.3,2024
+Abu Dhabi,8,27,Nico Hulkenberg,Haas Ferrari,7,58,75.554,4,No,01:29.2,2024
+Abu Dhabi,9,14,Fernando Alonso,Aston Martin Aramco Mercedes,8,58,82.373,2,No,01:27.9,2024
+Abu Dhabi,10,81,Oscar Piastri,McLaren Mercedes,2,58,83.821,1,No,01:27.7,2024
+Abu Dhabi,11,23,Alexander Albon,Williams Mercedes,18,57,+1 lap,0,No,01:29.4,2024
+Abu Dhabi,12,22,Yuki Tsunoda,RB Honda RBPT,11,57,+1 lap,0,No,01:29.2,2024
+Abu Dhabi,13,24,Guanyu Zhou,Kick Sauber Ferrari,15,57,+1 lap,0,No,01:28.0,2024
+Abu Dhabi,14,18,Lance Stroll,Aston Martin Aramco Mercedes,13,57,+1 lap,0,No,01:28.6,2024
+Abu Dhabi,15,61,Jack Doohan,Alpine Renault,17,57,+1 lap,0,No,01:29.1,2024
+Abu Dhabi,16,20,Kevin Magnussen,Haas Ferrari,14,57,+1 lap,0,Yes,01:25.6,2024
+Abu Dhabi,17,30,Liam Lawson,RB Honda RBPT,12,55,DNF,0,No,01:28.8,2024
+Abu Dhabi,NC,77,Valtteri Bottas,Kick Sauber Ferrari,9,30,DNF,0,No,01:29.5,2024
+Abu Dhabi,NC,43,Franco Colapinto,Williams Mercedes,20,26,DNF,0,No,01:29.4,2024
+Abu Dhabi,NC,11,Sergio Perez,Red Bull Racing Honda RBPT,10,0,DNF,0,No,,2024
+Australia,1,4,Lando Norris,McLaren Mercedes,1,57,42:06.3,25,Yes,01:22.2,2025
+Australia,2,1,Max Verstappen,Red Bull Racing Honda RBPT,3,57,0.895,18,No,01:23.1,2025
+Australia,3,63,George Russell,Mercedes,4,57,8.481,15,No,01:25.1,2025
+Australia,4,12,Kimi Antonelli,Mercedes,16,57,10.135,12,No,01:24.9,2025
+Australia,5,23,Alexander Albon,Williams Mercedes,6,57,12.773,10,No,01:24.6,2025
+Australia,6,18,Lance Stroll,Aston Martin Aramco Mercedes,13,57,17.413,8,No,01:25.5,2025
+Australia,7,27,Nico Hulkenberg,Kick Sauber Ferrari,17,57,18.423,6,No,01:25.2,2025
+Australia,8,16,Charles Leclerc,Ferrari,7,57,19.826,4,No,01:25.3,2025
+Australia,9,81,Oscar Piastri,McLaren Mercedes,2,57,20.448,2,No,01:23.2,2025
+Australia,10,44,Lewis Hamilton,Ferrari,8,57,22.473,1,No,01:24.2,2025
+Australia,11,10,Pierre Gasly,Alpine Renault,9,57,26.502,0,No,01:25.0,2025
+Australia,12,22,Yuki Tsunoda,Racing Bulls Honda RBPT,5,57,29.884,0,No,01:24.2,2025
+Australia,13,31,Esteban Ocon,Haas Ferrari,19,57,33.161,0,No,01:26.8,2025
+Australia,14,87,Oliver Bearman,Haas Ferrari,20,57,40.351,0,No,01:27.6,2025
+Australia,NC,30,Liam Lawson,Red Bull Racing Honda RBPT,18,46,DNF,0,No,01:23.0,2025
+Australia,NC,5,Gabriel Bortoleto,Kick Sauber Ferrari,15,45,DNF,0,No,01:24.2,2025
+Australia,NC,14,Fernando Alonso,Aston Martin Aramco Mercedes,12,32,DNF,0,No,01:28.8,2025
+Australia,NC,55,Carlos Sainz,Williams Mercedes,10,0,DNF,0,No,,2025
+Australia,NC,7,Jack Doohan,Alpine Renault,14,0,DNF,0,No,,2025
+Australia,NC,6,Isack Hadjar,Racing Bulls Honda RBPT,11,0,DNF,0,No,,2025
+China,1,81,Oscar Piastri,McLaren Mercedes,1,56,30:55.0,25,No,01:35.5,2025
+China,2,4,Lando Norris,McLaren Mercedes,3,56,9.748,18,No,01:35.5,2025
+China,3,63,George Russell,Mercedes,2,56,11.097,15,No,01:35.8,2025
+China,4,1,Max Verstappen,Red Bull Racing Honda RBPT,4,56,16.656,12,No,01:35.5,2025
+China,5,31,Esteban Ocon,Haas Ferrari,11,56,49.969,10,No,01:35.7,2025
+China,6,12,Kimi Antonelli,Mercedes,8,56,53.748,8,No,01:36.0,2025
+China,7,23,Alexander Albon,Williams Mercedes,10,56,56.321,6,No,01:36.3,2025
+China,8,87,Oliver Bearman,Haas Ferrari,17,56,61.303,4,No,01:36.4,2025
+China,9,18,Lance Stroll,Aston Martin Aramco Mercedes,14,56,70.204,2,No,01:36.0,2025
+China,10,55,Carlos Sainz,Williams Mercedes,15,56,76.387,1,No,01:36.8,2025
+China,11,6,Isack Hadjar,Racing Bulls Honda RBPT,7,56,78.875,0,No,01:35.9,2025
+China,12,30,Liam Lawson,Red Bull Racing Honda RBPT,20,56,81.147,0,No,01:36.0,2025
+China,13,7,Jack Doohan,Alpine Renault,18,56,88.401,0,No,01:36.4,2025
+China,14,5,Gabriel Bortoleto,Kick Sauber Ferrari,19,55,+1 lap,0,No,01:35.9,2025
+China,15,27,Nico Hulkenberg,Kick Sauber Ferrari,12,55,+1 lap,0,No,01:37.3,2025
+China,16,22,Yuki Tsunoda,Racing Bulls Honda RBPT,9,55,+1 lap,0,No,01:35.9,2025
+China,NC,14,Fernando Alonso,Aston Martin Aramco Mercedes,13,4,DNF,0,No,01:39.3,2025
+China,DQ,16,Charles Leclerc,Ferrari,6,0,DSQ,0,No,01:36.2,2025
+China,DQ,44,Lewis Hamilton,Ferrari,5,0,DSQ,0,Yes,01:35.1,2025
+China,DQ,10,Pierre Gasly,Alpine Renault,16,0,DSQ,0,No,01:36.4,2025
+Japan,1,1,Max Verstappen,Red Bull Racing Honda RBPT,1,53,22:07.0,25,No,01:31.0,2025
+Japan,2,4,Lando Norris,McLaren Mercedes,2,53,1.423,18,No,01:31.1,2025
+Japan,3,81,Oscar Piastri,McLaren Mercedes,3,53,2.129,15,No,01:31.0,2025
+Japan,4,16,Charles Leclerc,Ferrari,4,53,16.097,12,No,01:31.5,2025
+Japan,5,63,George Russell,Mercedes,5,53,17.362,10,No,01:31.4,2025
+Japan,6,12,Kimi Antonelli,Mercedes,6,53,18.671,8,Yes,01:31.0,2025
+Japan,7,44,Lewis Hamilton,Ferrari,8,53,29.182,6,No,01:31.4,2025
+Japan,8,6,Isack Hadjar,Racing Bulls Honda RBPT,7,53,37.134,4,No,01:31.3,2025
+Japan,9,23,Alexander Albon,Williams Mercedes,9,53,40.367,2,No,01:31.1,2025
+Japan,10,87,Oliver Bearman,Haas Ferrari,10,53,54.529,1,No,01:32.0,2025
+Japan,11,14,Fernando Alonso,Aston Martin Aramco Mercedes,12,53,57.333,0,No,01:31.8,2025
+Japan,12,22,Yuki Tsunoda,Red Bull Racing Honda RBPT,14,53,58.401,0,No,01:31.9,2025
+Japan,13,10,Pierre Gasly,Alpine Renault,11,53,62.122,0,No,01:31.8,2025
+Japan,14,55,Carlos Sainz,Williams Mercedes,15,53,74.129,0,No,01:31.1,2025
+Japan,15,7,Jack Doohan,Alpine Renault,19,53,81.314,0,No,01:32.7,2025
+Japan,16,27,Nico Hulkenberg,Kick Sauber Ferrari,16,53,81.957,0,No,01:32.6,2025
+Japan,17,30,Liam Lawson,Racing Bulls Honda RBPT,13,53,82.734,0,No,01:32.0,2025
+Japan,18,31,Esteban Ocon,Haas Ferrari,18,53,83.438,0,No,01:32.0,2025
+Japan,19,5,Gabriel Bortoleto,Kick Sauber Ferrari,17,53,83.897,0,No,01:32.0,2025
+Japan,20,18,Lance Stroll,Aston Martin Aramco Mercedes,20,52,+1 lap,0,No,01:32.1,2025
+Bahrain,1,81,Oscar Piastri,McLaren Mercedes,1,57,35:39.4,25,Yes,01:35.1,2025
+Bahrain,2,63,George Russell,Mercedes,3,57,15.499,18,No,01:35.5,2025
+Bahrain,3,4,Lando Norris,McLaren Mercedes,6,57,16.273,15,No,01:35.7,2025
+Bahrain,4,16,Charles Leclerc,Ferrari,2,57,19.679,12,No,01:36.1,2025
+Bahrain,5,44,Lewis Hamilton,Ferrari,9,57,27.993,10,No,01:36.2,2025
+Bahrain,6,1,Max Verstappen,Red Bull Racing Honda RBPT,7,57,24.395,8,No,01:36.2,2025
+Bahrain,7,10,Pierre Gasly,Alpine Renault,4,57,36.002,6,No,01:36.5,2025
+Bahrain,8,31,Esteban Ocon,Haas Ferrari,14,57,44.244,4,No,01:37.1,2025
+Bahrain,9,22,Yuki Tsunoda,Red Bull Racing Honda RBPT,10,57,45.061,2,No,01:37.2,2025
+Bahrain,10,87,Oliver Bearman,Haas Ferrari,20,57,47.594,1,No,01:37.3,2025
+Bahrain,11,12,Kimi Antonelli,Mercedes,5,57,48.016,0,No,01:36.7,2025
+Bahrain,12,23,Alexander Albon,Williams Mercedes,15,57,48.839,0,No,01:37.1,2025
+Bahrain,13,6,Isack Hadjar,Racing Bulls Honda RBPT,12,57,56.314,0,No,01:37.0,2025
+Bahrain,14,7,Jack Doohan,Alpine Renault,11,57,57.806,0,No,01:36.7,2025
+Bahrain,15,14,Fernando Alonso,Aston Martin Aramco Mercedes,13,57,60.34,0,No,01:37.9,2025
+Bahrain,16,30,Liam Lawson,Racing Bulls Honda RBPT,17,57,64.435,0,No,01:37.4,2025
+Bahrain,17,18,Lance Stroll,Aston Martin Aramco Mercedes,19,57,65.489,0,No,01:38.1,2025
+Bahrain,18,5,Gabriel Bortoleto,Kick Sauber Ferrari,18,57,66.872,0,No,01:38.0,2025
+Bahrain,NC,55,Carlos Sainz,Williams Mercedes,8,45,DNF,0,No,01:37.0,2025
+Bahrain,DQ,27,Nico Hulkenberg,Kick Sauber Ferrari,16,0,DSQ,0,No,01:37.3,2025
+Saudi Arabia,1,81,Oscar Piastri,McLaren Mercedes,2,50,21:06.8,25,No,01:32.2,2025
+Saudi Arabia,2,1,Max Verstappen,Red Bull Racing Honda RBPT,1,50,2.843,18,No,01:32.3,2025
+Saudi Arabia,3,16,Charles Leclerc,Ferrari,4,50,8.104,15,No,01:32.2,2025
+Saudi Arabia,4,4,Lando Norris,McLaren Mercedes,10,50,9.196,12,Yes,01:31.8,2025
+Saudi Arabia,5,63,George Russell,Mercedes,3,50,27.236,10,No,01:32.9,2025
+Saudi Arabia,6,12,Kimi Antonelli,Mercedes,5,50,34.688,8,No,01:32.4,2025
+Saudi Arabia,7,44,Lewis Hamilton,Ferrari,7,50,39.073,6,No,01:32.6,2025
+Saudi Arabia,8,55,Carlos Sainz,Williams Mercedes,6,50,64.63,4,No,01:32.5,2025
+Saudi Arabia,9,23,Alexander Albon,Williams Mercedes,11,50,66.515,2,No,01:33.5,2025
+Saudi Arabia,10,6,Isack Hadjar,Racing Bulls Honda RBPT,14,50,67.091,1,No,01:33.3,2025
+Saudi Arabia,11,14,Fernando Alonso,Aston Martin Aramco Mercedes,13,50,75.917,0,No,01:33.0,2025
+Saudi Arabia,12,30,Liam Lawson,Racing Bulls Honda RBPT,12,50,78.451,0,No,01:33.0,2025
+Saudi Arabia,13,87,Oliver Bearman,Haas Ferrari,15,50,79.194,0,No,01:33.2,2025
+Saudi Arabia,14,31,Esteban Ocon,Haas Ferrari,19,50,99.723,0,No,01:34.3,2025
+Saudi Arabia,15,27,Nico Hulkenberg,Kick Sauber Ferrari,18,49,+1 lap,0,No,01:33.4,2025
+Saudi Arabia,16,18,Lance Stroll,Aston Martin Aramco Mercedes,16,49,+1 lap,0,No,01:32.7,2025
+Saudi Arabia,17,7,Jack Doohan,Alpine Renault,17,49,+1 lap,0,No,01:33.1,2025
+Saudi Arabia,18,5,Gabriel Bortoleto,Kick Sauber Ferrari,20,49,+1 lap,0,No,01:34.4,2025
+Saudi Arabia,NC,22,Yuki Tsunoda,Red Bull Racing Honda RBPT,8,1,DNF,0,No,,2025
+Saudi Arabia,NC,10,Pierre Gasly,Alpine Renault,9,0,DNF,0,No,,2025
+Miami,1,81,Oscar Piastri,McLaren Mercedes,4,57,28:51.6,25,No,01:29.8,2025
+Miami,2,4,Lando Norris,McLaren Mercedes,2,57,4.63,18,Yes,01:29.7,2025
+Miami,3,63,George Russell,Mercedes,5,57,37.644,15,No,01:30.3,2025
+Miami,4,1,Max Verstappen,Red Bull Racing Honda RBPT,1,57,39.956,12,No,01:30.5,2025
+Miami,5,23,Alexander Albon,Williams Mercedes,7,57,48.067,10,No,01:30.5,2025
+Miami,6,12,Kimi Antonelli,Mercedes,3,57,55.502,8,No,01:30.8,2025
+Miami,7,16,Charles Leclerc,Ferrari,8,57,57.036,6,No,01:30.5,2025
+Miami,8,44,Lewis Hamilton,Ferrari,12,57,60.186,4,No,01:30.6,2025
+Miami,9,55,Carlos Sainz,Williams Mercedes,6,57,60.577,2,No,01:30.7,2025
+Miami,10,22,Yuki Tsunoda,Red Bull Racing Honda RBPT,10,57,74.434,1,No,01:31.0,2025
+Miami,11,6,Isack Hadjar,Racing Bulls Honda RBPT,11,57,74.602,0,No,01:31.0,2025
+Miami,12,31,Esteban Ocon,Haas Ferrari,9,57,82.006,0,No,01:31.1,2025
+Miami,13,10,Pierre Gasly,Alpine Renault,20,57,90.445,0,No,01:31.2,2025
+Miami,14,27,Nico Hulkenberg,Kick Sauber Ferrari,16,56,+1 lap,0,No,01:31.0,2025
+Miami,15,14,Fernando Alonso,Aston Martin Aramco Mercedes,17,56,+1 lap,0,No,01:31.3,2025
+Miami,16,18,Lance Stroll,Aston Martin Aramco Mercedes,18,56,+1 lap,0,No,01:31.8,2025
+Miami,NC,30,Liam Lawson,Racing Bulls Honda RBPT,15,36,DNF,0,No,01:31.8,2025
+Miami,NC,5,Gabriel Bortoleto,Kick Sauber Ferrari,13,30,DNF,0,No,01:32.3,2025
+Miami,NC,87,Oliver Bearman,Haas Ferrari,19,27,DNF,0,No,01:32.7,2025
+Miami,NC,7,Jack Doohan,Alpine Renault,14,0,DNF,0,No,,2025
+Emilia-Romagna,1,1,Max Verstappen,Red Bull Racing Honda RBPT,2,63,31:33.2,25,Yes,01:18.0,2025
+Emilia-Romagna,2,4,Lando Norris,McLaren Mercedes,4,63,6.109,18,No,01:18.3,2025
+Emilia-Romagna,3,81,Oscar Piastri,McLaren Mercedes,1,63,12.956,15,No,01:18.9,2025
+Emilia-Romagna,4,44,Lewis Hamilton,Ferrari,12,63,14.356,12,No,01:18.3,2025
+Emilia-Romagna,5,23,Alexander Albon,Williams Mercedes,7,63,17.945,10,No,01:18.3,2025
+Emilia-Romagna,6,16,Charles Leclerc,Ferrari,11,63,20.774,8,No,01:19.0,2025
+Emilia-Romagna,7,63,George Russell,Mercedes,3,63,22.304,6,No,01:19.7,2025
+Emilia-Romagna,8,55,Carlos Sainz,Williams Mercedes,6,63,22.898,4,No,01:19.8,2025
+Emilia-Romagna,9,6,Isack Hadjar,Racing Bulls Honda RBPT,9,63,23.586,2,No,01:19.5,2025
+Emilia-Romagna,10,22,Yuki Tsunoda,Red Bull Racing Honda RBPT,20,63,26.446,1,No,01:20.0,2025
+Emilia-Romagna,11,14,Fernando Alonso,Aston Martin Aramco Mercedes,5,63,27.25,0,No,01:19.9,2025
+Emilia-Romagna,12,27,Nico Hulkenberg,Kick Sauber Ferrari,17,63,30.296,0,No,01:20.4,2025
+Emilia-Romagna,13,10,Pierre Gasly,Alpine Renault,10,63,31.424,0,No,01:20.4,2025
+Emilia-Romagna,14,30,Liam Lawson,Racing Bulls Honda RBPT,15,63,32.511,0,No,01:20.5,2025
+Emilia-Romagna,15,18,Lance Stroll,Aston Martin Aramco Mercedes,8,63,32.993,0,No,01:20.5,2025
+Emilia-Romagna,16,43,Franco Colapinto,Alpine Renault,16,63,33.411,0,No,01:20.3,2025
+Emilia-Romagna,17,87,Oliver Bearman,Haas Ferrari,19,63,33.808,0,No,01:19.5,2025
+Emilia-Romagna,18,5,Gabriel Bortoleto,Kick Sauber Ferrari,14,63,38.572,0,No,01:20.6,2025
+Emilia-Romagna,NC,12,Kimi Antonelli,Mercedes,13,44,DNF,0,No,01:20.6,2025
+Emilia-Romagna,NC,31,Esteban Ocon,Haas Ferrari,18,27,DNF,0,No,01:21.4,2025
+Monaco,1,4,Lando Norris,McLaren Mercedes,1,78,40:33.8,25,Yes,01:13.2,2025
+Monaco,2,16,Charles Leclerc,Ferrari,2,78,3.131,18,No,01:14.1,2025
+Monaco,3,81,Oscar Piastri,McLaren Mercedes,3,78,3.658,15,No,01:13.7,2025
+Monaco,4,1,Max Verstappen,Red Bull Racing Honda RBPT,4,78,20.572,12,No,01:14.2,2025
+Monaco,5,44,Lewis Hamilton,Ferrari,7,78,51.387,10,No,01:14.1,2025
+Monaco,6,6,Isack Hadjar,Racing Bulls Honda RBPT,5,77,+1 lap,8,No,01:16.0,2025
+Monaco,7,31,Esteban Ocon,Haas Ferrari,8,77,+1 lap,6,No,01:15.2,2025
+Monaco,8,30,Liam Lawson,Racing Bulls Honda RBPT,9,77,+1 lap,4,No,01:15.3,2025
+Monaco,9,23,Alexander Albon,Williams Mercedes,10,76,+2 laps,2,No,01:14.6,2025
+Monaco,10,55,Carlos Sainz,Williams Mercedes,11,76,+2 laps,1,No,01:14.0,2025
+Monaco,11,63,George Russell,Mercedes,14,76,+2 laps,0,No,01:13.4,2025
+Monaco,12,87,Oliver Bearman,Haas Ferrari,20,76,+2 laps,0,No,01:14.9,2025
+Monaco,13,43,Franco Colapinto,Alpine Renault,18,76,+2 laps,0,No,01:15.3,2025
+Monaco,14,5,Gabriel Bortoleto,Kick Sauber Ferrari,16,76,+2 laps,0,No,01:14.9,2025
+Monaco,15,18,Lance Stroll,Aston Martin Aramco Mercedes,19,76,+2 laps,0,No,01:14.9,2025
+Monaco,16,27,Nico Hulkenberg,Kick Sauber Ferrari,13,76,+2 laps,0,No,01:15.2,2025
+Monaco,17,22,Yuki Tsunoda,Red Bull Racing Honda RBPT,12,76,+2 laps,0,No,01:14.9,2025
+Monaco,18,12,Kimi Antonelli,Mercedes,15,75,+3 laps,0,No,01:13.5,2025
+Monaco,NC,14,Fernando Alonso,Aston Martin Aramco Mercedes,6,36,DNF,0,No,01:15.6,2025
+Monaco,NC,10,Pierre Gasly,Alpine Renault,17,7,DNF,0,No,01:18.1,2025
+Spain,1,81,Oscar Piastri,McLaren Mercedes,1,66,32:57.4,25,Yes,01:15.7,2025
+Spain,2,4,Lando Norris,McLaren Mercedes,2,66,2.471,18,No,01:16.2,2025
+Spain,3,16,Charles Leclerc,Ferrari,7,66,10.455,15,No,01:17.3,2025
+Spain,4,63,George Russell,Mercedes,4,66,11.359,12,No,01:17.2,2025
+Spain,5,27,Nico Hulkenberg,Kick Sauber Ferrari,15,66,13.648,10,No,01:17.6,2025
+Spain,6,44,Lewis Hamilton,Ferrari,5,66,15.508,8,No,01:17.7,2025
+Spain,7,6,Isack Hadjar,Racing Bulls Honda RBPT,9,66,16.022,6,No,01:17.8,2025
+Spain,8,10,Pierre Gasly,Alpine Renault,8,66,17.882,4,No,01:17.9,2025
+Spain,9,14,Fernando Alonso,Aston Martin Aramco Mercedes,10,66,21.564,2,No,01:18.1,2025
+Spain,10,1,Max Verstappen,Red Bull Racing Honda RBPT,3,66,21.826,1,No,01:17.0,2025
+Spain,11,30,Liam Lawson,Racing Bulls Honda RBPT,13,66,25.532,0,No,01:19.4,2025
+Spain,12,5,Gabriel Bortoleto,Kick Sauber Ferrari,12,66,25.996,0,No,01:18.3,2025
+Spain,13,22,Yuki Tsunoda,Red Bull Racing Honda RBPT,19,66,28.822,0,No,01:18.0,2025
+Spain,14,55,Carlos Sainz,Williams Mercedes,17,66,29.309,0,No,01:19.3,2025
+Spain,15,43,Franco Colapinto,Alpine Renault,18,66,31.381,0,No,01:18.4,2025
+Spain,16,31,Esteban Ocon,Haas Ferrari,16,66,32.197,0,No,01:18.6,2025
+Spain,17,87,Oliver Bearman,Haas Ferrari,14,66,37.065,0,No,01:18.9,2025
+Spain,NC,12,Kimi Antonelli,Mercedes,6,53,DNF,0,No,01:18.3,2025
+Spain,NC,23,Alexander Albon,Williams Mercedes,11,27,DNF,0,No,01:20.5,2025
+Canada,1,63,George Russell,Mercedes,1,70,31:52.7,25,Yes,01:14.1,2025
+Canada,2,1,Max Verstappen,Red Bull Racing Honda RBPT,2,70,0.228,18,No,01:14.3,2025
+Canada,3,12,Kimi Antonelli,Mercedes,4,70,1.014,15,No,01:14.5,2025
+Canada,4,81,Oscar Piastri,McLaren Mercedes,3,70,2.109,12,No,01:14.3,2025
+Canada,5,16,Charles Leclerc,Ferrari,8,70,3.442,10,No,01:14.3,2025
+Canada,6,44,Lewis Hamilton,Ferrari,5,70,10.713,8,No,01:14.8,2025
+Canada,7,14,Fernando Alonso,Aston Martin Aramco Mercedes,6,70,10.972,6,No,01:15.0,2025
+Canada,8,27,Nico Hulkenberg,Kick Sauber Ferrari,11,70,15.364,4,No,01:15.4,2025
+Canada,9,31,Esteban Ocon,Haas Ferrari,14,69,+1 lap,2,No,01:14.6,2025
+Canada,10,55,Carlos Sainz,Williams Mercedes,16,69,+1 lap,1,No,01:14.4,2025
+Canada,11,87,Oliver Bearman,Haas Ferrari,13,69,+1 lap,0,No,01:15.4,2025
+Canada,12,22,Yuki Tsunoda,Red Bull Racing Honda RBPT,18,69,+1 lap,0,No,01:15.4,2025
+Canada,13,43,Franco Colapinto,Alpine Renault,10,69,+1 lap,0,No,01:16.1,2025
+Canada,14,5,Gabriel Bortoleto,Kick Sauber Ferrari,15,69,+1 lap,0,No,01:15.4,2025
+Canada,15,10,Pierre Gasly,Alpine Renault,20,69,+1 lap,0,No,01:15.0,2025
+Canada,16,6,Isack Hadjar,Racing Bulls Honda RBPT,12,69,+1 lap,0,No,01:16.3,2025
+Canada,17,18,Lance Stroll,Aston Martin Aramco Mercedes,17,69,+1 lap,0,No,01:14.9,2025
+Canada,18,4,Lando Norris,McLaren Mercedes,7,66,DNF,0,No,1.14:229,2025
+Canada,NC,30,Liam Lawson,Racing Bulls Honda RBPT,19,53,DNF,0,No,01:16.3,2025
+Canada,NC,23,Alexander Albon,Williams Mercedes,9,46,DNF,0,No,01:16.2,2025
+Austria,1,4,Lando Norris,McLaren Mercedes,1,70,23:47.7,25,No,01:08.3,2025
+Austria,2,81,Oscar Piastri,McLaren Mercedes,3,70,2.695,18,Yes,01:07.9,2025
+Austria,3,16,Charles Leclerc,Ferrari,2,70,19.82,15,No,01:08.8,2025
+Austria,4,44,Lewis Hamilton,Ferrari,4,70,29.02,12,No,01:08.6,2025
+Austria,5,63,George Russell,Mercedes,5,70,62.396,10,No,01:09.4,2025
+Austria,6,30,Liam Lawson,Racing Bulls Honda RBPT,6,70,67.754,8,No,01:10.0,2025
+Austria,7,14,Fernando Alonso,Aston Martin Aramco Mercedes,11,69,+1 lap,6,No,01:09.9,2025
+Austria,8,5,Gabriel Bortoleto,Kick Sauber Ferrari,8,69,+1 lap,4,No,01:09.2,2025
+Austria,9,27,Nico Hulkenberg,Kick Sauber Ferrari,20,69,+1 lap,2,No,01:09.5,2025
+Austria,10,31,Esteban Ocon,Haas Ferrari,17,69,+1 lap,1,No,01:09.6,2025
+Austria,11,87,Oliver Bearman,Haas Ferrari,15,69,+1 lap,0,No,01:10.0,2025
+Austria,12,6,Isack Hadjar,Racing Bulls Honda RBPT,13,69,+1 lap,0,No,01:10.2,2025
+Austria,13,10,Pierre Gasly,Alpine Renault,10,69,+1 lap,0,No,01:10.2,2025
+Austria,14,18,Lance Stroll,Aston Martin Aramco Mercedes,16,69,+1 lap,0,No,01:09.2,2025
+Austria,15,43,Franco Colapinto,Alpine Renault,14,69,+1 lap,0,No,01:09.6,2025
+Austria,16,22,Yuki Tsunoda,Red Bull Racing Honda RBPT,18,68,+2 laps,0,No,01:09.8,2025
+Austria,NC,23,Alexander Albon,Williams Mercedes,12,15,DNF,0,No,01:10.6,2025
+Austria,NC,1,Max Verstappen,Red Bull Racing Honda RBPT,7,0,DNF,0,No,,2025
+Austria,NC,12,Kimi Antonelli,Mercedes,9,0,DNF,0,No,,2025
+Austria,NC,55,Carlos Sainz,Williams Mercedes,19,0,DNS,0,No,,2025
+Great Britain,1,4,Lando Norris,McLaren Mercedes,3,52,37:15.7,25,No,01:29.7,2025
+Great Britain,2,81,Oscar Piastri,McLaren Mercedes,2,52,6.812,18,Yes,01:29.3,2025
+Great Britain,3,27,Nico Hulkenberg,Kick Sauber Ferrari,19,52,34.742,15,No,01:30.9,2025
+Great Britain,4,44,Lewis Hamilton,Ferrari,5,52,39.812,12,No,01:30.0,2025
+Great Britain,5,1,Max Verstappen,Red Bull Racing Honda RBPT,1,52,56.781,10,No,01:30.2,2025
+Great Britain,6,10,Pierre Gasly,Alpine Renault,8,52,59.857,8,No,01:30.8,2025
+Great Britain,7,18,Lance Stroll,Aston Martin Aramco Mercedes,17,52,60.603,6,No,01:32.1,2025
+Great Britain,8,23,Alexander Albon,Williams Mercedes,13,52,64.135,4,No,01:30.0,2025
+Great Britain,9,14,Fernando Alonso,Aston Martin Aramco Mercedes,7,52,65.868,2,No,01:30.4,2025
+Great Britain,10,63,George Russell,Mercedes,4,52,70.674,1,No,01:30.9,2025
+Great Britain,11,87,Oliver Bearman,Haas Ferrari,18,52,72.095,0,No,01:30.9,2025
+Great Britain,12,55,Carlos Sainz,Williams Mercedes,9,52,76.592,0,No,01:30.6,2025
+Great Britain,13,31,Esteban Ocon,Haas Ferrari,14,52,77.301,0,No,01:30.8,2025
+Great Britain,14,16,Charles Leclerc,Ferrari,6,52,84.477,0,No,01:30.8,2025
+Great Britain,15,22,Yuki Tsunoda,Red Bull Racing Honda RBPT,11,51,+1 lap,0,No,01:30.9,2025
+Great Britain,NC,12,Kimi Antonelli,Mercedes,10,23,DNF,0,No,01:45.6,2025
+Great Britain,NC,6,Isack Hadjar,Racing Bulls Honda RBPT,12,17,DNF,0,No,01:41.7,2025
+Great Britain,NC,5,Gabriel Bortoleto,Kick Sauber Ferrari,16,3,DNF,0,No,02:16.1,2025
+Great Britain,NC,30,Liam Lawson,Racing Bulls Honda RBPT,15,0,DNF,0,No,,2025
+Great Britain,NC,43,Franco Colapinto,Alpine Renault,20,0,DNS,0,No,,2025
+Belgium,1,81,Oscar Piastri,McLaren Mercedes,2,44,25:22.6,25,No,01:45.7,2025
+Belgium,2,4,Lando Norris,McLaren Mercedes,1,44,3.415,18,No,01:45.3,2025
+Belgium,3,16,Charles Leclerc,Ferrari,3,44,20.185,15,No,01:46.2,2025
+Belgium,4,1,Max Verstappen,Red Bull Racing Honda RBPT,4,44,21.731,12,No,01:46.1,2025
+Belgium,5,63,George Russell,Mercedes,6,44,34.863,10,No,01:46.6,2025
+Belgium,6,23,Alexander Albon,Williams Mercedes,5,44,39.926,8,No,01:46.8,2025
+Belgium,7,44,Lewis Hamilton,Ferrari,18,44,40.679,6,No,01:46.5,2025
+Belgium,8,30,Liam Lawson,Racing Bulls Honda RBPT,9,44,52.033,4,No,01:46.6,2025
+Belgium,9,5,Gabriel Bortoleto,Kick Sauber Ferrari,10,44,56.434,2,No,01:47.0,2025
+Belgium,10,10,Pierre Gasly,Alpine Renault,13,44,72.714,1,No,01:47.2,2025
+Belgium,11,87,Oliver Bearman,Haas Ferrari,12,44,73.145,0,No,01:46.7,2025
+Belgium,12,27,Nico Hulkenberg,Kick Sauber Ferrari,14,44,73.628,0,No,01:45.1,2025
+Belgium,13,22,Yuki Tsunoda,Red Bull Racing Honda RBPT,7,44,75.395,0,No,01:47.2,2025
+Belgium,14,18,Lance Stroll,Aston Martin Aramco Mercedes,16,44,79.831,0,No,01:47.2,2025
+Belgium,15,31,Esteban Ocon,Haas Ferrari,11,44,86.063,0,No,01:46.7,2025
+Belgium,16,12,Kimi Antonelli,Mercedes,19,44,86.721,0,Yes,01:44.9,2025
+Belgium,17,14,Fernando Alonso,Aston Martin Aramco Mercedes,20,44,87.924,0,No,01:45.8,2025
+Belgium,18,55,Carlos Sainz,Williams Mercedes,17,44,92.024,0,No,01:46.1,2025
+Belgium,19,43,Franco Colapinto,Alpine Renault,15,44,95.25,0,No,01:46.1,2025
+Belgium,20,6,Isack Hadjar,Racing Bulls Honda RBPT,8,43,+1 lap,0,No,01:47.7,2025
+Hungary,1,4,Lando Norris,McLaren Mercedes,3,70,35:21.2,25,No,01:19.9,2025
+Hungary,2,81,Oscar Piastri,McLaren Mercedes,2,70,0.698,18,No,01:19.4,2025
+Hungary,3,63,George Russell,Mercedes,4,70,21.916,15,Yes,01:19.4,2025
+Hungary,4,16,Charles Leclerc,Ferrari,1,70,42.56,12,No,01:20.4,2025
+Hungary,5,14,Fernando Alonso,Aston Martin Aramco Mercedes,5,70,59.04,10,No,01:20.1,2025
+Hungary,6,5,Gabriel Bortoleto,Kick Sauber Ferrari,7,70,66.169,8,No,01:20.7,2025
+Hungary,7,18,Lance Stroll,Aston Martin Aramco Mercedes,6,70,68.174,6,No,01:20.7,2025
+Hungary,8,30,Liam Lawson,Racing Bulls Honda RBPT,9,70,69.451,4,No,01:20.5,2025
+Hungary,9,1,Max Verstappen,Red Bull Racing Honda RBPT,8,70,72.645,2,No,01:19.6,2025
+Hungary,10,12,Kimi Antonelli,Mercedes,15,69,+1 lap,1,No,01:20.7,2025
+Hungary,11,6,Isack Hadjar,Racing Bulls Honda RBPT,10,69,+1 lap,0,No,01:20.8,2025
+Hungary,12,44,Lewis Hamilton,Ferrari,12,69,+1 lap,0,No,01:20.0,2025
+Hungary,13,27,Nico Hulkenberg,Kick Sauber Ferrari,18,69,+1 lap,0,No,01:20.0,2025
+Hungary,14,55,Carlos Sainz,Williams Mercedes,13,69,+1 lap,0,No,01:19.8,2025
+Hungary,15,23,Alexander Albon,Williams Mercedes,19,69,+1 lap,0,No,01:20.8,2025
+Hungary,16,31,Esteban Ocon,Haas Ferrari,17,69,+1 lap,0,No,01:21.9,2025
+Hungary,17,22,Yuki Tsunoda,Red Bull Racing Honda RBPT,20,69,+1 lap,0,No,01:21.2,2025
+Hungary,18,43,Franco Colapinto,Alpine Renault,14,69,+1 lap,0,No,01:20.8,2025
+Hungary,19,10,Pierre Gasly,Alpine Renault,16,69,+1 lap,0,No,01:21.4,2025
+Hungary,NC,87,Oliver Bearman,Haas Ferrari,11,48,DNF,0,No,01:22.0,2025
+Netherlands,1,81,Oscar Piastri,McLaren Mercedes,1,72,38:29.8,25,Yes,01:12.3,2025
+Netherlands,2,1,Max Verstappen,Red Bull Racing Honda RBPT,3,72,1.271,18,No,01:12.9,2025
+Netherlands,3,6,Isack Hadjar,Racing Bulls Honda RBPT,4,72,3.233,15,No,01:13.3,2025
+Netherlands,4,63,George Russell,Mercedes,5,72,5.654,12,No,01:13.7,2025
+Netherlands,5,23,Alexander Albon,Williams Mercedes,15,72,6.327,10,No,01:13.7,2025
+Netherlands,6,87,Oliver Bearman,Haas Ferrari,20,72,9.044,8,No,01:14.0,2025
+Netherlands,7,18,Lance Stroll,Aston Martin Aramco Mercedes,19,72,9.497,6,No,01:13.8,2025
+Netherlands,8,14,Fernando Alonso,Aston Martin Aramco Mercedes,10,72,11.709,4,No,01:13.7,2025
+Netherlands,9,22,Yuki Tsunoda,Red Bull Racing Honda RBPT,12,72,13.597,2,No,01:14.4,2025
+Netherlands,10,31,Esteban Ocon,Haas Ferrari,18,72,14.063,1,No,01:14.0,2025
+Netherlands,11,43,Franco Colapinto,Alpine Renault,16,72,14.511,0,No,01:13.0,2025
+Netherlands,12,30,Liam Lawson,Racing Bulls Honda RBPT,8,72,17.063,0,No,01:13.9,2025
+Netherlands,13,55,Carlos Sainz,Williams Mercedes,9,72,17.376,0,No,01:13.8,2025
+Netherlands,14,27,Nico Hulkenberg,Kick Sauber Ferrari,17,72,419.725,0,No,01:14.9,2025
+Netherlands,15,5,Gabriel Bortoleto,Kick Sauber Ferrari,13,72,21.565,0,No,01:14.3,2025
+Netherlands,16,12,Kimi Antonelli,Mercedes,11,72,22.029,0,No,01:13.5,2025
+Netherlands,17,10,Pierre Gasly,Alpine Renault,14,72,23.629,0,No,01:15.2,2025
+Netherlands,18,4,Lando Norris,McLaren Mercedes,2,64,DNF,0,No,01:12.4,2025
+Netherlands,NC,16,Charles Leclerc,Ferrari,6,52,DNF,0,No,01:14.6,2025
+Netherlands,NC,44,Lewis Hamilton,Ferrari,7,22,DNF,0,No,01:15.7,2025
+Italy,1,1,Max Verstappen,Red Bull Racing Honda RBPT,1,53,1:13.24.325,25,No,01:21.0,2025
+Italy,2,4,Lando Norris,McLaren Mercedes,2,53,19.207,18,Yes,01:20.9,2025
+Italy,3,81,Oscar Piastri,McLaren Mercedes,3,53,21.351,15,No,01:21.2,2025
+Italy,4,16,Charles Leclerc,Ferrari,4,53,25.624,12,No,01:21.3,2025
+Italy,5,63,George Russell,Mercedes,5,53,32.881,10,No,01:21.8,2025
+Italy,6,44,Lewis Hamilton,Ferrari,10,53,37.449,8,No,01:21.5,2025
+Italy,7,23,Alexander Albon,Williams Mercedes,14,53,50.537,6,No,01:21.4,2025
+Italy,8,5,Gabriel Bortoleto,Kick Sauber Ferrari,7,53,58.484,4,No,01:22.1,2025
+Italy,9,12,Kimi Antonelli,Mercedes,6,53,59.762,2,No,01:22.0,2025
+Italy,10,6,Isack Hadjar,Racing Bulls Honda RBPT,19,53,63.891,1,No,01:22.1,2025
+Italy,11,55,Carlos Sainz,Williams Mercedes,13,53,64.469,0,No,01:21.7,2025
+Italy,12,87,Oliver Bearman,Haas Ferrari,11,53,79.288,0,No,01:21.8,2025
+Italy,13,22,Yuki Tsunoda,Red Bull Racing Honda RBPT,9,53,80.701,0,No,01:22.7,2025
+Italy,14,30,Liam Lawson,Racing Bulls Honda RBPT,18,53,82.351,0,No,01:22.8,2025
+Italy,15,31,Esteban Ocon,Haas Ferrari,15,52,+1 lap,0,No,01:22.9,2025
+Italy,16,10,Pierre Gasly,Alpine Renault,20,52,+1 lap,0,No,01:22.2,2025
+Italy,17,43,Franco Colapinto,Alpine Renault,17,52,+1 lap,0,No,01:22.2,2025
+Italy,18,18,Lance Stroll,Aston Martin Aramco Mercedes,16,52,+1 lap,0,No,01:22.2,2025
+Italy,NC,14,Fernando Alonso,Aston Martin Aramco Mercedes,8,24,DNF,0,No,01:23.8,2025
+Italy,NC,27,Nico Hulkenberg,Kick Sauber Ferrari,12,0,DNS,0,No,,2025
+Azerbaijan,1,1,Max Verstappen,Red Bull Racing Honda RBPT,1,51,33:26.4,25,Yes,01:43.4,2025
+Azerbaijan,2,63,George Russell,Mercedes,5,51,14.609,18,No,01:43.8,2025
+Azerbaijan,3,55,Carlos Sainz,Williams Mercedes,2,51,19.199,15,No,01:44.0,2025
+Azerbaijan,4,12,Kimi Antonelli,Mercedes,4,51,21.76,12,No,01:44.1,2025
+Azerbaijan,5,30,Liam Lawson,Racing Bulls Honda RBPT,3,51,33.29,10,No,01:44.5,2025
+Azerbaijan,6,22,Yuki Tsunoda,Red Bull Racing Honda RBPT,6,51,33.808,8,No,01:44.4,2025
+Azerbaijan,7,4,Lando Norris,McLaren Mercedes,7,51,34.227,6,No,01:44.2,2025
+Azerbaijan,8,44,Lewis Hamilton,Ferrari,12,51,36.31,4,No,01:44.0,2025
+Azerbaijan,9,16,Charles Leclerc,Ferrari,10,51,36.774,2,No,01:44.3,2025
+Azerbaijan,10,6,Isack Hadjar,Racing Bulls Honda RBPT,8,51,38.982,1,No,01:43.9,2025
+Azerbaijan,11,5,Gabriel Bortoleto,Kick Sauber Ferrari,13,51,67.606,0,No,01:44.9,2025
+Azerbaijan,12,87,Oliver Bearman,Haas Ferrari,15,51,68.262,0,No,01:44.3,2025
+Azerbaijan,13,23,Alexander Albon,Williams Mercedes,19,51,72.87,0,No,01:44.2,2025
+Azerbaijan,14,31,Esteban Ocon,Haas Ferrari,20,51,77.58,0,No,01:45.4,2025
+Azerbaijan,15,14,Fernando Alonso,Aston Martin Aramco Mercedes,11,51,78.707,0,No,01:45.0,2025
+Azerbaijan,16,27,Nico Hulkenberg,Kick Sauber Ferrari,17,51,80.237,0,No,01:44.4,2025
+Azerbaijan,17,18,Lance Stroll,Aston Martin Aramco Mercedes,14,51,96.392,0,No,01:45.1,2025
+Azerbaijan,18,10,Pierre Gasly,Alpine Renault,18,50,+1 lap,0,No,01:45.5,2025
+Azerbaijan,19,43,Franco Colapinto,Alpine Renault,16,50,+1 lap,0,No,01:46.1,2025
+Azerbaijan,NC,81,Oscar Piastri,McLaren Mercedes,9,0,DNF,0,No,,2025
+Singapore,1,63,George Russell,Mercedes,1,62,40:22.4,25,No,01:35.7,2025
+Singapore,2,1,Max Verstappen,Red Bull Racing Honda RBPT,2,62,5.43,18,No,01:35.6,2025
+Singapore,3,4,Lando Norris,McLaren Mercedes,5,62,6.066,15,No,01:35.6,2025
+Singapore,4,81,Oscar Piastri,McLaren Mercedes,3,62,8.146,12,No,01:35.4,2025
+Singapore,5,12,Kimi Antonelli,Mercedes,4,62,33.681,10,No,01:35.3,2025
+Singapore,6,16,Charles Leclerc,Ferrari,7,62,45.996,8,No,01:36.0,2025
+Singapore,7,14,Fernando Alonso,Aston Martin Aramco Mercedes,10,62,80.667,6,No,01:35.9,2025
+Singapore,8,44,Lewis Hamilton,Ferrari,6,62,85.251,4,Yes,01:33.8,2025
+Singapore,9,87,Oliver Bearman,Haas Ferrari,9,62,93.527,2,No,01:36.2,2025
+Singapore,10,55,Carlos Sainz,Williams Mercedes,18,62,+1 lap,1,No,01:35.0,2025
+Singapore,11,6,Isack Hadjar,Racing Bulls Honda RBPT,8,61,+1 lap,0,No,01:36.9,2025
+Singapore,12,22,Yuki Tsunoda,Red Bull Racing Honda RBPT,13,61,+1 lap,0,No,01:36.8,2025
+Singapore,13,18,Lance Stroll,Aston Martin Aramco Mercedes,15,61,+1 lap,0,No,01:35.9,2025
+Singapore,14,23,Alexander Albon,Williams Mercedes,20,61,+1 lap,0,No,01:35.6,2025
+Singapore,15,30,Liam Lawson,Racing Bulls Honda RBPT,12,61,+1 lap,0,No,01:35.6,2025
+Singapore,16,43,Franco Colapinto,Alpine Renault,16,61,+1 lap,0,No,01:37.2,2025
+Singapore,17,5,Gabriel Bortoleto,Kick Sauber Ferrari,14,61,+1 lap,0,No,01:37.1,2025
+Singapore,18,31,Esteban Ocon,Haas Ferrari,17,61,+1 lap,0,No,01:36.6,2025
+Singapore,19,10,Pierre Gasly,Alpine Renault,19,61,+1 lap,0,No,01:34.6,2025
+Singapore,20,27,Nico Hulkenberg,Kick Sauber Ferrari,11,61,+1 lap,0,No,01:35.4,2025
+United States,1,1,Max Verstappen,Red Bull Racing Honda RBPT,1,56,34:00.2,25,No,01:38.0,2025
+United States,2,4,Lando Norris,McLaren Mercedes,2,56,7.959,18,No,01:37.6,2025
+United States,3,16,Charles Leclerc,Ferrari,3,56,15.373,15,No,01:38.2,2025
+United States,4,44,Lewis Hamilton,Ferrari,5,56,28.536,12,No,01:38.4,2025
+United States,5,81,Oscar Piastri,McLaren Mercedes,6,56,29.678,10,No,01:38.6,2025
+United States,6,63,George Russell,Mercedes,4,56,33.456,8,No,01:38.2,2025
+United States,7,22,Yuki Tsunoda,Red Bull Racing Honda RBPT,13,56,52.714,6,No,01:38.8,2025
+United States,8,27,Nico Hulkenberg,Kick Sauber Ferrari,11,56,57.249,4,No,01:38.4,2025
+United States,9,87,Oliver Bearman,Haas Ferrari,8,56,64.722,2,No,01:39.1,2025
+United States,10,14,Fernando Alonso,Aston Martin Aramco Mercedes,10,56,70.001,1,No,01:38.8,2025
+United States,11,30,Liam Lawson,Racing Bulls Honda RBPT,12,56,73.209,0,No,01:39.0,2025
+United States,12,18,Lance Stroll,Aston Martin Aramco Mercedes,19,56,74.778,0,No,01:39.1,2025
+United States,13,12,Kimi Antonelli,Mercedes,7,56,75.746,0,Yes,01:37.6,2025
+United States,14,23,Alexander Albon,Williams Mercedes,18,56,80,0,No,01:38.3,2025
+United States,15,31,Esteban Ocon,Haas Ferrari,17,56,83.043,0,No,01:39.3,2025
+United States,16,6,Isack Hadjar,Racing Bulls Honda RBPT,20,56,92.807,0,No,01:38.7,2025
+United States,17,43,Franco Colapinto,Alpine Renault,15,55,+1 lap,0,No,01:39.2,2025
+United States,18,5,Gabriel Bortoleto,Kick Sauber Ferrari,16,55,+1 lap,0,No,01:38.3,2025
+United States,19,10,Pierre Gasly,Alpine Renault,14,55,+1 lap,0,No,01:39.3,2025
+United States,NC,55,Carlos Sainz,Williams Mercedes,9,5,DNF,0,No,01:40.3,2025
+Mexico,1,4,Lando Norris,McLaren Mercedes,1,71,37:58.6,25,No,01:20.8,2025
+Mexico,2,16,Charles Leclerc,Ferrari,2,71,30.324,18,No,01:21.6,2025
+Mexico,3,1,Max Verstappen,Red Bull Racing Honda RBPT,5,71,31.049,15,No,01:21.1,2025
+Mexico,4,87,Oliver Bearman,Haas Ferrari,9,71,40.955,12,No,01:20.7,2025
+Mexico,5,81,Oscar Piastri,McLaren,7,71,42.065,10,No,01:20.4,2025
+Mexico,6,12,Kimi Antonelli,Mercedes,6,71,47.837,8,No,01:20.8,2025
+Mexico,7,63,George Russell,Mercedes,4,71,50.287,6,Yes,01:20.1,2025
+Mexico,8,44,Lewis Hamilton,Ferrari,3,71,56.446,4,No,01:20.6,2025
+Mexico,9,31,Esteban Ocon,Haas Ferrari,11,71,75.464,2,No,01:21.9,2025
+Mexico,10,5,Gabriel Bortoleto,Kick Sauber Ferrari,16,71,76.863,1,No,1.21:121,2025
+Mexico,11,22,Yuki Tsunoda,Red Bull Racing Honda RBPT,10,71,79.048,0,No,01:21.5,2025
+Mexico,12,23,Alexander Albon,Williams Mercedes,17,70,+1 lap,0,No,01:20.5,2025
+Mexico,13,6,Isack Hadjar,Racing Bulls Honda RBPT,8,70,+1 lap,0,No,01:21.7,2025
+Mexico,14,18,Lance Stroll,Aston Martin Aramco Mercedes,19,70,+1 lap,0,No,01:20.6,2025
+Mexico,15,10,Pierre Gasly,Alpine Renault,18,70,+1 lap,0,No,01:22.3,2025
+Mexico,16,43,Franco Colapinto,Alpine Renault,20,70,+1 lap,0,No,01:21.3,2025
+Mexico,17,55,Carlos Sainz,Williams Mercedes,12,67,DNF,0,No,01:20.1,2025
+Mexico,NC,14,Fernando Alonso,Aston Martin Aramco Mercedes,14,34,DNF,0,No,01:21.7,2025
+Mexico,NC,27,Nico Hulkenberg,Kick Sauber Ferrari,13,25,DNF,0,No,01:23.1,2025
+Mexico,NC,30,Liam Lawson,Racing Bulls Honda RBPT,15,5,DNF,0,No,01:25.1,2025
+Brazil,1,4,Lando Norris,McLaren Mercedes,1,71,32:01.6,25,No,01:13.0,2025
+Brazil,2,12,Kimi Antonelli,Mercedes,2,71,10.388,18,No,01:13.1,2025
+Brazil,3,1,Max Verstappen,Red Bull Racing Honda RBPT,19,71,10.75,15,No,01:12.4,2025
+Brazil,4,63,George Russell,Mercedes,6,71,15.267,12,No,01:13.1,2025
+Brazil,5,81,Oscar Piastri,McLaren Mercedes,4,71,15.749,10,No,01:12.7,2025
+Brazil,6,87,Oliver Bearman,Haas Ferrari,8,71,29.63,8,No,01:13.5,2025
+Brazil,7,30,Liam Lawson,Racing Bulls Honda RBPT,7,71,52.642,6,No,01:14.0,2025
+Brazil,8,6,Isack Hadjar,Racing Bulls Honda RBPT,5,71,52.873,4,No,01:13.7,2025
+Brazil,9,27,Nico Hulkenberg,Kick Sauber Ferrari,71,10,53.324,2,No,01:13.5,2025
+Brazil,10,10,Pierre Gasly,Alpine Renault,9,71,53.914,1,No,01:13.7,2025
+Brazil,11,23,Alexander Albon,Williams Mercedes,12,71,54.184,0,Yes,01:12.4,2025
+Brazil,12,31,Esteban Ocon,Haas Ferrari,20,71,54.696,0,No,01:13.5,2025
+Brazil,13,55,Carlos Sainz,Williams Mercedes,15,71,55.42,0,No,01:13.7,2025
+Brazil,14,14,Fernando Alonso,Aston Martin Aramco Mercedes,11,71,55.766,0,No,01:13.3,2025
+Brazil,15,43,Franco Colapinto,Alpine Renault,16,71,57.777,0,No,01:12.8,2025
+Brazil,16,18,Lance Stroll,Aston Martin Aramco Mercedes,14,71,58.247,0,No,01:13.1,2025
+Brazil,17,22,Yuki Tsunoda,Red Bull Racing Honda RBPT,17,71,69.176,0,No,01:12.8,2025
+Brazil,NC,44,Lewis Hamilton,Ferrari,13,37,DNF,0,No,01:13.8,2025
+Brazil,NC,16,Charles Leclerc,Ferrari,3,5,DNF,0,No,01:43.6,2025
+Brazil,NC,5,Gabriel Bortoleto,Kick Sauber Ferrari,18,0,DNF,0,No,,2025
+Las Vegas,1,1,Max Verstappen,Red Bull Racing Honda RBPT,2,50,21:08.4,25,Yes,01:33.4,2025
+Las Vegas,2,63,George Russell,Mercedes,4,50,23.546,18,No,01:34.6,2025
+Las Vegas,3,12,Kimi Antonelli,Mercedes,17,50,30.488,15,No,01:34.0,2025
+Las Vegas,4,16,Charles Leclerc,Ferrari,9,50,30.678,12,No,01:34.3,2025
+Las Vegas,5,55,Carlos Sainz,Williams Mercedes,3,50,34.924,10,No,01:34.5,2025
+Las Vegas,6,6,Isack Hadjar,Racing Bulls Honda RBPT,8,50,45.257,8,No,01:34.6,2025
+Las Vegas,7,27,Nico Hulkenberg,Kick Sauber Ferrari,11,50,51.134,6,No,01:34.6,2025
+Las Vegas,8,44,Lewis Hamilton,Ferrari,19,50,59.369,4,No,01:34.6,2025
+Las Vegas,9,31,Esteban Ocon,Haas Ferrari,13,50,60.634,2,No,01:34.6,2025
+Las Vegas,10,87,Oliver Bearman,Haas Ferrari,14,50,70.549,1,No,01:34.5,2025
+Las Vegas,11,14,Fernando Alonso,Aston Martin Aramco Mercedes,7,50,85.308,0,No,01:35.6,2025
+Las Vegas,12,22,Yuki Tsunoda,Red Bull Racing Honda RBPT,20,50,86.974,0,No,01:35.0,2025
+Las Vegas,13,10,Pierre Gasly,Alpine Renault,10,50,91.702,0,No,01:35.7,2025
+Las Vegas,14,30,Liam Lawson,Racing Bulls Honda RBPT,6,49,+1 lap,0,No,01:34.8,2025
+Las Vegas,15,43,Franco Colapinto,Alpine Renault,15,49,+1 lap,0,No,01:35.8,2025
+Las Vegas,NC,23,Alexander Albon,Williams Mercedes,16,35,DNF,0,No,01:35.2,2025
+Las Vegas,NC,5,Gabriel Bortoleto,Kick Sauber Ferrari,18,2,DNF,0,No,,2025
+Las Vegas,NC,18,Lance Stroll,Aston Martin Aramco Mercedes,12,0,DNF,0,No,,2025
+Las Vegas,DQ,4,Lando Norris,McLaren Mercedes,1,0,DSQ,0,No,01:34.0,2025
+Las Vegas,DQ,81,Oscar Piastri,McLaren Mercedes,5,0,DSQ,0,No,01:34.1,2025
+Qatar,1,1,Max Verstappen,Red Bull Racing Honda RBPT,3,57,24:38.2,25,No,01:23.5,2025
+Qatar,2,81,Oscar Piastri,McLaren Mercedes,1,57,7.995,18,Yes,01:23.0,2025
+Qatar,3,55,Carlos Sainz,Williams Mercedes,7,57,22.665,15,No,01:23.9,2025
+Qatar,4,4,Lando Norris,McLaren Mercedes,2,57,23.315,12,No,01:23.2,2025
+Qatar,5,12,Kimi Antonelli,Mercedes,5,57,28.317,10,No,01:24.0,2025
+Qatar,6,63,George Russell,Mercedes,4,57,48.599,8,No,01:23.2,2025
+Qatar,7,14,Fernando Alonso,Aston Martin Aramco Mercedes,8,57,54.045,6,No,01:23.9,2025
+Qatar,8,16,Charles Leclerc,Ferrari,10,57,56.785,4,No,01:24.4,2025
+Qatar,9,30,Liam Lawson,Racing Bulls Honda RBPT,12,57,60.073,2,No,01:24.0,2025
+Qatar,10,22,Yuki Tsunoda,Red Bull Racing Honda RBPT,15,57,61.77,1,No,01:24.1,2025
+Qatar,11,23,Alexander Albon,Williams Mercedes,14,57,66.931,0,No,01:24.3,2025
+Qatar,12,44,Lewis Hamilton,Ferrari,17,57,77.73,0,No,01:24.8,2025
+Qatar,13,5,Gabriel Bortoleto,Kick Sauber Ferrari,19,57,84.812,0,No,01:25.2,2025
+Qatar,14,43,Franco Colapinto,Alpine Renault,20,56,+1 lap,0,No,01:25.6,2025
+Qatar,15,31,Esteban Ocon,Haas Ferrari,16,56,+1 lap,0,No,01:25.1,2025
+Qatar,16,10,Pierre Gasly,Alpine Renault,9,56,+1 lap,0,No,01:25.4,2025
+Qatar,17,18,Lance Stroll,Aston Martin Aramco Mercedes,18,55,DNF,0,No,01:23.5,2025
+Qatar,18,6,Isack Hadjar,Racing Bulls Honda RBPT,6,55,DNF,0,No,01:24.3,2025
+Qatar,NC,87,Oliver Bearman,Haas Ferrari,13,41,DNF,0,No,01:24.9,2025
+Qatar,NC,27,Nico Hulkenberg,Kick Sauber Ferrari,11,6,DNF,0,No,01:28.1,2025
+Abu Dhabi,1,1,Max Verstappen,Red Bull Racing Honda RBPT,1,58,26:07.5,25,No,01:27.6,2025
+Abu Dhabi,2,81,Oscar Piastri,McLaren Mercedes,3,58,12.594,18,No,01:26.8,2025
+Abu Dhabi,3,4,Lando Norris,McLaren Mercedes,2,58,16.572,15,No,01:26.8,2025
+Abu Dhabi,4,16,Charles Leclerc,Ferrari,5,58,23.279,12,Yes,01:26.7,2025
+Abu Dhabi,5,63,George Russell,Mercedes,4,58,48.563,10,No,01:28.6,2025
+Abu Dhabi,6,14,Fernando Alonso,Aston Martin Aramco Mercedes,6,58,67.562,8,No,01:28.3,2025
+Abu Dhabi,7,31,Esteban Ocon,Haas Ferrari,8,58,69.876,6,No,01:28.7,2025
+Abu Dhabi,8,44,Lewis Hamilton,Ferrari,16,58,72.67,4,No,01:28.1,2025
+Abu Dhabi,9,27,Nico Hulkenberg,Kick Sauber Ferrari,18,58,79.014,2,No,01:27.1,2025
+Abu Dhabi,10,18,Lance Stroll,Aston Martin Aramco Mercedes,15,58,79.523,1,No,01:27.6,2025
+Abu Dhabi,11,5,Gabriel Bortoleto,Kick Sauber Ferrari,7,58,81.043,0,No,01:29.1,2025
+Abu Dhabi,12,87,Oliver Bearman,Haas Ferrari,11,58,81.166,0,No,01:29.0,2025
+Abu Dhabi,13,55,Carlos Sainz,Williams Mercedes,12,58,82.158,0,No,01:29.1,2025
+Abu Dhabi,14,22,Yuki Tsunoda,Red Bull Racing Honda RBPT,10,58,83.794,0,No,01:28.6,2025
+Abu Dhabi,15,12,Kimi Antonelli,Mercedes,14,58,84.399,0,No,01:28.0,2025
+Abu Dhabi,16,23,Alexander Albon,Williams Mercedes,17,58,90.327,0,No,01:28.4,2025
+Abu Dhabi,17,6,Isack Hadjar,Racing Bulls Honda RBPT,9,57,+1 lap,0,No,01:29.4,2025
+Abu Dhabi,18,30,Liam Lawson,Racing Bulls Honda RBPT,13,57,+1 lap,0,No,01:28.9,2025
+Abu Dhabi,19,10,Pierre Gasly,Alpine Renault,19,57,+1 lap,0,No,01:27.8,2025
+Abu Dhabi,20,43,Franco Colapinto,Alpine Renault,20,57,+1 lap,0,No,01:27.7,2025
